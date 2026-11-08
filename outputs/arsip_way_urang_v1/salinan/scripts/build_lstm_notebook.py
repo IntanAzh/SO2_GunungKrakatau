@@ -1,0 +1,18 @@
+from pathlib import Path
+import sys,json
+ROOT=Path(__file__).resolve().parents[1];cells=[]
+def add(kind,source):
+    c={'cell_type':kind,'id':f'lstm-{len(cells):02d}','metadata':{},'source':source}
+    if kind=='code':c.update(execution_count=None,outputs=[])
+    cells.append(c)
+add('markdown','# Tahap 7 — verifikasi preprocessing dengan satu LSTM\n\nWay Urang pilot, development yang sudah digunakan sebelumnya. Semua empat fold tahap6 dipertahankan, test akhir tidak dimuat. Satu LSTM32 + Dense linear; tiga seed tetap, tanpa pencarian arsitektur. Baca ringkasan tahap6 dan diagnosis fold1. Environment terpisah `.venv-lstm`, environment lama tetap.')
+add('code',"from pathlib import Path\nimport sys\nROOT=Path.cwd()\nif ROOT.name=='notebooks': ROOT=ROOT.parent\nsys.path.insert(0,str(ROOT/'scripts'))\nfrom lstm_stage7 import Experiment\nfrom IPython.display import display, Markdown, Image\nimport pandas as pd\ne=Experiment().prepare()\ndisplay(pd.DataFrame(e.plan))\ndisplay(pd.DataFrame([e.cfg['environment']]))\nprint('Fitur sekuens:',e.cfg['sequence_features'])\nprint('Target scaling:',e.cfg['target_scaling'])\nprint('Konfigurasi sebelum fit SHA256:',e.config_hash)\n")
+add('markdown','## Histori kausal dan kecukupan sebelum training\n\n48 langkah origin−47 sampai origin, tanpa kompresi waktu. Imputer hanya prefix train internal, dibekukan sesudahnya. Ffill memakai pengamatan asli sebelumnya maksimum4slot, tanpa fallback. Train dan early stopping menggunakan target asli serta sampel bersama. Scaler11kanal numerik hanya dari slot unik dalam sekuens train internal; indikator missing asli tidak distandardisasi. Target asli distandardisasi untuk MSE memakai parameter train bersama internal, bukan target imputasi. Batas internal dan outer dipurge.')
+add('code',"e.prepare_all_folds()\ndisplay(pd.DataFrame([f.gate for f in e.folds]))\ndisplay(pd.DataFrame([r for f in e.folds for r in f.flow]))\ndisplay(pd.DataFrame([r for f in e.folds for r in f.distributions]))\ndisplay(pd.DataFrame([r for f in e.folds for r in f.losses]))\nprint('LSTM fit sebelum seluruh gate:',e.fit_count)\n")
+add('markdown','## Model tetap dan early stopping internal\n\nLSTM32 satu layer, output Dense linear, Adam lr0.001, MSE target standar, batch64, maksimal50epoch. Early stopping patience8, min_delta0, pemulihan bobot terbaik. Seed11/23/47. Hidden state dimulai nol untuk tiap sekuens; tidak ada clipping atau fallback. Evaluasi fold hanya setelah pemulihan checkpoint terbaik internal. Prediksi di-inverse ke satuan asli.')
+add('code',"e.train()\ndisplay(pd.DataFrame(e.training))\n")
+add('markdown','## Evaluasi pada target asli dan timestamp bersama\n\nSkor mandiri dan bersama dibedakan. Metrik gabungan dihitung dari seluruh error OOF unik per seed. Prediksi Ridge tersimpan diberi skor ulang pada irisan timestamp yang identik; perbedaan juga mencakup representasi, holdback internal dan optimisasi. Tidak melatih Ridge ulang.')
+add('code',"e.summarize()\ndisplay(pd.DataFrame(e.metrics))\ndisplay(pd.DataFrame(e.pooled))\ndisplay(pd.DataFrame(e.variation))\ndisplay(pd.DataFrame(e.ridge_comparison))\nfor name in ['mae_cakupan_fold.png','transisi_fold1.png','mae_antar_seed.png']:\n    display(Image(filename=str(ROOT/'outputs/figures/lstm_preprocessing'/name)))\n")
+add('code',"e.export_excel()\ndisplay(Markdown((ROOT/'outputs/ringkasan_lstm_preprocessing.md').read_text(encoding='utf-8')))\n")
+nb={'nbformat':4,'nbformat_minor':5,'metadata':{'kernelspec':{'display_name':'Python LSTM (.venv-lstm)','language':'python','name':'so2-lstm'},'language_info':{'name':'python','version':sys.version.split()[0]}},'cells':cells}
+(ROOT/'notebooks/07_lstm_preprocessing.ipynb').write_text(json.dumps(nb,ensure_ascii=False,indent=1),encoding='utf-8')

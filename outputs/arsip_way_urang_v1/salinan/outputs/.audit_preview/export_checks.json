@@ -1,0 +1,102 @@
+[
+  {
+    "sheet": "Ringkasan",
+    "records": 8,
+    "columns": 30
+  },
+  {
+    "sheet": "Definisi",
+    "records": 20,
+    "columns": 2
+  },
+  {
+    "sheet": "Kelengkapan_variabel",
+    "records": 104,
+    "columns": 11
+  },
+  {
+    "sheet": "Statistik_nilai",
+    "records": 104,
+    "columns": 14
+  },
+  {
+    "sheet": "Kandidat_ekstrem",
+    "records": 208,
+    "columns": 9
+  },
+  {
+    "sheet": "Interval_tidak_30m",
+    "records": 2284,
+    "columns": 7
+  },
+  {
+    "sheet": "Ringkas_konstan",
+    "records": 104,
+    "columns": 5
+  },
+  {
+    "sheet": "Rentetan_SO2",
+    "records": 13206,
+    "columns": 8
+  },
+  {
+    "sheet": "Gap_SO2",
+    "records": 1269,
+    "columns": 11
+  },
+  {
+    "sheet": "Kelompok_gap",
+    "records": 48,
+    "columns": 6
+  },
+  {
+    "sheet": "SO2_bulanan",
+    "records": 168,
+    "columns": 10
+  },
+  {
+    "sheet": "Metadata",
+    "records": 8,
+    "columns": 11
+  },
+  {
+    "sheet": "Aturan_pemeriksaan",
+    "records": 24,
+    "columns": 7
+  },
+  {
+    "sheet": "Masalah_waktu",
+    "records": 13,
+    "columns": 5
+  },
+  {
+    "sheet": "Contoh_pemeriksaan",
+    "records": 56,
+    "columns": 7
+  },
+  {
+    "sheet": "Sumber_SHA256",
+    "records": 1,
+    "columns": 5
+  },
+  {
+    "sheet": "Kendala",
+    "records": 1,
+    "columns": 1
+  },
+  {
+    "sheet": "Duplikat",
+    "records": 0,
+    "columns": 1
+  },
+  {
+    "sheet": "Detail_duplikat",
+    "records": 0,
+    "columns": 1
+  },
+  {
+    "sheet": "Nilai_nonnumerik",
+    "records": 0,
+    "columns": 1
+  }
+]

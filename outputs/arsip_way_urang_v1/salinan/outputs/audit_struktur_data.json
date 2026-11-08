@@ -1,0 +1,2492 @@
+{
+  "inventaris": [
+    {
+      "file": "data_raw\\Telkom University Purwokerto - Intan Azizah.xlsx",
+      "sheets": [
+        "Bandar Lampung Talang",
+        "Kab. Lampung Selatan Way Urang",
+        "Kota Cilegon Pulomerak",
+        "Kab. Serang Binuang",
+        "Kab. Tangerang Curug",
+        "Tangerang Pasir Jaya",
+        "Tangerang Selatan Serpong",
+        "Serang Sumurpecung"
+      ]
+    }
+  ],
+  "ringkasan": [
+    {
+      "File": "data_raw\\Telkom University Purwokerto - Intan Azizah.xlsx",
+      "Sheet": "Bandar Lampung Talang",
+      "Header": 8,
+      "Satuan": 9,
+      "Awal timestamp": 10,
+      "Jumlah baris bertimestamp": 28226,
+      "Timestamp baris pertama": "2025-01-01 00:00:00",
+      "Timestamp baris terakhir": "2026-09-22 11:30:00",
+      "Awal nilai pengukuran (baris)": 10,
+      "Awal SO2 (baris)": 10,
+      "Rumus setelah header": 0,
+      "Baris terpakai lain setelah header": 0
+    },
+    {
+      "File": "data_raw\\Telkom University Purwokerto - Intan Azizah.xlsx",
+      "Sheet": "Kab. Lampung Selatan Way Urang",
+      "Header": 8,
+      "Satuan": 9,
+      "Awal timestamp": 10,
+      "Jumlah baris bertimestamp": 29966,
+      "Timestamp baris pertama": "2025-01-01 00:00:00",
+      "Timestamp baris terakhir": "2026-09-21 13:00:00",
+      "Awal nilai pengukuran (baris)": 81,
+      "Awal SO2 (baris)": 81,
+      "Rumus setelah header": 0,
+      "Baris terpakai lain setelah header": 0
+    },
+    {
+      "File": "data_raw\\Telkom University Purwokerto - Intan Azizah.xlsx",
+      "Sheet": "Kota Cilegon Pulomerak",
+      "Header": 8,
+      "Satuan": 9,
+      "Awal timestamp": 10,
+      "Jumlah baris bertimestamp": 30399,
+      "Timestamp baris pertama": "2025-01-01 00:00:00",
+      "Timestamp baris terakhir": "2026-09-30 17:30:00",
+      "Awal nilai pengukuran (baris)": 10,
+      "Awal SO2 (baris)": 10,
+      "Rumus setelah header": 0,
+      "Baris terpakai lain setelah header": 0
+    },
+    {
+      "File": "data_raw\\Telkom University Purwokerto - Intan Azizah.xlsx",
+      "Sheet": "Kab. Serang Binuang",
+      "Header": 8,
+      "Satuan": 9,
+      "Awal timestamp": 10,
+      "Jumlah baris bertimestamp": 28732,
+      "Timestamp baris pertama": "2025-01-01 00:00:00",
+      "Timestamp baris terakhir": "2026-09-30 17:30:00",
+      "Awal nilai pengukuran (baris)": 10,
+      "Awal SO2 (baris)": 10,
+      "Rumus setelah header": 0,
+      "Baris terpakai lain setelah header": 0
+    },
+    {
+      "File": "data_raw\\Telkom University Purwokerto - Intan Azizah.xlsx",
+      "Sheet": "Kab. Tangerang Curug",
+      "Header": 8,
+      "Satuan": 9,
+      "Awal timestamp": 10,
+      "Jumlah baris bertimestamp": 30137,
+      "Timestamp baris pertama": "2025-01-01 00:00:00",
+      "Timestamp baris terakhir": "2026-09-30 17:30:00",
+      "Awal nilai pengukuran (baris)": 10,
+      "Awal SO2 (baris)": 10,
+      "Rumus setelah header": 0,
+      "Baris terpakai lain setelah header": 0
+    },
+    {
+      "File": "data_raw\\Telkom University Purwokerto - Intan Azizah.xlsx",
+      "Sheet": "Tangerang Pasir Jaya",
+      "Header": 8,
+      "Satuan": 9,
+      "Awal timestamp": 10,
+      "Jumlah baris bertimestamp": 23674,
+      "Timestamp baris pertama": "2025-01-01 00:00:00",
+      "Timestamp baris terakhir": "2026-09-30 17:30:00",
+      "Awal nilai pengukuran (baris)": 10,
+      "Awal SO2 (baris)": 10,
+      "Rumus setelah header": 0,
+      "Baris terpakai lain setelah header": 0
+    },
+    {
+      "File": "data_raw\\Telkom University Purwokerto - Intan Azizah.xlsx",
+      "Sheet": "Tangerang Selatan Serpong",
+      "Header": 8,
+      "Satuan": 9,
+      "Awal timestamp": 10,
+      "Jumlah baris bertimestamp": 25080,
+      "Timestamp baris pertama": "2025-01-01 00:00:00",
+      "Timestamp baris terakhir": "2026-09-30 17:30:00",
+      "Awal nilai pengukuran (baris)": 10,
+      "Awal SO2 (baris)": 5353,
+      "Rumus setelah header": 0,
+      "Baris terpakai lain setelah header": 0
+    },
+    {
+      "File": "data_raw\\Telkom University Purwokerto - Intan Azizah.xlsx",
+      "Sheet": "Serang Sumurpecung",
+      "Header": 8,
+      "Satuan": 9,
+      "Awal timestamp": 10,
+      "Jumlah baris bertimestamp": 25444,
+      "Timestamp baris pertama": "2025-01-01 00:00:00",
+      "Timestamp baris terakhir": "2026-09-19 10:30:00",
+      "Awal nilai pengukuran (baris)": 10,
+      "Awal SO2 (baris)": 10,
+      "Rumus setelah header": 0,
+      "Baris terpakai lain setelah header": 0
+    }
+  ],
+  "detail": [
+    {
+      "file": "data_raw\\Telkom University Purwokerto - Intan Azizah.xlsx",
+      "sheet": "Bandar Lampung Talang",
+      "kolom": [
+        {
+          "Kolom Excel": "B",
+          "Nama pada file": "Waktu",
+          "Satuan pada file": null
+        },
+        {
+          "Kolom Excel": "C",
+          "Nama pada file": "PM10",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "D",
+          "Nama pada file": "PM2.5",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "E",
+          "Nama pada file": "SO2",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "F",
+          "Nama pada file": "CO",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "G",
+          "Nama pada file": "O3",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "H",
+          "Nama pada file": "NO2",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "I",
+          "Nama pada file": "Kec.Angin",
+          "Satuan pada file": "m/s"
+        },
+        {
+          "Kolom Excel": "J",
+          "Nama pada file": "Arah Angin",
+          "Satuan pada file": "°"
+        },
+        {
+          "Kolom Excel": "K",
+          "Nama pada file": "Kelembaban",
+          "Satuan pada file": "%"
+        },
+        {
+          "Kolom Excel": "L",
+          "Nama pada file": "Suhu",
+          "Satuan pada file": "°C"
+        },
+        {
+          "Kolom Excel": "M",
+          "Nama pada file": "Tek.Udara",
+          "Satuan pada file": "mBar"
+        },
+        {
+          "Kolom Excel": "N",
+          "Nama pada file": "Sol.Rad",
+          "Satuan pada file": "watt/m²"
+        },
+        {
+          "Kolom Excel": "O",
+          "Nama pada file": "Curah Hujan",
+          "Satuan pada file": "mm"
+        }
+      ],
+      "metadata_baris_1_7": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "LAPORAN KONSENTRASI DAN METEOROLOGI",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Data Monitoring di Stasiun Pemantau",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Tanggal",
+          ": 01 Januari 2025 - 22 September 2026",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Kota",
+          ": Bandar Lampung",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Stasiun",
+          ": Bandar Lampung Talang",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "lima_observasi": [
+        {
+          "Baris Excel": 10,
+          "Waktu": "2025-01-01 00:00:00",
+          "PM10": null,
+          "PM2.5": null,
+          "SO2": 68,
+          "CO": 1955,
+          "O3": null,
+          "NO2": 59,
+          "Kec.Angin": 0,
+          "Arah Angin": 0,
+          "Kelembaban": 0,
+          "Suhu": 0,
+          "Tek.Udara": 0,
+          "Sol.Rad": 0,
+          "Curah Hujan": 0
+        },
+        {
+          "Baris Excel": 11,
+          "Waktu": "2025-01-01 00:30:00",
+          "PM10": null,
+          "PM2.5": 1,
+          "SO2": 70,
+          "CO": 2003,
+          "O3": null,
+          "NO2": 59,
+          "Kec.Angin": 0,
+          "Arah Angin": 0,
+          "Kelembaban": 0,
+          "Suhu": 0,
+          "Tek.Udara": 0,
+          "Sol.Rad": 0,
+          "Curah Hujan": 0
+        },
+        {
+          "Baris Excel": 12,
+          "Waktu": "2025-01-01 01:00:00",
+          "PM10": null,
+          "PM2.5": 29,
+          "SO2": 70,
+          "CO": 1999,
+          "O3": null,
+          "NO2": 59,
+          "Kec.Angin": 0,
+          "Arah Angin": 0,
+          "Kelembaban": 0,
+          "Suhu": 0,
+          "Tek.Udara": 0,
+          "Sol.Rad": 0,
+          "Curah Hujan": 0
+        },
+        {
+          "Baris Excel": 13,
+          "Waktu": "2025-01-01 01:30:00",
+          "PM10": null,
+          "PM2.5": 22,
+          "SO2": 71,
+          "CO": 2089,
+          "O3": null,
+          "NO2": 60,
+          "Kec.Angin": 0,
+          "Arah Angin": 0,
+          "Kelembaban": 0,
+          "Suhu": 0,
+          "Tek.Udara": 0,
+          "Sol.Rad": 0,
+          "Curah Hujan": 0
+        },
+        {
+          "Baris Excel": 14,
+          "Waktu": "2025-01-01 02:00:00",
+          "PM10": null,
+          "PM2.5": null,
+          "SO2": 71,
+          "CO": 2154,
+          "O3": null,
+          "NO2": 61,
+          "Kec.Angin": 0,
+          "Arah Angin": 0,
+          "Kelembaban": 0,
+          "Suhu": 0,
+          "Tek.Udara": 0,
+          "Sol.Rad": 0,
+          "Curah Hujan": 0
+        }
+      ],
+      "awal_pengukuran": {
+        "baris": 10,
+        "waktu": "2025-01-01 00:00:00"
+      },
+      "awal_so2": {
+        "baris": 10,
+        "waktu": "2025-01-01 00:00:00",
+        "nilai": 68
+      },
+      "baris_lain": []
+    },
+    {
+      "file": "data_raw\\Telkom University Purwokerto - Intan Azizah.xlsx",
+      "sheet": "Kab. Lampung Selatan Way Urang",
+      "kolom": [
+        {
+          "Kolom Excel": "B",
+          "Nama pada file": "Waktu",
+          "Satuan pada file": null
+        },
+        {
+          "Kolom Excel": "C",
+          "Nama pada file": "PM10",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "D",
+          "Nama pada file": "PM2.5",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "E",
+          "Nama pada file": "SO2",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "F",
+          "Nama pada file": "CO",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "G",
+          "Nama pada file": "O3",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "H",
+          "Nama pada file": "NO2",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "I",
+          "Nama pada file": "Kec.Angin",
+          "Satuan pada file": "m/s"
+        },
+        {
+          "Kolom Excel": "J",
+          "Nama pada file": "Arah Angin",
+          "Satuan pada file": "°"
+        },
+        {
+          "Kolom Excel": "K",
+          "Nama pada file": "Kelembaban",
+          "Satuan pada file": "%"
+        },
+        {
+          "Kolom Excel": "L",
+          "Nama pada file": "Suhu",
+          "Satuan pada file": "°C"
+        },
+        {
+          "Kolom Excel": "M",
+          "Nama pada file": "Tek.Udara",
+          "Satuan pada file": "mBar"
+        },
+        {
+          "Kolom Excel": "N",
+          "Nama pada file": "Sol.Rad",
+          "Satuan pada file": "watt/m²"
+        },
+        {
+          "Kolom Excel": "O",
+          "Nama pada file": "Curah Hujan",
+          "Satuan pada file": "mm"
+        }
+      ],
+      "metadata_baris_1_7": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "LAPORAN KONSENTRASI DAN METEOROLOGI",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Data Monitoring di Stasiun Pemantau",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Tanggal",
+          ": 01 Januari 2025 - 21 September 2026",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Kota",
+          ": Kabupaten Lampung Selatan",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Stasiun",
+          ": Kabupaten Lampung Selatan Way Urang",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "lima_observasi": [
+        {
+          "Baris Excel": 10,
+          "Waktu": "2025-01-01 00:00:00",
+          "PM10": null,
+          "PM2.5": null,
+          "SO2": null,
+          "CO": null,
+          "O3": null,
+          "NO2": null,
+          "Kec.Angin": null,
+          "Arah Angin": null,
+          "Kelembaban": null,
+          "Suhu": null,
+          "Tek.Udara": null,
+          "Sol.Rad": null,
+          "Curah Hujan": null
+        },
+        {
+          "Baris Excel": 11,
+          "Waktu": "2025-01-01 00:30:00",
+          "PM10": null,
+          "PM2.5": null,
+          "SO2": null,
+          "CO": null,
+          "O3": null,
+          "NO2": null,
+          "Kec.Angin": null,
+          "Arah Angin": null,
+          "Kelembaban": null,
+          "Suhu": null,
+          "Tek.Udara": null,
+          "Sol.Rad": null,
+          "Curah Hujan": null
+        },
+        {
+          "Baris Excel": 12,
+          "Waktu": "2025-01-01 01:00:00",
+          "PM10": null,
+          "PM2.5": null,
+          "SO2": null,
+          "CO": null,
+          "O3": null,
+          "NO2": null,
+          "Kec.Angin": null,
+          "Arah Angin": null,
+          "Kelembaban": null,
+          "Suhu": null,
+          "Tek.Udara": null,
+          "Sol.Rad": null,
+          "Curah Hujan": null
+        },
+        {
+          "Baris Excel": 13,
+          "Waktu": "2025-01-01 01:30:00",
+          "PM10": null,
+          "PM2.5": null,
+          "SO2": null,
+          "CO": null,
+          "O3": null,
+          "NO2": null,
+          "Kec.Angin": null,
+          "Arah Angin": null,
+          "Kelembaban": null,
+          "Suhu": null,
+          "Tek.Udara": null,
+          "Sol.Rad": null,
+          "Curah Hujan": null
+        },
+        {
+          "Baris Excel": 14,
+          "Waktu": "2025-01-01 02:00:00",
+          "PM10": null,
+          "PM2.5": null,
+          "SO2": null,
+          "CO": null,
+          "O3": null,
+          "NO2": null,
+          "Kec.Angin": null,
+          "Arah Angin": null,
+          "Kelembaban": null,
+          "Suhu": null,
+          "Tek.Udara": null,
+          "Sol.Rad": null,
+          "Curah Hujan": null
+        }
+      ],
+      "awal_pengukuran": {
+        "baris": 81,
+        "waktu": "2025-01-02 11:30:00"
+      },
+      "awal_so2": {
+        "baris": 81,
+        "waktu": "2025-01-02 11:30:00",
+        "nilai": 1.43
+      },
+      "baris_lain": []
+    },
+    {
+      "file": "data_raw\\Telkom University Purwokerto - Intan Azizah.xlsx",
+      "sheet": "Kota Cilegon Pulomerak",
+      "kolom": [
+        {
+          "Kolom Excel": "B",
+          "Nama pada file": "Waktu",
+          "Satuan pada file": null
+        },
+        {
+          "Kolom Excel": "C",
+          "Nama pada file": "PM10",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "D",
+          "Nama pada file": "PM2.5",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "E",
+          "Nama pada file": "SO2",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "F",
+          "Nama pada file": "CO",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "G",
+          "Nama pada file": "O3",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "H",
+          "Nama pada file": "NO2",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "I",
+          "Nama pada file": "Kec.Angin",
+          "Satuan pada file": "m/s"
+        },
+        {
+          "Kolom Excel": "J",
+          "Nama pada file": "Arah Angin",
+          "Satuan pada file": "°"
+        },
+        {
+          "Kolom Excel": "K",
+          "Nama pada file": "Kelembaban",
+          "Satuan pada file": "%"
+        },
+        {
+          "Kolom Excel": "L",
+          "Nama pada file": "Suhu",
+          "Satuan pada file": "°C"
+        },
+        {
+          "Kolom Excel": "M",
+          "Nama pada file": "Tek.Udara",
+          "Satuan pada file": "mBar"
+        },
+        {
+          "Kolom Excel": "N",
+          "Nama pada file": "Sol.Rad",
+          "Satuan pada file": "watt/m²"
+        },
+        {
+          "Kolom Excel": "O",
+          "Nama pada file": "Curah Hujan",
+          "Satuan pada file": "mm"
+        }
+      ],
+      "metadata_baris_1_7": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "LAPORAN KONSENTRASI DAN METEOROLOGI",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Data Monitoring di Stasiun Pemantau",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Tanggal",
+          ": 01 Januari 2025 - 30 September 2026",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Kota",
+          ": Cilegon",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Stasiun",
+          ": Kota Cilegon Pulomerak",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "lima_observasi": [
+        {
+          "Baris Excel": 10,
+          "Waktu": "2025-01-01 00:00:00",
+          "PM10": null,
+          "PM2.5": null,
+          "SO2": 30.26,
+          "CO": null,
+          "O3": 0.89,
+          "NO2": 1.04,
+          "Kec.Angin": null,
+          "Arah Angin": null,
+          "Kelembaban": null,
+          "Suhu": null,
+          "Tek.Udara": null,
+          "Sol.Rad": null,
+          "Curah Hujan": null
+        },
+        {
+          "Baris Excel": 11,
+          "Waktu": "2025-01-01 00:30:00",
+          "PM10": null,
+          "PM2.5": null,
+          "SO2": 30.26,
+          "CO": null,
+          "O3": 0.89,
+          "NO2": 1.04,
+          "Kec.Angin": null,
+          "Arah Angin": null,
+          "Kelembaban": null,
+          "Suhu": null,
+          "Tek.Udara": null,
+          "Sol.Rad": null,
+          "Curah Hujan": null
+        },
+        {
+          "Baris Excel": 12,
+          "Waktu": "2025-01-01 01:00:00",
+          "PM10": null,
+          "PM2.5": null,
+          "SO2": 30.26,
+          "CO": null,
+          "O3": 0.89,
+          "NO2": 1.04,
+          "Kec.Angin": null,
+          "Arah Angin": null,
+          "Kelembaban": null,
+          "Suhu": null,
+          "Tek.Udara": null,
+          "Sol.Rad": null,
+          "Curah Hujan": null
+        },
+        {
+          "Baris Excel": 13,
+          "Waktu": "2025-01-01 01:30:00",
+          "PM10": null,
+          "PM2.5": null,
+          "SO2": 30.26,
+          "CO": null,
+          "O3": 0.89,
+          "NO2": 1.04,
+          "Kec.Angin": null,
+          "Arah Angin": null,
+          "Kelembaban": null,
+          "Suhu": null,
+          "Tek.Udara": null,
+          "Sol.Rad": null,
+          "Curah Hujan": null
+        },
+        {
+          "Baris Excel": 14,
+          "Waktu": "2025-01-01 02:00:00",
+          "PM10": null,
+          "PM2.5": null,
+          "SO2": 30.26,
+          "CO": null,
+          "O3": 0.89,
+          "NO2": 1.04,
+          "Kec.Angin": null,
+          "Arah Angin": null,
+          "Kelembaban": null,
+          "Suhu": null,
+          "Tek.Udara": null,
+          "Sol.Rad": null,
+          "Curah Hujan": null
+        }
+      ],
+      "awal_pengukuran": {
+        "baris": 10,
+        "waktu": "2025-01-01 00:00:00"
+      },
+      "awal_so2": {
+        "baris": 10,
+        "waktu": "2025-01-01 00:00:00",
+        "nilai": 30.26
+      },
+      "baris_lain": []
+    },
+    {
+      "file": "data_raw\\Telkom University Purwokerto - Intan Azizah.xlsx",
+      "sheet": "Kab. Serang Binuang",
+      "kolom": [
+        {
+          "Kolom Excel": "B",
+          "Nama pada file": "Waktu",
+          "Satuan pada file": null
+        },
+        {
+          "Kolom Excel": "C",
+          "Nama pada file": "PM10",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "D",
+          "Nama pada file": "PM2.5",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "E",
+          "Nama pada file": "SO2",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "F",
+          "Nama pada file": "CO",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "G",
+          "Nama pada file": "O3",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "H",
+          "Nama pada file": "NO2",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "I",
+          "Nama pada file": "Kec.Angin",
+          "Satuan pada file": "m/s"
+        },
+        {
+          "Kolom Excel": "J",
+          "Nama pada file": "Arah Angin",
+          "Satuan pada file": "°"
+        },
+        {
+          "Kolom Excel": "K",
+          "Nama pada file": "Kelembaban",
+          "Satuan pada file": "%"
+        },
+        {
+          "Kolom Excel": "L",
+          "Nama pada file": "Suhu",
+          "Satuan pada file": "°C"
+        },
+        {
+          "Kolom Excel": "M",
+          "Nama pada file": "Tek.Udara",
+          "Satuan pada file": "mBar"
+        },
+        {
+          "Kolom Excel": "N",
+          "Nama pada file": "Sol.Rad",
+          "Satuan pada file": "watt/m²"
+        },
+        {
+          "Kolom Excel": "O",
+          "Nama pada file": "Curah Hujan",
+          "Satuan pada file": "mm"
+        }
+      ],
+      "metadata_baris_1_7": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "LAPORAN KONSENTRASI DAN METEOROLOGI",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Data Monitoring di Stasiun Pemantau",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Tanggal",
+          ": 01 Januari 2025 - 30 September 2026",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Kota",
+          ": Serang",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Stasiun",
+          ": Kabupaten Serang Binuang",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "lima_observasi": [
+        {
+          "Baris Excel": 10,
+          "Waktu": "2025-01-01 00:00:00",
+          "PM10": 45.533,
+          "PM2.5": 35.467,
+          "SO2": 26.368,
+          "CO": 1562.14,
+          "O3": 10.121,
+          "NO2": 3.633,
+          "Kec.Angin": 333.424,
+          "Arah Angin": 226.289,
+          "Kelembaban": 92.732,
+          "Suhu": 26.813,
+          "Tek.Udara": 1008.79,
+          "Sol.Rad": 0.256,
+          "Curah Hujan": null
+        },
+        {
+          "Baris Excel": 11,
+          "Waktu": "2025-01-01 00:30:00",
+          "PM10": 43.333,
+          "PM2.5": 34,
+          "SO2": 26.398,
+          "CO": 1561.52,
+          "O3": 10.083,
+          "NO2": 3.506,
+          "Kec.Angin": 0.778,
+          "Arah Angin": 203.805,
+          "Kelembaban": 93.93,
+          "Suhu": 26.58,
+          "Tek.Udara": 1008.47,
+          "Sol.Rad": 0.554,
+          "Curah Hujan": null
+        },
+        {
+          "Baris Excel": 12,
+          "Waktu": "2025-01-01 01:00:00",
+          "PM10": 38.733,
+          "PM2.5": 30.867,
+          "SO2": 26.482,
+          "CO": 1561.13,
+          "O3": 10.197,
+          "NO2": 3.751,
+          "Kec.Angin": 166.966,
+          "Arah Angin": 178.44,
+          "Kelembaban": 93.568,
+          "Suhu": 26.576,
+          "Tek.Udara": 1008.27,
+          "Sol.Rad": 0.946,
+          "Curah Hujan": null
+        },
+        {
+          "Baris Excel": 13,
+          "Waktu": "2025-01-01 01:30:00",
+          "PM10": 35.267,
+          "PM2.5": 27.6,
+          "SO2": 26.314,
+          "CO": 1559.51,
+          "O3": 10.213,
+          "NO2": 3.489,
+          "Kec.Angin": 0.476,
+          "Arah Angin": 268.764,
+          "Kelembaban": 93.644,
+          "Suhu": 26.376,
+          "Tek.Udara": 1007.47,
+          "Sol.Rad": null,
+          "Curah Hujan": null
+        },
+        {
+          "Baris Excel": 14,
+          "Waktu": "2025-01-01 02:00:00",
+          "PM10": 33.867,
+          "PM2.5": 26.4,
+          "SO2": 26.467,
+          "CO": 1559.02,
+          "O3": 10.096,
+          "NO2": 3.599,
+          "Kec.Angin": 0.551,
+          "Arah Angin": 225.122,
+          "Kelembaban": 94.018,
+          "Suhu": 26.302,
+          "Tek.Udara": 1007.22,
+          "Sol.Rad": 1.51,
+          "Curah Hujan": null
+        }
+      ],
+      "awal_pengukuran": {
+        "baris": 10,
+        "waktu": "2025-01-01 00:00:00"
+      },
+      "awal_so2": {
+        "baris": 10,
+        "waktu": "2025-01-01 00:00:00",
+        "nilai": 26.368
+      },
+      "baris_lain": []
+    },
+    {
+      "file": "data_raw\\Telkom University Purwokerto - Intan Azizah.xlsx",
+      "sheet": "Kab. Tangerang Curug",
+      "kolom": [
+        {
+          "Kolom Excel": "B",
+          "Nama pada file": "Waktu",
+          "Satuan pada file": null
+        },
+        {
+          "Kolom Excel": "C",
+          "Nama pada file": "PM10",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "D",
+          "Nama pada file": "PM2.5",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "E",
+          "Nama pada file": "SO2",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "F",
+          "Nama pada file": "CO",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "G",
+          "Nama pada file": "O3",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "H",
+          "Nama pada file": "NO2",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "I",
+          "Nama pada file": "Kec.Angin",
+          "Satuan pada file": "m/s"
+        },
+        {
+          "Kolom Excel": "J",
+          "Nama pada file": "Arah Angin",
+          "Satuan pada file": "°"
+        },
+        {
+          "Kolom Excel": "K",
+          "Nama pada file": "Kelembaban",
+          "Satuan pada file": "%"
+        },
+        {
+          "Kolom Excel": "L",
+          "Nama pada file": "Suhu",
+          "Satuan pada file": "°C"
+        },
+        {
+          "Kolom Excel": "M",
+          "Nama pada file": "Tek.Udara",
+          "Satuan pada file": "mBar"
+        },
+        {
+          "Kolom Excel": "N",
+          "Nama pada file": "Sol.Rad",
+          "Satuan pada file": "watt/m²"
+        },
+        {
+          "Kolom Excel": "O",
+          "Nama pada file": "Curah Hujan",
+          "Satuan pada file": "mm"
+        }
+      ],
+      "metadata_baris_1_7": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "LAPORAN KONSENTRASI DAN METEOROLOGI",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Data Monitoring di Stasiun Pemantau",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Tanggal",
+          ": 01 Januari 2025 - 30 September 2026",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Kota",
+          ": Tangerang",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Stasiun",
+          ": Kabupaten Tangerang Curug",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "lima_observasi": [
+        {
+          "Baris Excel": 10,
+          "Waktu": "2025-01-01 00:00:00",
+          "PM10": 6.75,
+          "PM2.5": 16.33,
+          "SO2": 28.49,
+          "CO": 1034.67,
+          "O3": 14.21,
+          "NO2": 8.74,
+          "Kec.Angin": 0.34,
+          "Arah Angin": 90.47,
+          "Kelembaban": 88.78,
+          "Suhu": 26.34,
+          "Tek.Udara": 1006.68,
+          "Sol.Rad": null,
+          "Curah Hujan": null
+        },
+        {
+          "Baris Excel": 11,
+          "Waktu": "2025-01-01 00:30:00",
+          "PM10": 2.67,
+          "PM2.5": 11,
+          "SO2": 26.74,
+          "CO": 1406.1,
+          "O3": 14,
+          "NO2": 10.15,
+          "Kec.Angin": 0.15,
+          "Arah Angin": 90.24,
+          "Kelembaban": 89.76,
+          "Suhu": 26.05,
+          "Tek.Udara": 1006.57,
+          "Sol.Rad": null,
+          "Curah Hujan": null
+        },
+        {
+          "Baris Excel": 12,
+          "Waktu": "2025-01-01 01:00:00",
+          "PM10": 22.2,
+          "PM2.5": 7.08,
+          "SO2": 25.87,
+          "CO": 1180.22,
+          "O3": 13.87,
+          "NO2": 9.57,
+          "Kec.Angin": 0.9,
+          "Arah Angin": 65.75,
+          "Kelembaban": 90.01,
+          "Suhu": 25.87,
+          "Tek.Udara": 1005.87,
+          "Sol.Rad": 0.6,
+          "Curah Hujan": null
+        },
+        {
+          "Baris Excel": 13,
+          "Waktu": "2025-01-01 01:30:00",
+          "PM10": 2.14,
+          "PM2.5": 10.15,
+          "SO2": 26.97,
+          "CO": 937.09,
+          "O3": 14.04,
+          "NO2": 10.08,
+          "Kec.Angin": 0.73,
+          "Arah Angin": 63.88,
+          "Kelembaban": 89.57,
+          "Suhu": 25.93,
+          "Tek.Udara": 1005.21,
+          "Sol.Rad": null,
+          "Curah Hujan": null
+        },
+        {
+          "Baris Excel": 14,
+          "Waktu": "2025-01-01 02:00:00",
+          "PM10": 12.27,
+          "PM2.5": 20.07,
+          "SO2": 27.23,
+          "CO": 1013.33,
+          "O3": 14,
+          "NO2": 10.31,
+          "Kec.Angin": 43.49,
+          "Arah Angin": 216.89,
+          "Kelembaban": 90.03,
+          "Suhu": 25.79,
+          "Tek.Udara": 1004.94,
+          "Sol.Rad": 0.26,
+          "Curah Hujan": null
+        }
+      ],
+      "awal_pengukuran": {
+        "baris": 10,
+        "waktu": "2025-01-01 00:00:00"
+      },
+      "awal_so2": {
+        "baris": 10,
+        "waktu": "2025-01-01 00:00:00",
+        "nilai": 28.49
+      },
+      "baris_lain": []
+    },
+    {
+      "file": "data_raw\\Telkom University Purwokerto - Intan Azizah.xlsx",
+      "sheet": "Tangerang Pasir Jaya",
+      "kolom": [
+        {
+          "Kolom Excel": "B",
+          "Nama pada file": "Waktu",
+          "Satuan pada file": null
+        },
+        {
+          "Kolom Excel": "C",
+          "Nama pada file": "PM10",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "D",
+          "Nama pada file": "PM2.5",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "E",
+          "Nama pada file": "SO2",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "F",
+          "Nama pada file": "CO",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "G",
+          "Nama pada file": "O3",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "H",
+          "Nama pada file": "NO2",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "I",
+          "Nama pada file": "Kec.Angin",
+          "Satuan pada file": "m/s"
+        },
+        {
+          "Kolom Excel": "J",
+          "Nama pada file": "Arah Angin",
+          "Satuan pada file": "°"
+        },
+        {
+          "Kolom Excel": "K",
+          "Nama pada file": "Kelembaban",
+          "Satuan pada file": "%"
+        },
+        {
+          "Kolom Excel": "L",
+          "Nama pada file": "Suhu",
+          "Satuan pada file": "°C"
+        },
+        {
+          "Kolom Excel": "M",
+          "Nama pada file": "Tek.Udara",
+          "Satuan pada file": "mBar"
+        },
+        {
+          "Kolom Excel": "N",
+          "Nama pada file": "Sol.Rad",
+          "Satuan pada file": "watt/m²"
+        },
+        {
+          "Kolom Excel": "O",
+          "Nama pada file": "Curah Hujan",
+          "Satuan pada file": "mm"
+        }
+      ],
+      "metadata_baris_1_7": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "LAPORAN KONSENTRASI DAN METEOROLOGI",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Data Monitoring di Stasiun Pemantau",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Tanggal",
+          ": 01 Januari 2025 - 30 September 2026",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Kota",
+          ": Tangerang",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Stasiun",
+          ": Tangerang Pasir Jaya",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "lima_observasi": [
+        {
+          "Baris Excel": 10,
+          "Waktu": "2025-01-01 00:00:00",
+          "PM10": 86,
+          "PM2.5": 48,
+          "SO2": 6,
+          "CO": 585,
+          "O3": 39,
+          "NO2": 14,
+          "Kec.Angin": null,
+          "Arah Angin": 284,
+          "Kelembaban": 95,
+          "Suhu": 26.2,
+          "Tek.Udara": 1007.76,
+          "Sol.Rad": null,
+          "Curah Hujan": null
+        },
+        {
+          "Baris Excel": 11,
+          "Waktu": "2025-01-01 00:30:00",
+          "PM10": 52,
+          "PM2.5": 39,
+          "SO2": 6,
+          "CO": 585,
+          "O3": 41,
+          "NO2": 14,
+          "Kec.Angin": null,
+          "Arah Angin": 244,
+          "Kelembaban": 95,
+          "Suhu": 26.2,
+          "Tek.Udara": 1007.42,
+          "Sol.Rad": null,
+          "Curah Hujan": null
+        },
+        {
+          "Baris Excel": 12,
+          "Waktu": "2025-01-01 01:00:00",
+          "PM10": 47,
+          "PM2.5": 30,
+          "SO2": 6,
+          "CO": 578,
+          "O3": 35,
+          "NO2": 14,
+          "Kec.Angin": null,
+          "Arah Angin": 280,
+          "Kelembaban": 95,
+          "Suhu": 26.1,
+          "Tek.Udara": 1006.6,
+          "Sol.Rad": null,
+          "Curah Hujan": null
+        },
+        {
+          "Baris Excel": 13,
+          "Waktu": "2025-01-01 01:30:00",
+          "PM10": 64,
+          "PM2.5": 65,
+          "SO2": 7,
+          "CO": 577,
+          "O3": 33,
+          "NO2": 14,
+          "Kec.Angin": null,
+          "Arah Angin": 255,
+          "Kelembaban": 95,
+          "Suhu": 26,
+          "Tek.Udara": 1006.2,
+          "Sol.Rad": null,
+          "Curah Hujan": null
+        },
+        {
+          "Baris Excel": 14,
+          "Waktu": "2025-01-01 02:00:00",
+          "PM10": 50,
+          "PM2.5": 99,
+          "SO2": 6,
+          "CO": 582,
+          "O3": 36,
+          "NO2": 13,
+          "Kec.Angin": null,
+          "Arah Angin": 332,
+          "Kelembaban": 95,
+          "Suhu": 25.9,
+          "Tek.Udara": 1006.03,
+          "Sol.Rad": null,
+          "Curah Hujan": null
+        }
+      ],
+      "awal_pengukuran": {
+        "baris": 10,
+        "waktu": "2025-01-01 00:00:00"
+      },
+      "awal_so2": {
+        "baris": 10,
+        "waktu": "2025-01-01 00:00:00",
+        "nilai": 6
+      },
+      "baris_lain": []
+    },
+    {
+      "file": "data_raw\\Telkom University Purwokerto - Intan Azizah.xlsx",
+      "sheet": "Tangerang Selatan Serpong",
+      "kolom": [
+        {
+          "Kolom Excel": "B",
+          "Nama pada file": "Waktu",
+          "Satuan pada file": null
+        },
+        {
+          "Kolom Excel": "C",
+          "Nama pada file": "PM10",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "D",
+          "Nama pada file": "PM2.5",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "E",
+          "Nama pada file": "SO2",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "F",
+          "Nama pada file": "CO",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "G",
+          "Nama pada file": "O3",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "H",
+          "Nama pada file": "NO2",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "I",
+          "Nama pada file": "Kec.Angin",
+          "Satuan pada file": "m/s"
+        },
+        {
+          "Kolom Excel": "J",
+          "Nama pada file": "Arah Angin",
+          "Satuan pada file": "°"
+        },
+        {
+          "Kolom Excel": "K",
+          "Nama pada file": "Kelembaban",
+          "Satuan pada file": "%"
+        },
+        {
+          "Kolom Excel": "L",
+          "Nama pada file": "Suhu",
+          "Satuan pada file": "°C"
+        },
+        {
+          "Kolom Excel": "M",
+          "Nama pada file": "Tek.Udara",
+          "Satuan pada file": "mBar"
+        },
+        {
+          "Kolom Excel": "N",
+          "Nama pada file": "Sol.Rad",
+          "Satuan pada file": "watt/m²"
+        },
+        {
+          "Kolom Excel": "O",
+          "Nama pada file": "Curah Hujan",
+          "Satuan pada file": "mm"
+        }
+      ],
+      "metadata_baris_1_7": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "LAPORAN KONSENTRASI DAN METEOROLOGI",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Data Monitoring di Stasiun Pemantau",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Tanggal",
+          ": 01 Januari 2025 - 30 September 2026",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Kota",
+          ": Tangerang Selatan",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Stasiun",
+          ": Tangerang Selatan Serpong",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "lima_observasi": [
+        {
+          "Baris Excel": 10,
+          "Waktu": "2025-01-01 00:00:00",
+          "PM10": 21,
+          "PM2.5": 19,
+          "SO2": null,
+          "CO": 1071,
+          "O3": 88,
+          "NO2": null,
+          "Kec.Angin": null,
+          "Arah Angin": 283,
+          "Kelembaban": 83,
+          "Suhu": 26.7,
+          "Tek.Udara": 1005.99,
+          "Sol.Rad": null,
+          "Curah Hujan": 0.02
+        },
+        {
+          "Baris Excel": 11,
+          "Waktu": "2025-01-01 00:30:00",
+          "PM10": 54,
+          "PM2.5": 50,
+          "SO2": null,
+          "CO": 1071,
+          "O3": 88,
+          "NO2": null,
+          "Kec.Angin": 1,
+          "Arah Angin": 282,
+          "Kelembaban": 83,
+          "Suhu": 26.6,
+          "Tek.Udara": 1005.55,
+          "Sol.Rad": null,
+          "Curah Hujan": 0.02
+        },
+        {
+          "Baris Excel": 12,
+          "Waktu": "2025-01-01 01:00:00",
+          "PM10": 25,
+          "PM2.5": 22,
+          "SO2": null,
+          "CO": 1071,
+          "O3": 88,
+          "NO2": null,
+          "Kec.Angin": 2,
+          "Arah Angin": 268,
+          "Kelembaban": 83,
+          "Suhu": 26.5,
+          "Tek.Udara": 1004.91,
+          "Sol.Rad": null,
+          "Curah Hujan": 0.02
+        },
+        {
+          "Baris Excel": 13,
+          "Waktu": "2025-01-01 01:30:00",
+          "PM10": 19,
+          "PM2.5": 17,
+          "SO2": null,
+          "CO": 1071,
+          "O3": 88,
+          "NO2": null,
+          "Kec.Angin": 1,
+          "Arah Angin": 274,
+          "Kelembaban": 84,
+          "Suhu": 26.4,
+          "Tek.Udara": 1004.54,
+          "Sol.Rad": null,
+          "Curah Hujan": 0.02
+        },
+        {
+          "Baris Excel": 14,
+          "Waktu": "2025-01-01 02:00:00",
+          "PM10": 14,
+          "PM2.5": 13,
+          "SO2": null,
+          "CO": 1071,
+          "O3": 88,
+          "NO2": null,
+          "Kec.Angin": 1,
+          "Arah Angin": 295,
+          "Kelembaban": 84,
+          "Suhu": 26.3,
+          "Tek.Udara": 1004.1,
+          "Sol.Rad": null,
+          "Curah Hujan": 0.02
+        }
+      ],
+      "awal_pengukuran": {
+        "baris": 10,
+        "waktu": "2025-01-01 00:00:00"
+      },
+      "awal_so2": {
+        "baris": 5353,
+        "waktu": "2025-04-29 13:00:00",
+        "nilai": 115
+      },
+      "baris_lain": []
+    },
+    {
+      "file": "data_raw\\Telkom University Purwokerto - Intan Azizah.xlsx",
+      "sheet": "Serang Sumurpecung",
+      "kolom": [
+        {
+          "Kolom Excel": "B",
+          "Nama pada file": "Waktu",
+          "Satuan pada file": null
+        },
+        {
+          "Kolom Excel": "C",
+          "Nama pada file": "PM10",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "D",
+          "Nama pada file": "PM2.5",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "E",
+          "Nama pada file": "SO2",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "F",
+          "Nama pada file": "CO",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "G",
+          "Nama pada file": "O3",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "H",
+          "Nama pada file": "NO2",
+          "Satuan pada file": "µg/m³"
+        },
+        {
+          "Kolom Excel": "I",
+          "Nama pada file": "Kec.Angin",
+          "Satuan pada file": "m/s"
+        },
+        {
+          "Kolom Excel": "J",
+          "Nama pada file": "Arah Angin",
+          "Satuan pada file": "°"
+        },
+        {
+          "Kolom Excel": "K",
+          "Nama pada file": "Kelembaban",
+          "Satuan pada file": "%"
+        },
+        {
+          "Kolom Excel": "L",
+          "Nama pada file": "Suhu",
+          "Satuan pada file": "°C"
+        },
+        {
+          "Kolom Excel": "M",
+          "Nama pada file": "Tek.Udara",
+          "Satuan pada file": "mBar"
+        },
+        {
+          "Kolom Excel": "N",
+          "Nama pada file": "Sol.Rad",
+          "Satuan pada file": "watt/m²"
+        },
+        {
+          "Kolom Excel": "O",
+          "Nama pada file": "Curah Hujan",
+          "Satuan pada file": "mm"
+        }
+      ],
+      "metadata_baris_1_7": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "LAPORAN KONSENTRASI DAN METEOROLOGI",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Data Monitoring di Stasiun Pemantau",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Tanggal",
+          ": 01 Januari 2025 - 19 September 2026",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Kota",
+          ": Serang",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "Stasiun",
+          ": Serang Sumurpecung",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "lima_observasi": [
+        {
+          "Baris Excel": 10,
+          "Waktu": "2025-01-01 00:00:00",
+          "PM10": 34,
+          "PM2.5": 24,
+          "SO2": 51,
+          "CO": 1554,
+          "O3": 82,
+          "NO2": 60,
+          "Kec.Angin": 0,
+          "Arah Angin": 186,
+          "Kelembaban": 79,
+          "Suhu": 27,
+          "Tek.Udara": 1007.47,
+          "Sol.Rad": 0,
+          "Curah Hujan": 0
+        },
+        {
+          "Baris Excel": 11,
+          "Waktu": "2025-01-01 00:30:00",
+          "PM10": 56,
+          "PM2.5": 39,
+          "SO2": 50,
+          "CO": 1525,
+          "O3": 81,
+          "NO2": 60,
+          "Kec.Angin": 0,
+          "Arah Angin": 193,
+          "Kelembaban": 81,
+          "Suhu": 27,
+          "Tek.Udara": 1007.17,
+          "Sol.Rad": 0,
+          "Curah Hujan": 0
+        },
+        {
+          "Baris Excel": 12,
+          "Waktu": "2025-01-01 01:00:00",
+          "PM10": 45,
+          "PM2.5": 32,
+          "SO2": 50,
+          "CO": 1480,
+          "O3": 82,
+          "NO2": 60,
+          "Kec.Angin": 0,
+          "Arah Angin": 72,
+          "Kelembaban": 81,
+          "Suhu": 27,
+          "Tek.Udara": 1006.84,
+          "Sol.Rad": 0,
+          "Curah Hujan": 0
+        },
+        {
+          "Baris Excel": 13,
+          "Waktu": "2025-01-01 01:30:00",
+          "PM10": 55,
+          "PM2.5": 39,
+          "SO2": 54,
+          "CO": 1672,
+          "O3": 82,
+          "NO2": 60,
+          "Kec.Angin": 0,
+          "Arah Angin": 0,
+          "Kelembaban": 81,
+          "Suhu": 27,
+          "Tek.Udara": 1006.43,
+          "Sol.Rad": 0,
+          "Curah Hujan": 0
+        },
+        {
+          "Baris Excel": 14,
+          "Waktu": "2025-01-01 02:00:00",
+          "PM10": 60,
+          "PM2.5": 42,
+          "SO2": 51,
+          "CO": 1509,
+          "O3": 82,
+          "NO2": 60,
+          "Kec.Angin": 0,
+          "Arah Angin": 131,
+          "Kelembaban": 83,
+          "Suhu": 27,
+          "Tek.Udara": 1005.97,
+          "Sol.Rad": 0,
+          "Curah Hujan": 0
+        }
+      ],
+      "awal_pengukuran": {
+        "baris": 10,
+        "waktu": "2025-01-01 00:00:00"
+      },
+      "awal_so2": {
+        "baris": 10,
+        "waktu": "2025-01-01 00:00:00",
+        "nilai": 51
+      },
+      "baris_lain": []
+    }
+  ],
+  "kendala": [],
+  "sha256_sebelum": {
+    "data_raw\\Telkom University Purwokerto - Intan Azizah.xlsx": "bd00734b954e8df024c048575fad07f1eb1cbe1083d4c8929ae362aeb45a7406"
+  },
+  "sha256_sesudah": {
+    "data_raw\\Telkom University Purwokerto - Intan Azizah.xlsx": "bd00734b954e8df024c048575fad07f1eb1cbe1083d4c8929ae362aeb45a7406"
+  }
+}

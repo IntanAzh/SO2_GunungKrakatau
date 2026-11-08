@@ -1,0 +1,9 @@
+{
+  "ridge_count_verified": 12,
+  "median_prefixes_verified": 102,
+  "causal_inputs_verified": true,
+  "test_loaded": false,
+  "oof_targets": 19797,
+  "old_files_identical": 367,
+  "tables_sha256": "50eff522e17e880f27bedf58d6e31be5fa399a6ff258b77a025b1e66ac57a3f8"
+}

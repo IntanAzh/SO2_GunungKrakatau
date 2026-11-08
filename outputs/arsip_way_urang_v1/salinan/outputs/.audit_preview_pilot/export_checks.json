@@ -1,0 +1,97 @@
+[
+  {
+    "sheet": "Ringkasan",
+    "records": 132,
+    "columns": 21
+  },
+  {
+    "sheet": "Hasil_per_seed",
+    "records": 396,
+    "columns": 17
+  },
+  {
+    "sheet": "Irisan_mask",
+    "records": 18,
+    "columns": 7
+  },
+  {
+    "sheet": "Pembagian_waktu",
+    "records": 3,
+    "columns": 7
+  },
+  {
+    "sheet": "Distribusi_gap_train",
+    "records": 26,
+    "columns": 4
+  },
+  {
+    "sheet": "Fitur_P2_P3",
+    "records": 11,
+    "columns": 8
+  },
+  {
+    "sheet": "Scaler_train",
+    "records": 12,
+    "columns": 4
+  },
+  {
+    "sheet": "Parameter_train",
+    "records": 5,
+    "columns": 2
+  },
+  {
+    "sheet": "Kejadian_masking",
+    "records": 1485,
+    "columns": 8
+  },
+  {
+    "sheet": "Lokasi_masking",
+    "records": 8205,
+    "columns": 9
+  },
+  {
+    "sheet": "Keputusan_kualitas",
+    "records": 5,
+    "columns": 2
+  },
+  {
+    "sheet": "Offgrid_asli",
+    "records": 1,
+    "columns": 16
+  },
+  {
+    "sheet": "Waktu_fit",
+    "records": 11,
+    "columns": 3
+  },
+  {
+    "sheet": "Waktu_transform_total",
+    "records": 4,
+    "columns": 4
+  },
+  {
+    "sheet": "Peringatan",
+    "records": 1,
+    "columns": 4
+  },
+  {
+    "sheet": "Kegagalan",
+    "records": 1,
+    "columns": 1
+  },
+  {
+    "sheet": "Definisi",
+    "records": 15,
+    "columns": 2
+  },
+  {
+    "sheet": "Integritas_SHA256",
+    "records": 5,
+    "columns": 4
+  },
+  {
+    "sheet": "Ringkas_masking",
+    "records": 18,
+    "columns": 8
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "sheet": "Ringkasan",
+    "records": 24,
+    "columns": 12
+  },
+  {
+    "sheet": "Metrik_fold_seed",
+    "records": 96,
+    "columns": 12
+  },
+  {
+    "sheet": "Variasi_seed",
+    "records": 75,
+    "columns": 29
+  },
+  {
+    "sheet": "Ridge_timestamp_identik",
+    "records": 105,
+    "columns": 12
+  },
+  {
+    "sheet": "Peringkat",
+    "records": 36,
+    "columns": 5
+  },
+  {
+    "sheet": "Sensitivitas_seed_metode",
+    "records": 12,
+    "columns": 4
+  },
+  {
+    "sheet": "Vs_persistence",
+    "records": 36,
+    "columns": 6
+  },
+  {
+    "sheet": "Bulanan",
+    "records": 408,
+    "columns": 13
+  },
+  {
+    "sheet": "Diagnosis_transisi",
+    "records": 42,
+    "columns": 16
+  },
+  {
+    "sheet": "Rencana_fold",
+    "records": 4,
+    "columns": 11
+  },
+  {
+    "sheet": "Gate_pra_training",
+    "records": 4,
+    "columns": 11
+  },
+  {
+    "sheet": "Alur_rinci",
+    "records": 36,
+    "columns": 12
+  },
+  {
+    "sheet": "Fold1_sekuens_terputus",
+    "records": 6,
+    "columns": 10
+  },
+  {
+    "sheet": "Alur_sampel",
+    "records": 36,
+    "columns": 9
+  },
+  {
+    "sheet": "Target_kalender",
+    "records": 12,
+    "columns": 12
+  },
+  {
+    "sheet": "Target_kuantil",
+    "records": 8,
+    "columns": 12
+  },
+  {
+    "sheet": "Target_distribusi",
+    "records": 24,
+    "columns": 12
+  },
+  {
+    "sheet": "Target_bulanan",
+    "records": 235,
+    "columns": 11
+  },
+  {
+    "sheet": "Keluar_irisan",
+    "records": 36,
+    "columns": 10
+  },
+  {
+    "sheet": "Training_epoch",
+    "records": 1359,
+    "columns": 6
+  },
+  {
+    "sheet": "Training_ringkas",
+    "records": 36,
+    "columns": 13
+  },
+  {
+    "sheet": "Waktu_preprocessing",
+    "records": 4,
+    "columns": 5
+  },
+  {
+    "sheet": "Scaler",
+    "records": 132,
+    "columns": 10
+  },
+  {
+    "sheet": "Prefix_imputer",
+    "records": 26,
+    "columns": 14
+  },
+  {
+    "sheet": "Prediksi_semua_seed",
+    "records": 19797,
+    "columns": 23
+  },
+  {
+    "sheet": "Konfigurasi",
+    "records": 72,
+    "columns": 3
+  },
+  {
+    "sheet": "Definisi",
+    "records": 14,
+    "columns": 2
+  },
+  {
+    "sheet": "Integritas_SHA256",
+    "records": 167,
+    "columns": 5
+  }
+]

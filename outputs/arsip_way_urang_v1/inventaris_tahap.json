@@ -1,0 +1,414 @@
+{
+  "Tahap": [
+    {
+      "Tahap": "1",
+      "Eksperimen": "Audit struktur Excel",
+      "Berkas utama": [
+        "notebooks/01_audit_data.ipynb",
+        "outputs/audit_struktur_data.json"
+      ],
+      "Berkas utama tidak tersedia": [],
+      "Status": "berkas utama tersedia"
+    },
+    {
+      "Tahap": "2",
+      "Eksperimen": "Audit kualitas",
+      "Berkas utama": [
+        "notebooks/02_audit_kualitas_data.ipynb",
+        "outputs/audit_kualitas_data.xlsx",
+        "outputs/ringkasan_audit_kualitas.md"
+      ],
+      "Berkas utama tidak tersedia": [],
+      "Status": "berkas utama tersedia"
+    },
+    {
+      "Tahap": "3",
+      "Eksperimen": "Pemeriksaan lanjutan dan rancangan",
+      "Berkas utama": [
+        "outputs/pemeriksaan_lanjutan_kualitas.xlsx",
+        "outputs/rancangan_eksperimen_preprocessing.md"
+      ],
+      "Berkas utama tidak tersedia": [],
+      "Status": "berkas utama tersedia"
+    },
+    {
+      "Tahap": "4",
+      "Eksperimen": "Pilot imputasi",
+      "Berkas utama": [
+        "notebooks/04_pilot_imputasi_way_urang.ipynb",
+        "outputs/pilot_imputasi_way_urang.xlsx",
+        "outputs/ringkasan_pilot_imputasi_way_urang.md"
+      ],
+      "Berkas utama tidak tersedia": [],
+      "Status": "berkas utama tersedia"
+    },
+    {
+      "Tahap": "5",
+      "Eksperimen": "Forecasting Ridge",
+      "Berkas utama": [
+        "notebooks/05_forecasting_acuan_way_urang.ipynb",
+        "outputs/forecasting_acuan_way_urang.xlsx",
+        "outputs/ringkasan_forecasting_acuan_way_urang.md"
+      ],
+      "Berkas utama tidak tersedia": [],
+      "Status": "berkas utama tersedia"
+    },
+    {
+      "Tahap": "5-penelusuran",
+      "Eksperimen": "Penelusuran sampel",
+      "Berkas utama": [
+        "outputs/penelusuran_sampel_tahap5.xlsx",
+        "outputs/penelusuran_sampel_tahap5.md"
+      ],
+      "Berkas utama tidak tersedia": [],
+      "Status": "berkas utama tersedia"
+    },
+    {
+      "Tahap": "5B",
+      "Eksperimen": "Ablasi Curah Hujan",
+      "Berkas utama": [
+        "notebooks/05B_ablasi_curah_hujan.ipynb",
+        "outputs/hasil_5B_ablasi_curah_hujan.xlsx",
+        "outputs/ringkasan_5B_ablasi_curah_hujan.md"
+      ],
+      "Berkas utama tidak tersedia": [],
+      "Status": "berkas utama tersedia"
+    },
+    {
+      "Tahap": "6",
+      "Eksperimen": "Expanding-window backtesting",
+      "Berkas utama": [
+        "notebooks/06_backtesting_preprocessing.ipynb",
+        "outputs/backtesting_preprocessing.xlsx",
+        "outputs/ringkasan_backtesting_preprocessing.md"
+      ],
+      "Berkas utama tidak tersedia": [],
+      "Status": "berkas utama tersedia"
+    },
+    {
+      "Tahap": "6-diagnosis",
+      "Eksperimen": "Diagnosis fold pertama",
+      "Berkas utama": [
+        "outputs/diagnosis_fold1.xlsx",
+        "outputs/diagnosis_fold1.md"
+      ],
+      "Berkas utama tidak tersedia": [],
+      "Status": "berkas utama tersedia"
+    },
+    {
+      "Tahap": "7",
+      "Eksperimen": "LSTM32 dengan tiga seed",
+      "Berkas utama": [
+        "notebooks/07_lstm_preprocessing.ipynb",
+        "outputs/hasil_lstm_preprocessing.xlsx",
+        "outputs/ringkasan_lstm_preprocessing.md"
+      ],
+      "Berkas utama tidak tersedia": [],
+      "Status": "berkas utama tersedia"
+    },
+    {
+      "Tahap": "8",
+      "Eksperimen": "Sensitivitas warmup median/Ridge",
+      "Berkas utama": [
+        "notebooks/08_sensitivitas_kalibrasi_ridge.ipynb",
+        "outputs/hasil_sensitivitas_kalibrasi.xlsx",
+        "outputs/ringkasan_sensitivitas_kalibrasi.md"
+      ],
+      "Berkas utama tidak tersedia": [],
+      "Status": "berkas utama tersedia"
+    }
+  ],
+  "Checkpoint LSTM": [
+    {
+      "File": "outputs/lstm_preprocessing/Fold_01/LSTM_P0_median_seed11.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_01/LSTM_P0_median_seed23.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_01/LSTM_P0_median_seed47.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_01/LSTM_P1_ffill_L4_seed11.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_01/LSTM_P1_ffill_L4_seed23.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_01/LSTM_P1_ffill_L4_seed47.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_01/LSTM_P2_knn_k10_seed11.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_01/LSTM_P2_knn_k10_seed23.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_01/LSTM_P2_knn_k10_seed47.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_02/LSTM_P0_median_seed11.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_02/LSTM_P0_median_seed23.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_02/LSTM_P0_median_seed47.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_02/LSTM_P1_ffill_L4_seed11.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_02/LSTM_P1_ffill_L4_seed23.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_02/LSTM_P1_ffill_L4_seed47.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_02/LSTM_P2_knn_k10_seed11.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_02/LSTM_P2_knn_k10_seed23.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_02/LSTM_P2_knn_k10_seed47.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_03/LSTM_P0_median_seed11.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_03/LSTM_P0_median_seed23.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_03/LSTM_P0_median_seed47.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_03/LSTM_P1_ffill_L4_seed11.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_03/LSTM_P1_ffill_L4_seed23.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_03/LSTM_P1_ffill_L4_seed47.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_03/LSTM_P2_knn_k10_seed11.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_03/LSTM_P2_knn_k10_seed23.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_03/LSTM_P2_knn_k10_seed47.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_04/LSTM_P0_median_seed11.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_04/LSTM_P0_median_seed23.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_04/LSTM_P0_median_seed47.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_04/LSTM_P1_ffill_L4_seed11.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_04/LSTM_P1_ffill_L4_seed23.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_04/LSTM_P1_ffill_L4_seed47.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_04/LSTM_P2_knn_k10_seed11.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_04/LSTM_P2_knn_k10_seed23.pt",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_04/LSTM_P2_knn_k10_seed47.pt",
+      "Tersedia": true
+    }
+  ],
+  "Riwayat permodel": [
+    {
+      "File": "outputs/lstm_preprocessing/Fold_01/history_P0_median_seed11.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_01/history_P0_median_seed23.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_01/history_P0_median_seed47.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_01/history_P1_ffill_L4_seed11.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_01/history_P1_ffill_L4_seed23.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_01/history_P1_ffill_L4_seed47.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_01/history_P2_knn_k10_seed11.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_01/history_P2_knn_k10_seed23.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_01/history_P2_knn_k10_seed47.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_02/history_P0_median_seed11.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_02/history_P0_median_seed23.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_02/history_P0_median_seed47.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_02/history_P1_ffill_L4_seed11.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_02/history_P1_ffill_L4_seed23.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_02/history_P1_ffill_L4_seed47.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_02/history_P2_knn_k10_seed11.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_02/history_P2_knn_k10_seed23.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_02/history_P2_knn_k10_seed47.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_03/history_P0_median_seed11.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_03/history_P0_median_seed23.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_03/history_P0_median_seed47.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_03/history_P1_ffill_L4_seed11.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_03/history_P1_ffill_L4_seed23.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_03/history_P1_ffill_L4_seed47.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_03/history_P2_knn_k10_seed11.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_03/history_P2_knn_k10_seed23.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_03/history_P2_knn_k10_seed47.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_04/history_P0_median_seed11.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_04/history_P0_median_seed23.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_04/history_P0_median_seed47.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_04/history_P1_ffill_L4_seed11.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_04/history_P1_ffill_L4_seed23.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_04/history_P1_ffill_L4_seed47.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_04/history_P2_knn_k10_seed11.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_04/history_P2_knn_k10_seed23.json",
+      "Tersedia": true
+    },
+    {
+      "File": "outputs/lstm_preprocessing/Fold_04/history_P2_knn_k10_seed47.json",
+      "Tersedia": true
+    }
+  ],
+  "Berkas wajib hilang": []
+}

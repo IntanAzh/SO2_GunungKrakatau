@@ -1,0 +1,92 @@
+[
+  {
+    "sheet": "Ringkasan",
+    "records": 12,
+    "columns": 11
+  },
+  {
+    "sheet": "Hasil_5B_cakupan",
+    "records": 16,
+    "columns": 11
+  },
+  {
+    "sheet": "Bulanan_identik",
+    "records": 48,
+    "columns": 12
+  },
+  {
+    "sheet": "Bulanan_5B_cakupan",
+    "records": 64,
+    "columns": 12
+  },
+  {
+    "sheet": "Delta_sensitivitas",
+    "records": 9,
+    "columns": 9
+  },
+  {
+    "sheet": "Gate_sebelum_Ridge",
+    "records": 1,
+    "columns": 14
+  },
+  {
+    "sheet": "Alur_sebelum_Ridge",
+    "records": 27,
+    "columns": 14
+  },
+  {
+    "sheet": "Distribusi_train",
+    "records": 35,
+    "columns": 14
+  },
+  {
+    "sheet": "Perubahan_train_bulanan",
+    "records": 12,
+    "columns": 6
+  },
+  {
+    "sheet": "Konfigurasi_tetap",
+    "records": 18,
+    "columns": 3
+  },
+  {
+    "sheet": "Prefix_imputer",
+    "records": 13,
+    "columns": 12
+  },
+  {
+    "sheet": "Waktu_Ridge",
+    "records": 6,
+    "columns": 6
+  },
+  {
+    "sheet": "Koefisien_Ridge",
+    "records": 204,
+    "columns": 7
+  },
+  {
+    "sheet": "Prediksi_utama",
+    "records": 4524,
+    "columns": 12
+  },
+  {
+    "sheet": "Prediksi_train_lama",
+    "records": 4524,
+    "columns": 12
+  },
+  {
+    "sheet": "Timestamp_evaluasi",
+    "records": 4524,
+    "columns": 8
+  },
+  {
+    "sheet": "Definisi",
+    "records": 15,
+    "columns": 2
+  },
+  {
+    "sheet": "Integritas_SHA256",
+    "records": 74,
+    "columns": 4
+  }
+]

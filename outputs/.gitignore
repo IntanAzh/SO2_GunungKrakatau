@@ -1,0 +1,2 @@
+# Internal spreadsheet inspection logs are not experiment deliverables.
+*.inspect.ndjson

@@ -1,0 +1,10 @@
+{
+  "Aturan": "Penurunan SO2 asli terbesar antara dua slot berurutan30menit pada validasi fold1; keduanya finite; ikatan dipilih waktu paling awal. Tidak memakai residual/prediksi.",
+  "Timestamp sebelum": "2025-06-22 17:00:00",
+  "SO2 sebelum": 45.25,
+  "Timestamp transisi": "2025-06-22 17:30:00",
+  "SO2 sesudah": 1.98,
+  "Selisih SO2": -43.27,
+  "Jendela grafik jam sebelum sesudah": 72,
+  "Origin rendah penelusuran": "SO2 asli origin <=2.14, hanya penelusur tahap5, bukan ambang kualitas/bahaya."
+}

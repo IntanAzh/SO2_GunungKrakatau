@@ -1,0 +1,23 @@
+{
+  "locked_config_sha256": "0d059513ec74bcb5d4a086ac8cae9f93691dabf154250fe97805c56cba6afdfe",
+  "catatan": "Config terkunci menyalin metadata Ridge untuk konteks. Field legacy berikut bukan jumlah kanal/indikator atau aturan fit LSTM. Konfigurasi terkunci dan pelaksanaan tidak diubah.",
+  "legacy_ridge_only": [
+    "adequacy_adjustment",
+    "adequacy_rule",
+    "minimum_common_train_samples",
+    "minimum_distinct_train_targets",
+    "missing_indicators",
+    "refit",
+    "ridge",
+    "ridge_scaler",
+    "so2_lags",
+    "train_origins",
+    "validation_imputer",
+    "validation_targets"
+  ],
+  "LSTM_numeric_channels": 11,
+  "LSTM_missing_indicators": 11,
+  "LSTM_total_channels": 22,
+  "LSTM_scaler_scope": "inner train common unique sequence input slots",
+  "LSTM_targets": "original only, inner chronological split, standardized for loss then inverse for metrics"
+}

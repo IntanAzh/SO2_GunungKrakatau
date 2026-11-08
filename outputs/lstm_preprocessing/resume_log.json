@@ -1,0 +1,8 @@
+{
+  "checkpoint_before": 28,
+  "checkpoint_after": 36,
+  "models_newly_completed": 8,
+  "all_pre_resume_artifacts_identical": true,
+  "config_sha256": "0d059513ec74bcb5d4a086ac8cae9f93691dabf154250fe97805c56cba6afdfe",
+  "timing_unavailable": "Preprocessing4fold dan fit1model checkpointFold4P0seed11 hilang bersama memori proses; tidak diestimasi atau diisi0."
+}

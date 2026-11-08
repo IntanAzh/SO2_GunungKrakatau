@@ -1,0 +1,11 @@
+{
+  "test_loaded": false,
+  "test_evaluated": false,
+  "config_sha256": "37d0fc2f8ef09b7a44f6b2f666f598160f78a9fe5f955ef19c3d8969497c13b5",
+  "all_gates_before_ridge": true,
+  "ridge_fit_count": 12,
+  "oof_target_unique": true,
+  "oof_count": 19797,
+  "common_oof_count": 19638,
+  "old_artifacts_unchanged": true
+}

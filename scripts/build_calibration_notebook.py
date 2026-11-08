@@ -1,0 +1,16 @@
+from pathlib import Path
+import json,sys
+ROOT=Path(__file__).resolve().parents[1];cells=[]
+def add(kind,source):
+    c={'cell_type':kind,'id':f'calibration-{len(cells):02d}','metadata':{},'source':source}
+    if kind=='code':c.update(execution_count=None,outputs=[])
+    cells.append(c)
+add('markdown','# Sensitivitas kalibrasi 30/60/90 hari — median dan Ridge\n\nKalibrasi lama adalah warmup statistik untuk prefix median, bukan kalibrasi sensor. Data awal tetap asli, imputasi histori baru dimulai setelah warmup, sampel model menunggu buffer48slot. Median train diperbarui tiap30hari secara kausal dan dibekukan untuk evaluasi. Uji mengubah warmup dan komposisi train, bukan imputasi saja. Tidak memakai deep learning atau test akhir.\n\nTrain median mandiri, tidak memakai irisan P1/KNN lama. Semua empat fold evaluasi tahap6 dipertahankan. Penjelasan fungsi warmup ditetapkan sebelum eksperimen dijalankan.')
+add('code',"from pathlib import Path\nimport sys\nROOT=Path.cwd()\nif ROOT.name=='notebooks': ROOT=ROOT.parent\nsys.path.insert(0,str(ROOT/'scripts'))\nfrom calibration_sensitivity import Sensitivity\nfrom IPython.display import display,Markdown,Image\nimport pandas as pd\ns=Sensitivity().prepare()\nprint('SHA256 konfigurasi pra-fit:',s.config_hash)\ndisplay(pd.DataFrame(s.cfg['folds']))\n")
+add('markdown','## Persiapan seluruh konfigurasi sebelum Ridge\n\nMedian menggunakan rawprefix sebelum query; bukan median seluruh train untuk histori awal. Scaler Ridge hanya fit pada traineligible fold/durasi. Target asli, buffer48slot, purge batas, 34fitur tanpa CurahHujan tetap. Laporkan calon sampel, distribusi dan prefix tanpa median sebelum12fit. Jangan memaksakan irisan train antar-durasi: perubahan cohort adalah objek sensitivitas.')
+add('code',"s.prepare_all()\ndisplay(pd.DataFrame([c.gate for c in s.cases]))\ndisplay(pd.DataFrame([c.flow for c in s.cases]))\ndisplay(pd.DataFrame([c.dist for c in s.cases]))\ndisplay(pd.DataFrame(s.legacy))\ndisplay(pd.DataFrame(s.input_checks))\nprint('Ridge fit sebelum semua gate:',s.fit_count)\n")
+add('markdown','## Fit12Ridge dan evaluasi pada target asli\n\nSatu Ridge per fold/durasi, tanpa targetscaling. Evaluasi bersama3durasi+persistence pada tanggal yang sama. Cakupan mandiri dan semua target asli dilaporkan. Persistence memakai pengamatan asli terakhir pada/sebelum origin. Tidak mengisi target atau memilih durasi berdasarkan skor rerata saja.')
+add('code',"s.fit_and_summarize()\ndisplay(pd.DataFrame(s.metrics))\ndisplay(pd.DataFrame(s.pooled))\ndisplay(pd.DataFrame(s.variation))\ndisplay(pd.DataFrame(s.deltas))\ndisplay(pd.DataFrame(s.integrity))\nfor name in ['skor_antar_fold.png','komposisi_train.png','transisi_fold1.png']:\n    display(Image(filename=str(ROOT/'outputs/figures/sensitivitas_kalibrasi'/name)))\n")
+add('code',"s.export_excel()\ndisplay(Markdown((ROOT/'outputs/ringkasan_sensitivitas_kalibrasi.md').read_text(encoding='utf-8')))\n")
+nb={'nbformat':4,'nbformat_minor':5,'metadata':{'kernelspec':{'display_name':'Python (.venv SO2 audit)','language':'python','name':'so2-audit'},'language_info':{'name':'python','version':sys.version.split()[0]}},'cells':cells}
+(ROOT/'notebooks/08_sensitivitas_kalibrasi_ridge.ipynb').write_text(json.dumps(nb,ensure_ascii=False,indent=1),encoding='utf-8')

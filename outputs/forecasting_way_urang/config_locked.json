@@ -1,0 +1,109 @@
+{
+  "created_utc": "2026-11-05T14:02:04.887516+00:00",
+  "status": "Dikunci sebelum forecasting; tanpa tuning hasil forecasting",
+  "station": "Way Urang pilot sementara",
+  "horizon_slots": 1,
+  "horizon_minutes": 30,
+  "so2_lags": [
+    0,
+    1,
+    2,
+    6,
+    12,
+    24,
+    48
+  ],
+  "covariates": [
+    "PM10",
+    "PM2.5",
+    "CO",
+    "O3",
+    "NO2",
+    "Kec.Angin",
+    "Kelembaban",
+    "Suhu",
+    "Tek.Udara",
+    "Sol.Rad",
+    "Curah Hujan"
+  ],
+  "covariate_lag_slots": 1,
+  "pipelines": [
+    "P0_median",
+    "P1_ffill_L4",
+    "P2_knn_k10"
+  ],
+  "ffill_limit_slots": 4,
+  "ffill_reason": "Gap pendek train 1 dan 4 slot; pilot L4 mencakup blok 4 slot seluruhnya, L1 hanya 25%. Bukan klaim batas sensor.",
+  "knn": {
+    "k": 10,
+    "weights": "distance",
+    "metric": "nan_euclidean",
+    "minimum_original_covariates": 2
+  },
+  "ridge": {
+    "alpha": 1.0,
+    "fit_intercept": true,
+    "solver": "svd"
+  },
+  "ridge_scaler": "StandardScaler train common timestamps per pipeline",
+  "warmup_slots": 4320,
+  "prefix_update_slots": 1440,
+  "train_input_history": "expanding prefix, fit cutoff eksklusif awal blok",
+  "validation_imputer": "frozen seluruh train; histori masa lalu tidak dihitung ulang",
+  "covariate_missing_policy": "P0 median prefix, P1 ffill L4 tanpa fallback, P2 KNN joint matrix [SO2(u), cov(u-1)] dengan guard dan tanpa fallback tersembunyi",
+  "train_origins": "origin>=warmup+48; target<validation_start; seluruh fitur finite untuk SEMUA pipeline; identik antar Ridge",
+  "validation_targets": "semua target asli finite di validasi, origin=target-1; irisan empat metode serta domain masing-masing",
+  "missing_indicators": "18 original-missing flags untuk SO2 lags dan kovariat; dimasukkan pada seluruh Ridge",
+  "persistence": "last ORIGINAL available SO2 at origin or before, tanpa batas umur, tanpa nilai imputasi",
+  "availability": "SO2(u) diasumsikan tersedia pada origin u; kovariat(u-1) diasumsikan tersedia pada u. Latensi aktual belum diketahui.",
+  "quality": "nol, lonjakan, konstan dan ekstrem dipertahankan; ledger off-grid tahap 4 tidak dipetakan",
+  "P3": "ditunda karena belum konvergen dan hasil negatif pada pilot",
+  "test_loaded": false,
+  "test_evaluated": false,
+  "threads": 1,
+  "seed": 42,
+  "versions": {
+    "pandas": "3.1.1",
+    "numpy": "2.5.4",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1"
+  },
+  "split": [
+    {
+      "Split": "train",
+      "Awal": "2025-01-01 00:00:00",
+      "Akhir": "2026-03-16 23:00:00",
+      "Jumlah slot": 21119,
+      "Jumlah baris sumber": 20915,
+      "SO2 nonkosong asli": 19197,
+      "Status": "Digunakan sesuai kontrak"
+    },
+    {
+      "Split": "validation",
+      "Awal": "2026-03-16 23:30:00",
+      "Akhir": "2026-06-19 06:00:00",
+      "Jumlah slot": 4526,
+      "Jumlah baris sumber": 4525,
+      "SO2 nonkosong asli": 4524,
+      "Status": "Digunakan sesuai kontrak"
+    },
+    {
+      "Split": "test",
+      "Awal": "2026-06-19 06:30:00",
+      "Akhir": "2026-09-21 13:00:00",
+      "Jumlah slot": 4526,
+      "Jumlah baris sumber": 4525,
+      "SO2 nonkosong asli": 4525,
+      "Status": "Hanya inventaris, tidak dievaluasi"
+    }
+  ],
+  "initial_input_hashes": {
+    "data_raw\\Telkom University Purwokerto - Intan Azizah.xlsx": "bd00734b954e8df024c048575fad07f1eb1cbe1083d4c8929ae362aeb45a7406",
+    "outputs\\pilot_way_urang_tables.json": "c9cc419e322c6bfdcfb6b357695ef8a92a526a03897e907679f8286a579038f1",
+    "outputs\\ringkasan_pilot_imputasi_way_urang.md": "5709567715b6287ffd0cbcbe81b90b4167b96f7922cef94ccae78397788e747c",
+    "outputs\\pilot_way_urang\\config.json": "a603c21ff24094a0340abe66c57b0be49fb33bd65a09afe2f3562748f995f2f2",
+    "outputs\\pilot_way_urang\\grid_dan_penanda_asli.csv": "1d547e9b320bc547ef5a3ec8a1603df87cf4248f596288b86fae2e2cc4c40df8",
+    "notebooks\\04_pilot_imputasi_way_urang.ipynb": "5d505fd390bf47153b587fde96c2b7016fde07cc51593aae403e26a6a6711b1e",
+    "outputs\\rancangan_eksperimen_preprocessing.md": "d256294ac4568c82cbfeb9e06006b435dce293f52533bbf8f8bb3b865be1168d"
+  }
+}

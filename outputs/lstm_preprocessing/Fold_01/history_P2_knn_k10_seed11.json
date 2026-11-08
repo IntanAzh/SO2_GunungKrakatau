@@ -1,0 +1,90 @@
+[
+  {
+    "Fold": "Fold_01",
+    "Pipeline": "P2_knn_k10",
+    "Seed": 11,
+    "Epoch": 1,
+    "Train MSE standar": 1.0037176272807977,
+    "Internal MSE standar": 0.9991384951654309
+  },
+  {
+    "Fold": "Fold_01",
+    "Pipeline": "P2_knn_k10",
+    "Seed": 11,
+    "Epoch": 2,
+    "Train MSE standar": 0.9978490928947786,
+    "Internal MSE standar": 0.9988842809985498
+  },
+  {
+    "Fold": "Fold_01",
+    "Pipeline": "P2_knn_k10",
+    "Seed": 11,
+    "Epoch": 3,
+    "Train MSE standar": 0.9949461260597745,
+    "Internal MSE standar": 0.9988327711642145
+  },
+  {
+    "Fold": "Fold_01",
+    "Pipeline": "P2_knn_k10",
+    "Seed": 11,
+    "Epoch": 4,
+    "Train MSE standar": 0.9928869731498488,
+    "Internal MSE standar": 0.9992948063833271
+  },
+  {
+    "Fold": "Fold_01",
+    "Pipeline": "P2_knn_k10",
+    "Seed": 11,
+    "Epoch": 5,
+    "Train MSE standar": 0.9902857778233526,
+    "Internal MSE standar": 1.0000696239357223
+  },
+  {
+    "Fold": "Fold_01",
+    "Pipeline": "P2_knn_k10",
+    "Seed": 11,
+    "Epoch": 6,
+    "Train MSE standar": 0.9872647264064887,
+    "Internal MSE standar": 1.0012386344863984
+  },
+  {
+    "Fold": "Fold_01",
+    "Pipeline": "P2_knn_k10",
+    "Seed": 11,
+    "Epoch": 7,
+    "Train MSE standar": 0.9851488764191563,
+    "Internal MSE standar": 1.0031374171822371
+  },
+  {
+    "Fold": "Fold_01",
+    "Pipeline": "P2_knn_k10",
+    "Seed": 11,
+    "Epoch": 8,
+    "Train MSE standar": 0.9825022570736759,
+    "Internal MSE standar": 1.0041739869260502
+  },
+  {
+    "Fold": "Fold_01",
+    "Pipeline": "P2_knn_k10",
+    "Seed": 11,
+    "Epoch": 9,
+    "Train MSE standar": 0.9796898779057679,
+    "Internal MSE standar": 1.0046770472726423
+  },
+  {
+    "Fold": "Fold_01",
+    "Pipeline": "P2_knn_k10",
+    "Seed": 11,
+    "Epoch": 10,
+    "Train MSE standar": 0.9774021133954153,
+    "Internal MSE standar": 1.0055946532837645
+  },
+  {
+    "Fold": "Fold_01",
+    "Pipeline": "P2_knn_k10",
+    "Seed": 11,
+    "Epoch": 11,
+    "Train MSE standar": 0.974849754835898,
+    "Internal MSE standar": 1.008422120602545
+  }
+]

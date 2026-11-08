@@ -1,0 +1,62 @@
+[
+  {
+    "sheet": "Ringkasan",
+    "records": 8,
+    "columns": 30
+  },
+  {
+    "sheet": "Definisi",
+    "records": 11,
+    "columns": 2
+  },
+  {
+    "sheet": "Rekonsiliasi_grid",
+    "records": 8,
+    "columns": 13
+  },
+  {
+    "sheet": "Konteks_variabel",
+    "records": 960,
+    "columns": 14
+  },
+  {
+    "sheet": "Top10_konstan_SO2",
+    "records": 80,
+    "columns": 13
+  },
+  {
+    "sheet": "Grafik_konstan",
+    "records": 8,
+    "columns": 6
+  },
+  {
+    "sheet": "Kelengkapan_meteo",
+    "records": 56,
+    "columns": 11
+  },
+  {
+    "sheet": "Distribusi_gap_acuan",
+    "records": 48,
+    "columns": 6
+  },
+  {
+    "sheet": "Offgrid_13",
+    "records": 13,
+    "columns": 14
+  },
+  {
+    "sheet": "Pemetaan_hipotetis",
+    "records": 39,
+    "columns": 11
+  },
+  {
+    "sheet": "Integritas_SHA256",
+    "records": 6,
+    "columns": 4
+  },
+  {
+    "sheet": "Kendala",
+    "records": 1,
+    "columns": 1
+  }
+]

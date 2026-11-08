@@ -1,0 +1,102 @@
+[
+  {
+    "Sheet": "Ringkasan",
+    "Baris": null,
+    "Kolom": null
+  },
+  {
+    "Sheet": "Definisi",
+    "Baris": null,
+    "Kolom": null
+  },
+  {
+    "Sheet": "Kelengkapan_variabel",
+    "Baris": null,
+    "Kolom": null
+  },
+  {
+    "Sheet": "Statistik_nilai",
+    "Baris": null,
+    "Kolom": null
+  },
+  {
+    "Sheet": "Kandidat_ekstrem",
+    "Baris": null,
+    "Kolom": null
+  },
+  {
+    "Sheet": "Interval_tidak_30m",
+    "Baris": null,
+    "Kolom": null
+  },
+  {
+    "Sheet": "Ringkas_konstan",
+    "Baris": null,
+    "Kolom": null
+  },
+  {
+    "Sheet": "Rentetan_SO2",
+    "Baris": null,
+    "Kolom": null
+  },
+  {
+    "Sheet": "Gap_SO2",
+    "Baris": null,
+    "Kolom": null
+  },
+  {
+    "Sheet": "Kelompok_gap",
+    "Baris": null,
+    "Kolom": null
+  },
+  {
+    "Sheet": "SO2_bulanan",
+    "Baris": null,
+    "Kolom": null
+  },
+  {
+    "Sheet": "Metadata",
+    "Baris": null,
+    "Kolom": null
+  },
+  {
+    "Sheet": "Aturan_pemeriksaan",
+    "Baris": null,
+    "Kolom": null
+  },
+  {
+    "Sheet": "Masalah_waktu",
+    "Baris": null,
+    "Kolom": null
+  },
+  {
+    "Sheet": "Contoh_pemeriksaan",
+    "Baris": null,
+    "Kolom": null
+  },
+  {
+    "Sheet": "Sumber_SHA256",
+    "Baris": null,
+    "Kolom": null
+  },
+  {
+    "Sheet": "Kendala",
+    "Baris": null,
+    "Kolom": null
+  },
+  {
+    "Sheet": "Duplikat",
+    "Baris": null,
+    "Kolom": null
+  },
+  {
+    "Sheet": "Detail_duplikat",
+    "Baris": null,
+    "Kolom": null
+  },
+  {
+    "Sheet": "Nilai_nonnumerik",
+    "Baris": null,
+    "Kolom": null
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "sheet": "Ringkasan",
+    "records": 8,
+    "columns": 11
+  },
+  {
+    "sheet": "Metrik_per_fold",
+    "records": 32,
+    "columns": 11
+  },
+  {
+    "sheet": "Variasi_antar_fold",
+    "records": 8,
+    "columns": 23
+  },
+  {
+    "sheet": "Vs_persistence",
+    "records": 12,
+    "columns": 6
+  },
+  {
+    "sheet": "Peringkat",
+    "records": 12,
+    "columns": 4
+  },
+  {
+    "sheet": "Train_distribusi",
+    "records": 12,
+    "columns": 17
+  },
+  {
+    "sheet": "Train_bulanan",
+    "records": 90,
+    "columns": 14
+  },
+  {
+    "sheet": "Alur_sampel",
+    "records": 12,
+    "columns": 12
+  },
+  {
+    "sheet": "Alasan_utama",
+    "records": 60,
+    "columns": 15
+  },
+  {
+    "sheet": "Alasan_bulanan",
+    "records": 570,
+    "columns": 16
+  },
+  {
+    "sheet": "Alasan_tumpang_tindih",
+    "records": 12,
+    "columns": 7
+  },
+  {
+    "sheet": "Tambahan_train_vs90",
+    "records": 12,
+    "columns": 14
+  },
+  {
+    "sheet": "Audit90_vs_tahap6",
+    "records": 4,
+    "columns": 16
+  },
+  {
+    "sheet": "Kesamaan_input_evaluasi",
+    "records": 12,
+    "columns": 6
+  },
+  {
+    "sheet": "Skor_bulanan",
+    "records": 136,
+    "columns": 12
+  },
+  {
+    "sheet": "Gate_sebelum_fit",
+    "records": 12,
+    "columns": 7
+  },
+  {
+    "sheet": "Parameter_Ridge_scaler",
+    "records": 408,
+    "columns": 7
+  },
+  {
+    "sheet": "Prefix_median",
+    "records": 1122,
+    "columns": 11
+  },
+  {
+    "sheet": "Waktu_komputasi",
+    "records": 12,
+    "columns": 6
+  },
+  {
+    "sheet": "Prediksi",
+    "records": 19797,
+    "columns": 12
+  },
+  {
+    "sheet": "Konfigurasi",
+    "records": 32,
+    "columns": 2
+  },
+  {
+    "sheet": "Definisi",
+    "records": 14,
+    "columns": 2
+  },
+  {
+    "sheet": "Integritas_SHA256",
+    "records": 367,
+    "columns": 4
+  }
+]

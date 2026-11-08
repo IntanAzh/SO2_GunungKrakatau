@@ -1,0 +1,112 @@
+[
+  {
+    "sheet": "Ringkasan",
+    "records": 30,
+    "columns": 14
+  },
+  {
+    "sheet": "Tahap_per_bulan",
+    "records": 450,
+    "columns": 14
+  },
+  {
+    "sheet": "SO2_tinggi_per_tahap",
+    "records": 30,
+    "columns": 14
+  },
+  {
+    "sheet": "Inventaris_train_asli",
+    "records": 16,
+    "columns": 7
+  },
+  {
+    "sheet": "Penanda_semua_timestamp",
+    "records": 21119,
+    "columns": 9
+  },
+  {
+    "sheet": "Alasan_overlap",
+    "records": 41,
+    "columns": 7
+  },
+  {
+    "sheet": "Kombinasi_alasan",
+    "records": 5,
+    "columns": 4
+  },
+  {
+    "sheet": "Fitur_penyebab_keluar",
+    "records": 54,
+    "columns": 6
+  },
+  {
+    "sheet": "Kehilangan_karena_irisan",
+    "records": 3,
+    "columns": 15
+  },
+  {
+    "sheet": "Irisan_hilang_per_bulan",
+    "records": 45,
+    "columns": 13
+  },
+  {
+    "sheet": "Periode_SO2_lebih_tinggi",
+    "records": 12,
+    "columns": 8
+  },
+  {
+    "sheet": "Periode_tinggi_per_tahap",
+    "records": 360,
+    "columns": 6
+  },
+  {
+    "sheet": "Gap_Curah_Hujan_train",
+    "records": 6,
+    "columns": 4
+  },
+  {
+    "sheet": "KNN_tidak_ada_prediksi",
+    "records": 2,
+    "columns": 10
+  },
+  {
+    "sheet": "KNN_fitur_kosong",
+    "records": 21,
+    "columns": 6
+  },
+  {
+    "sheet": "Usia_persistence",
+    "records": 4,
+    "columns": 6
+  },
+  {
+    "sheet": "Persistence_donor_lama",
+    "records": 2,
+    "columns": 7
+  },
+  {
+    "sheet": "Verifikasi_skor_timestamp",
+    "records": 8,
+    "columns": 8
+  },
+  {
+    "sheet": "Pemeriksaan_implementasi",
+    "records": 7,
+    "columns": 2
+  },
+  {
+    "sheet": "Simulasi_eligibility_tanpa_rain",
+    "records": 1,
+    "columns": 13
+  },
+  {
+    "sheet": "Definisi",
+    "records": 17,
+    "columns": 2
+  },
+  {
+    "sheet": "Integritas_SHA256",
+    "records": 18,
+    "columns": 4
+  }
+]

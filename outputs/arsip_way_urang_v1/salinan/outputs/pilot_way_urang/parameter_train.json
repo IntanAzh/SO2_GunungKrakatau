@@ -1,0 +1,114 @@
+{
+  "parameter": [
+    {
+      "Parameter": "median SO2 train",
+      "Nilai": 1.61
+    },
+    {
+      "Parameter": "P3 iterasi nyata",
+      "Nilai": 20
+    },
+    {
+      "Parameter": "SO2 train minimum",
+      "Nilai": 0.92
+    },
+    {
+      "Parameter": "SO2 train maksimum",
+      "Nilai": 80.71
+    },
+    {
+      "Parameter": "Jumlah donor KNN SO2 asli train",
+      "Nilai": 19197
+    }
+  ],
+  "scaler": [
+    {
+      "Fitur": "SO2",
+      "Mean train": 13.975408553419685,
+      "Skala train": 20.392787744897806,
+      "Jumlah nilai untuk scaler": 19197
+    },
+    {
+      "Fitur": "PM10",
+      "Mean train": 14.020730181894052,
+      "Skala train": 9.922839233382954,
+      "Jumlah nilai untuk scaler": 19187
+    },
+    {
+      "Fitur": "PM2.5",
+      "Mean train": 10.516663191367398,
+      "Skala train": 7.64573737454844,
+      "Jumlah nilai untuk scaler": 19183
+    },
+    {
+      "Fitur": "CO",
+      "Mean train": 307.2055575849292,
+      "Skala train": 146.84573695613068,
+      "Jumlah nilai untuk scaler": 19163
+    },
+    {
+      "Fitur": "O3",
+      "Mean train": 9.616332378223394,
+      "Skala train": 10.92684123618799,
+      "Jumlah nilai untuk scaler": 19195
+    },
+    {
+      "Fitur": "NO2",
+      "Mean train": 8.650470514690559,
+      "Skala train": 3.356818111179548,
+      "Jumlah nilai untuk scaler": 19196
+    },
+    {
+      "Fitur": "Kec.Angin",
+      "Mean train": 4.768935715774115,
+      "Skala train": 12.076456196989607,
+      "Jumlah nilai untuk scaler": 19196
+    },
+    {
+      "Fitur": "Kelembaban",
+      "Mean train": 83.62084444675975,
+      "Skala train": 7.350981155130798,
+      "Jumlah nilai untuk scaler": 19196
+    },
+    {
+      "Fitur": "Suhu",
+      "Mean train": 28.236254948947625,
+      "Skala train": 2.2714610157990993,
+      "Jumlah nilai untuk scaler": 19196
+    },
+    {
+      "Fitur": "Tek.Udara",
+      "Mean train": 986.5363497603649,
+      "Skala train": 29.82424406947947,
+      "Jumlah nilai untuk scaler": 19196
+    },
+    {
+      "Fitur": "Sol.Rad",
+      "Mean train": 116.83290382279854,
+      "Skala train": 207.34689826397803,
+      "Jumlah nilai untuk scaler": 17291
+    },
+    {
+      "Fitur": "Curah Hujan",
+      "Mean train": 0.028813933328073863,
+      "Skala train": 0.05004722310651072,
+      "Jumlah nilai untuk scaler": 12689
+    }
+  ],
+  "fit_seconds": {
+    "P0": 0.0005290999997669132,
+    "P1_L1": 0.0,
+    "P1_L4": 0.0,
+    "P1_L71": 0.0,
+    "P1_L97": 0.0,
+    "P1_L184": 0.0,
+    "P1_L981": 0.0,
+    "P2_k3": 0.001638200000343204,
+    "P2_k5": 0.0015556999996988452,
+    "P2_k10": 0.0016260000002148445,
+    "P3": 3.2276395999997476
+  },
+  "scaler_fit_seconds": 0.026289899999937916,
+  "train_end": "2026-03-16 23:00:00",
+  "validation_start": "2026-03-16 23:30:00"
+}

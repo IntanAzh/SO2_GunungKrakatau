@@ -1,0 +1,13 @@
+{
+  "Fold": "Fold_03",
+  "Sampel train bersama": 8233,
+  "Sampel early stopping bersama": 2212,
+  "Sampel evaluasi bersama": 4108,
+  "Lulus": true,
+  "LSTM fit count sebelum gate": 0,
+  "Internal train batas eksklusif": "2025-10-06 01:30:00",
+  "Origin purge internal": "2025-10-06 01:00:00",
+  "Target purge internal": "2025-10-06 01:30:00",
+  "Origin purge outer train": "2025-11-24 03:00:00",
+  "Target purge outer train": "2025-11-24 03:30:00"
+}

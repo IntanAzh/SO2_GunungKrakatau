@@ -1,0 +1,102 @@
+[
+  {
+    "sheet": "Ringkasan",
+    "records": 3,
+    "columns": 2
+  },
+  {
+    "sheet": "Pemeriksaan",
+    "records": 95,
+    "columns": 3
+  },
+  {
+    "sheet": "Aturan_transisi",
+    "records": 1,
+    "columns": 8
+  },
+  {
+    "sheet": "Skor",
+    "records": 40,
+    "columns": 10
+  },
+  {
+    "sheet": "Residual",
+    "records": 40,
+    "columns": 19
+  },
+  {
+    "sheet": "Statistik_target_prediksi",
+    "records": 80,
+    "columns": 16
+  },
+  {
+    "sheet": "Origin_rendah",
+    "records": 4,
+    "columns": 11
+  },
+  {
+    "sheet": "Sebelum_sesudah",
+    "records": 16,
+    "columns": 13
+  },
+  {
+    "sheet": "Model_Ridge",
+    "records": 3,
+    "columns": 12
+  },
+  {
+    "sheet": "Koefisien_scaler",
+    "records": 102,
+    "columns": 11
+  },
+  {
+    "sheet": "Variasi_fitur",
+    "records": 102,
+    "columns": 17
+  },
+  {
+    "sheet": "Korelasi_train",
+    "records": 51,
+    "columns": 3
+  },
+  {
+    "sheet": "Kontribusi_per_prediksi",
+    "records": 14542,
+    "columns": 16
+  },
+  {
+    "sheet": "Kontribusi_fitur_sampel",
+    "records": 1224,
+    "columns": 9
+  },
+  {
+    "sheet": "Cocok_sumber_variabel",
+    "records": 11,
+    "columns": 7
+  },
+  {
+    "sheet": "Sampel_Excel",
+    "records": 30,
+    "columns": 9
+  },
+  {
+    "sheet": "Persistence_usia",
+    "records": 6,
+    "columns": 6
+  },
+  {
+    "sheet": "Offgrid_sumber",
+    "records": 1,
+    "columns": 3
+  },
+  {
+    "sheet": "Integritas_SHA256",
+    "records": 157,
+    "columns": 4
+  },
+  {
+    "sheet": "Definisi",
+    "records": 9,
+    "columns": 2
+  }
+]

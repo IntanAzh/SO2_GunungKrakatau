@@ -1,0 +1,308 @@
+[
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "SO2_lag0",
+    "Mean train": 14.66174743443532,
+    "Scale train": 20.388786535929196,
+    "Koefisien standar": 9.065368917761578,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "SO2_lag1",
+    "Mean train": 14.665972063853795,
+    "Scale train": 20.39395282570849,
+    "Koefisien standar": 5.252121485004418,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "SO2_lag2",
+    "Mean train": 14.670555872291649,
+    "Scale train": 20.399558997248786,
+    "Koefisien standar": 3.1744629263861404,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "SO2_lag6",
+    "Mean train": 14.679614595210689,
+    "Scale train": 20.41563338534374,
+    "Koefisien standar": 1.7995833301078938,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "SO2_lag12",
+    "Mean train": 14.689725199543645,
+    "Scale train": 20.438611274451855,
+    "Koefisien standar": 0.8419999505192848,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "SO2_lag24",
+    "Mean train": 14.70997035347751,
+    "Scale train": 20.484013054647193,
+    "Koefisien standar": 0.353090172345957,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "SO2_lag48",
+    "Mean train": 14.749198403648549,
+    "Scale train": 20.571692417110253,
+    "Koefisien standar": 0.1441196872366649,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "PM10_lag1",
+    "Mean train": 13.312445267958926,
+    "Scale train": 8.843884562328524,
+    "Koefisien standar": 0.1395191862765145,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "PM2.5_lag1",
+    "Mean train": 9.890402508551908,
+    "Scale train": 6.664484246457675,
+    "Koefisien standar": -0.14556784097043163,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "CO_lag1",
+    "Mean train": 316.9477554161925,
+    "Scale train": 149.91017616611006,
+    "Koefisien standar": -0.17223169128049792,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "O3_lag1",
+    "Mean train": 10.242329532497031,
+    "Scale train": 11.2253001301138,
+    "Koefisien standar": -0.15477077224946106,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "NO2_lag1",
+    "Mean train": 8.722567844925884,
+    "Scale train": 2.453584845550292,
+    "Koefisien standar": -0.13847100369775558,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "Kec.Angin_lag1",
+    "Mean train": 5.0674139110604255,
+    "Scale train": 12.589440436617148,
+    "Koefisien standar": -0.012711484084315616,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "Kelembaban_lag1",
+    "Mean train": 83.53978905359163,
+    "Scale train": 7.410433758963131,
+    "Koefisien standar": 0.014901248857923965,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "Suhu_lag1",
+    "Mean train": 28.20461972633971,
+    "Scale train": 2.2847017945078796,
+    "Koefisien standar": 0.027732393384532872,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "Tek.Udara_lag1",
+    "Mean train": 985.514017103763,
+    "Scale train": 30.064559145270646,
+    "Koefisien standar": 0.0009339808347820419,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "Sol.Rad_lag1",
+    "Mean train": 107.87316533636951,
+    "Scale train": 200.573539776333,
+    "Koefisien standar": -0.006712863737885914,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "missing_asli_SO2_lag0",
+    "Mean train": 0.0010262257696693272,
+    "Scale train": 0.03201831710660195,
+    "Koefisien standar": -0.08364412600842189,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "missing_asli_SO2_lag1",
+    "Mean train": 0.0011972633979475485,
+    "Scale train": 0.0345807744028771,
+    "Koefisien standar": -0.007634377139382162,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "missing_asli_SO2_lag2",
+    "Mean train": 0.0013683010262257698,
+    "Scale train": 0.03696523743365938,
+    "Koefisien standar": -0.018866466463002773,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "missing_asli_SO2_lag6",
+    "Mean train": 0.0018814139110604332,
+    "Scale train": 0.04333444579955879,
+    "Koefisien standar": 0.07430099133339033,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "missing_asli_SO2_lag12",
+    "Mean train": 0.002565564424173318,
+    "Scale train": 0.05058638456497884,
+    "Koefisien standar": 0.07831975342156847,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "missing_asli_SO2_lag24",
+    "Mean train": 0.003933865450399088,
+    "Scale train": 0.06259704588094282,
+    "Koefisien standar": 0.0602203168912558,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "missing_asli_SO2_lag48",
+    "Mean train": 0.006670467502850627,
+    "Scale train": 0.08140007595907559,
+    "Koefisien standar": 0.035403864381497896,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "missing_asli_PM10_lag1",
+    "Mean train": 0.0017103762827822121,
+    "Scale train": 0.04132131285129011,
+    "Koefisien standar": -0.00883838114905073,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "missing_asli_PM2.5_lag1",
+    "Mean train": 0.0019384264538198405,
+    "Scale train": 0.043984871907307516,
+    "Koefisien standar": 0.011270659321554275,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "missing_asli_CO_lag1",
+    "Mean train": 0.0030786773090079817,
+    "Scale train": 0.05540035248113819,
+    "Koefisien standar": 0.0115051216718912,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "missing_asli_O3_lag1",
+    "Mean train": 0.0012542759407069555,
+    "Scale train": 0.035393540831218755,
+    "Koefisien standar": -0.013795466911194086,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "missing_asli_NO2_lag1",
+    "Mean train": 0.0011972633979475485,
+    "Scale train": 0.0345807744028771,
+    "Koefisien standar": -0.007634377139877674,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "missing_asli_Kec.Angin_lag1",
+    "Mean train": 0.0011972633979475485,
+    "Scale train": 0.0345807744028771,
+    "Koefisien standar": -0.007634377139733811,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "missing_asli_Kelembaban_lag1",
+    "Mean train": 0.0011972633979475485,
+    "Scale train": 0.0345807744028771,
+    "Koefisien standar": -0.007634377139747554,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "missing_asli_Suhu_lag1",
+    "Mean train": 0.0011972633979475485,
+    "Scale train": 0.0345807744028771,
+    "Koefisien standar": -0.0076343771396287586,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "missing_asli_Tek.Udara_lag1",
+    "Mean train": 0.0011972633979475485,
+    "Scale train": 0.0345807744028771,
+    "Koefisien standar": -0.007634377139639066,
+    "Intercept": 14.650613454959775
+  },
+  {
+    "Fold": "Fold_04",
+    "Kalibrasi hari": 60,
+    "Fitur": "missing_asli_Sol.Rad_lag1",
+    "Mean train": 0.1032497149372862,
+    "Scale train": 0.30428475364805974,
+    "Koefisien standar": 2.627899096001452e-05,
+    "Intercept": 14.650613454959775
+  }
+]

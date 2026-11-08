@@ -1,0 +1,82 @@
+[
+  {
+    "Fold": "Fold_01",
+    "Pipeline": "P2_knn_k10",
+    "Seed": 47,
+    "Epoch": 1,
+    "Train MSE standar": 1.0401294948337796,
+    "Internal MSE standar": 0.9795826437944424
+  },
+  {
+    "Fold": "Fold_01",
+    "Pipeline": "P2_knn_k10",
+    "Seed": 47,
+    "Epoch": 2,
+    "Train MSE standar": 1.022292208560419,
+    "Internal MSE standar": 0.9794007718206166
+  },
+  {
+    "Fold": "Fold_01",
+    "Pipeline": "P2_knn_k10",
+    "Seed": 47,
+    "Epoch": 3,
+    "Train MSE standar": 1.0136424289160952,
+    "Internal MSE standar": 0.980292040430857
+  },
+  {
+    "Fold": "Fold_01",
+    "Pipeline": "P2_knn_k10",
+    "Seed": 47,
+    "Epoch": 4,
+    "Train MSE standar": 1.0050494058148844,
+    "Internal MSE standar": 0.9821440645320687
+  },
+  {
+    "Fold": "Fold_01",
+    "Pipeline": "P2_knn_k10",
+    "Seed": 47,
+    "Epoch": 5,
+    "Train MSE standar": 0.9995506382210827,
+    "Internal MSE standar": 0.9851943375821599
+  },
+  {
+    "Fold": "Fold_01",
+    "Pipeline": "P2_knn_k10",
+    "Seed": 47,
+    "Epoch": 6,
+    "Train MSE standar": 0.9935285022486617,
+    "Internal MSE standar": 0.9882020322148671
+  },
+  {
+    "Fold": "Fold_01",
+    "Pipeline": "P2_knn_k10",
+    "Seed": 47,
+    "Epoch": 7,
+    "Train MSE standar": 0.9896000198550992,
+    "Internal MSE standar": 0.991299886189535
+  },
+  {
+    "Fold": "Fold_01",
+    "Pipeline": "P2_knn_k10",
+    "Seed": 47,
+    "Epoch": 8,
+    "Train MSE standar": 0.9859783196504855,
+    "Internal MSE standar": 0.9939690778355399
+  },
+  {
+    "Fold": "Fold_01",
+    "Pipeline": "P2_knn_k10",
+    "Seed": 47,
+    "Epoch": 9,
+    "Train MSE standar": 0.9827180742383836,
+    "Internal MSE standar": 0.9967618473989521
+  },
+  {
+    "Fold": "Fold_01",
+    "Pipeline": "P2_knn_k10",
+    "Seed": 47,
+    "Epoch": 10,
+    "Train MSE standar": 0.9791487763811658,
+    "Internal MSE standar": 0.9979159646405431
+  }
+]

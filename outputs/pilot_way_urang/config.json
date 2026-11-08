@@ -1,0 +1,76 @@
+{
+  "stasiun": "Kab. Lampung Selatan Way Urang",
+  "status": "pilot sementara, bukan stasiun final",
+  "split": "floor(0.70*N) slot train; floor(0.85*N) kumulatif validation; sisanya test",
+  "seeds": [
+    11,
+    23,
+    47
+  ],
+  "point_fraction": 0.1,
+  "block_lengths_slots": [
+    4,
+    71,
+    97,
+    184,
+    981
+  ],
+  "block_events": "max(1,min(30,floor(0.10*N_observed_validation/L)))",
+  "block_selection": "truth tersedia seluruh blok, buffer 1 slot teramati, tidak overlap dalam skenario",
+  "p1_limits_slots": [
+    1,
+    4,
+    71,
+    97,
+    184,
+    981
+  ],
+  "p2_k": [
+    3,
+    5,
+    10
+  ],
+  "p2_weights": "distance",
+  "p2_metric": "nan_euclidean",
+  "p3": {
+    "estimator": "BayesianRidge",
+    "max_iter": 20,
+    "tol": 0.001,
+    "initial_strategy": "median",
+    "imputation_order": "ascending",
+    "random_state": 42,
+    "sample_posterior": false,
+    "skip_complete": false
+  },
+  "common_covariates": [
+    "PM10",
+    "PM2.5",
+    "CO",
+    "O3",
+    "NO2",
+    "Kec.Angin",
+    "Kelembaban",
+    "Suhu",
+    "Tek.Udara",
+    "Sol.Rad",
+    "Curah Hujan"
+  ],
+  "covariate_lag_slots": 1,
+  "query_min_observed_covariates": 2,
+  "scaling": "StandardScaler fit train only, NaN retained, same matrix for P2/P3",
+  "no_raw_time": true,
+  "wind_direction_excluded": true,
+  "test_evaluated": false,
+  "availability_assumption": "Pengukuran bertimestamp <= t-30 menit diasumsikan telah tersedia pada t; latensi aktual belum dikonfirmasi.",
+  "quality_policy": "Nol, lonjakan, konstan dan ekstrem dipertahankan. Off-grid terpisah tanpa pembulatan.",
+  "scope": "Mask SO2 saja; kovariat lag tetap pengukuran asli, bukan simulasi semua sensor hilang.",
+  "thread_limit": 1,
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1"
+  },
+  "platform": "Windows-11-10.0.26300-SP0",
+  "python": "3.15.2"
+}

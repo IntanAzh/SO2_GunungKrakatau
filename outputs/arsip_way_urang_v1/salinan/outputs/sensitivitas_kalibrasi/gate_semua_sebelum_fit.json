@@ -1,0 +1,114 @@
+{
+  "fit_count": 0,
+  "config_sha256": "594d344745fda9723d5b00b106a83977fedd6aa11a5636155ce1dc51025abfa8",
+  "gates": [
+    {
+      "Fold": "Fold_01",
+      "Kalibrasi hari": 30,
+      "Ridge fit sebelum gate": 0,
+      "Train N": 3539,
+      "Fitur": 34,
+      "Prefix tanpa median": 0,
+      "Lulus": true
+    },
+    {
+      "Fold": "Fold_01",
+      "Kalibrasi hari": 60,
+      "Ridge fit sebelum gate": 0,
+      "Train N": 2712,
+      "Fitur": 34,
+      "Prefix tanpa median": 0,
+      "Lulus": true
+    },
+    {
+      "Fold": "Fold_01",
+      "Kalibrasi hari": 90,
+      "Ridge fit sebelum gate": 0,
+      "Train N": 1385,
+      "Fitur": 34,
+      "Prefix tanpa median": 0,
+      "Lulus": true
+    },
+    {
+      "Fold": "Fold_02",
+      "Kalibrasi hari": 30,
+      "Ridge fit sebelum gate": 0,
+      "Train N": 8429,
+      "Fitur": 34,
+      "Prefix tanpa median": 0,
+      "Lulus": true
+    },
+    {
+      "Fold": "Fold_02",
+      "Kalibrasi hari": 60,
+      "Ridge fit sebelum gate": 0,
+      "Train N": 7602,
+      "Fitur": 34,
+      "Prefix tanpa median": 0,
+      "Lulus": true
+    },
+    {
+      "Fold": "Fold_02",
+      "Kalibrasi hari": 90,
+      "Ridge fit sebelum gate": 0,
+      "Train N": 6275,
+      "Fitur": 34,
+      "Prefix tanpa median": 0,
+      "Lulus": true
+    },
+    {
+      "Fold": "Fold_03",
+      "Kalibrasi hari": 30,
+      "Ridge fit sebelum gate": 0,
+      "Train N": 13398,
+      "Fitur": 34,
+      "Prefix tanpa median": 0,
+      "Lulus": true
+    },
+    {
+      "Fold": "Fold_03",
+      "Kalibrasi hari": 60,
+      "Ridge fit sebelum gate": 0,
+      "Train N": 12571,
+      "Fitur": 34,
+      "Prefix tanpa median": 0,
+      "Lulus": true
+    },
+    {
+      "Fold": "Fold_03",
+      "Kalibrasi hari": 90,
+      "Ridge fit sebelum gate": 0,
+      "Train N": 11244,
+      "Fitur": 34,
+      "Prefix tanpa median": 0,
+      "Lulus": true
+    },
+    {
+      "Fold": "Fold_04",
+      "Kalibrasi hari": 30,
+      "Ridge fit sebelum gate": 0,
+      "Train N": 18367,
+      "Fitur": 34,
+      "Prefix tanpa median": 0,
+      "Lulus": true
+    },
+    {
+      "Fold": "Fold_04",
+      "Kalibrasi hari": 60,
+      "Ridge fit sebelum gate": 0,
+      "Train N": 17540,
+      "Fitur": 34,
+      "Prefix tanpa median": 0,
+      "Lulus": true
+    },
+    {
+      "Fold": "Fold_04",
+      "Kalibrasi hari": 90,
+      "Ridge fit sebelum gate": 0,
+      "Train N": 16213,
+      "Fitur": 34,
+      "Prefix tanpa median": 0,
+      "Lulus": true
+    }
+  ]
+}

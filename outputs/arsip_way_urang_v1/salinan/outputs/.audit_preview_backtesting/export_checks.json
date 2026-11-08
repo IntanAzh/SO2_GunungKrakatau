@@ -1,0 +1,127 @@
+[
+  {
+    "sheet": "Ringkasan_per_fold",
+    "records": 32,
+    "columns": 14
+  },
+  {
+    "sheet": "Ringkasan",
+    "records": 8,
+    "columns": 14
+  },
+  {
+    "sheet": "Variasi_antar_fold",
+    "records": 8,
+    "columns": 23
+  },
+  {
+    "sheet": "Peringkat_deskriptif",
+    "records": 12,
+    "columns": 6
+  },
+  {
+    "sheet": "Vs_persistence_identik",
+    "records": 12,
+    "columns": 8
+  },
+  {
+    "sheet": "Skor_bulanan_fold",
+    "records": 136,
+    "columns": 15
+  },
+  {
+    "sheet": "Skor_bulanan_gabungan",
+    "records": 112,
+    "columns": 15
+  },
+  {
+    "sheet": "Distribusi_train_validasi",
+    "records": 8,
+    "columns": 12
+  },
+  {
+    "sheet": "Distribusi_target_bulanan",
+    "records": 55,
+    "columns": 13
+  },
+  {
+    "sheet": "Distribusi_train_aktual",
+    "records": 30,
+    "columns": 12
+  },
+  {
+    "sheet": "Strata_SO2_validasi",
+    "records": 32,
+    "columns": 15
+  },
+  {
+    "sheet": "Rencana_fold",
+    "records": 4,
+    "columns": 11
+  },
+  {
+    "sheet": "Gate_sebelum_Ridge",
+    "records": 4,
+    "columns": 11
+  },
+  {
+    "sheet": "Alur_sampel",
+    "records": 12,
+    "columns": 7
+  },
+  {
+    "sheet": "Keluar_irisan_train",
+    "records": 12,
+    "columns": 15
+  },
+  {
+    "sheet": "Keluar_irisan_bulanan",
+    "records": 78,
+    "columns": 13
+  },
+  {
+    "sheet": "Penanda_missing_train",
+    "records": 12,
+    "columns": 7
+  },
+  {
+    "sheet": "Parameter_tetap_5B",
+    "records": 14,
+    "columns": 3
+  },
+  {
+    "sheet": "Waktu_preprocessing",
+    "records": 4,
+    "columns": 5
+  },
+  {
+    "sheet": "Waktu_Ridge",
+    "records": 12,
+    "columns": 6
+  },
+  {
+    "sheet": "Prefix_imputer",
+    "records": 30,
+    "columns": 13
+  },
+  {
+    "sheet": "Koefisien_Ridge",
+    "records": 408,
+    "columns": 7
+  },
+  {
+    "sheet": "Prediksi_OOF",
+    "records": 19797,
+    "columns": 12
+  },
+  {
+    "sheet": "Definisi",
+    "records": 17,
+    "columns": 2
+  },
+  {
+    "sheet": "Integritas_SHA256",
+    "records": 95,
+    "columns": 4
+  }
+]

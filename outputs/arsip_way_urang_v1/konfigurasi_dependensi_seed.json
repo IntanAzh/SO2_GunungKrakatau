@@ -1,0 +1,667 @@
+{
+  "Catatan": "Ekstraksi metadata konfigurasi lama; tidak mengestimasi parameter atau membuat hasil baru. File penuh disalin utuh.",
+  "Pilihan operasional saat arsip": {
+    "imputasi": "median",
+    "warmup_hari": 30,
+    "status": "sementara; bukan metode atau durasi terbukti paling akurat"
+  },
+  "Seed": {
+    "pilot_masking": [
+      11,
+      23,
+      47
+    ],
+    "LSTM": [
+      11,
+      23,
+      47
+    ],
+    "Ridge": "Konfigurasi lama mencatat seed42; solverSVD deterministik, bukan pemilihan seed terbaik.",
+    "IterativeImputer_pilot": "random_state42 sesuai config p3; bukan multiple imputation lengkap"
+  },
+  "Dependensi disalin": [
+    "salinan/requirements.txt",
+    "salinan/requirements-lstm-lock.txt",
+    "salinan/outputs/environment_freeze.txt"
+  ],
+  "Lingkungan": "Python3.15.2 untuk audit/Ridge; environment LSTM terpisah Python3.12.14 dengan PyTorch2.15.0+cpu. Detail aktual perstage pada config. Environment biner/node_modules tidak disalin.",
+  "Konfigurasi": [
+    {
+      "Tahap": "4_pilot_imputasi",
+      "File sumber": "outputs/pilot_way_urang/config.json",
+      "Salinan": "salinan/outputs/pilot_way_urang/config.json",
+      "SHA256": "a603c21ff24094a0340abe66c57b0be49fb33bd65a09afe2f3562748f995f2f2",
+      "Tersedia": true,
+      "Parameter tercatat": {
+        "stasiun": "Kab. Lampung Selatan Way Urang",
+        "status": "pilot sementara, bukan stasiun final",
+        "seeds": [
+          11,
+          23,
+          47
+        ],
+        "p3": {
+          "estimator": "BayesianRidge",
+          "max_iter": 20,
+          "tol": 0.001,
+          "initial_strategy": "median",
+          "imputation_order": "ascending",
+          "random_state": 42,
+          "sample_posterior": false,
+          "skip_complete": false
+        },
+        "p2_k": [
+          3,
+          5,
+          10
+        ],
+        "p1_limits_slots": [
+          1,
+          4,
+          71,
+          97,
+          184,
+          981
+        ],
+        "common_covariates": [
+          "PM10",
+          "PM2.5",
+          "CO",
+          "O3",
+          "NO2",
+          "Kec.Angin",
+          "Kelembaban",
+          "Suhu",
+          "Tek.Udara",
+          "Sol.Rad",
+          "Curah Hujan"
+        ],
+        "covariate_lag_slots": 1,
+        "versions": {
+          "numpy": "2.5.4",
+          "pandas": "3.1.1",
+          "scikit-learn": "1.9.1",
+          "scipy": "1.18.1"
+        },
+        "python": "3.15.2",
+        "test_evaluated": false
+      }
+    },
+    {
+      "Tahap": "5_forecasting_Ridge",
+      "File sumber": "outputs/forecasting_way_urang/config_locked.json",
+      "Salinan": "salinan/outputs/forecasting_way_urang/config_locked.json",
+      "SHA256": "f6b7aacb5e9a10f6532321a79acd780246439072871e74311a39b31803e511c1",
+      "Tersedia": true,
+      "Parameter tercatat": {
+        "station": "Way Urang pilot sementara",
+        "status": "Dikunci sebelum forecasting; tanpa tuning hasil forecasting",
+        "seed": 42,
+        "covariates": [
+          "PM10",
+          "PM2.5",
+          "CO",
+          "O3",
+          "NO2",
+          "Kec.Angin",
+          "Kelembaban",
+          "Suhu",
+          "Tek.Udara",
+          "Sol.Rad",
+          "Curah Hujan"
+        ],
+        "covariate_lag_slots": 1,
+        "so2_lags": [
+          0,
+          1,
+          2,
+          6,
+          12,
+          24,
+          48
+        ],
+        "horizon_minutes": 30,
+        "warmup_slots": 4320,
+        "prefix_update_slots": 1440,
+        "ffill_limit_slots": 4,
+        "knn": {
+          "k": 10,
+          "weights": "distance",
+          "metric": "nan_euclidean",
+          "minimum_original_covariates": 2
+        },
+        "ridge": {
+          "alpha": 1.0,
+          "fit_intercept": true,
+          "solver": "svd"
+        },
+        "availability": "SO2(u) diasumsikan tersedia pada origin u; kovariat(u-1) diasumsikan tersedia pada u. Latensi aktual belum diketahui.",
+        "quality": "nol, lonjakan, konstan dan ekstrem dipertahankan; ledger off-grid tahap 4 tidak dipetakan",
+        "threads": 1,
+        "versions": {
+          "pandas": "3.1.1",
+          "numpy": "2.5.4",
+          "scikit-learn": "1.9.1",
+          "scipy": "1.18.1"
+        },
+        "test_loaded": false,
+        "test_evaluated": false
+      }
+    },
+    {
+      "Tahap": "5B_ablasi_hujan",
+      "File sumber": "outputs/ablasi_curah_hujan_5B/config_locked.json",
+      "Salinan": "salinan/outputs/ablasi_curah_hujan_5B/config_locked.json",
+      "SHA256": "a79225e0f1136d8a5158dc5a414871ef1c39c084c7aae50be5b440ed0dc3ba02",
+      "Tersedia": true,
+      "Parameter tercatat": {
+        "station": "Way Urang pilot sementara",
+        "status": "Dikunci sebelum forecasting; tanpa tuning hasil forecasting",
+        "seed": 42,
+        "covariates": [
+          "PM10",
+          "PM2.5",
+          "CO",
+          "O3",
+          "NO2",
+          "Kec.Angin",
+          "Kelembaban",
+          "Suhu",
+          "Tek.Udara",
+          "Sol.Rad"
+        ],
+        "covariate_lag_slots": 1,
+        "so2_lags": [
+          0,
+          1,
+          2,
+          6,
+          12,
+          24,
+          48
+        ],
+        "horizon_minutes": 30,
+        "warmup_slots": 4320,
+        "prefix_update_slots": 1440,
+        "ffill_limit_slots": 4,
+        "knn": {
+          "k": 10,
+          "weights": "distance",
+          "metric": "nan_euclidean",
+          "minimum_original_covariates": 2
+        },
+        "ridge": {
+          "alpha": 1.0,
+          "fit_intercept": true,
+          "solver": "svd"
+        },
+        "availability": "SO2(u) diasumsikan tersedia pada origin u; kovariat(u-1) diasumsikan tersedia pada u. Latensi aktual belum diketahui.",
+        "quality": "nol, lonjakan, konstan dan ekstrem dipertahankan; ledger off-grid tahap 4 tidak dipetakan",
+        "threads": 1,
+        "versions": {
+          "numpy": "2.5.4",
+          "pandas": "3.1.1",
+          "scikit-learn": "1.9.1",
+          "scipy": "1.18.1"
+        },
+        "test_loaded": false,
+        "test_evaluated": false
+      }
+    },
+    {
+      "Tahap": "6_backtesting",
+      "File sumber": "outputs/backtesting_way_urang/fold_config_locked.json",
+      "Salinan": "salinan/outputs/backtesting_way_urang/fold_config_locked.json",
+      "SHA256": "37d0fc2f8ef09b7a44f6b2f666f598160f78a9fe5f955ef19c3d8969497c13b5",
+      "Tersedia": true,
+      "Parameter tercatat": {
+        "station": "Way Urang pilot sementara",
+        "status": "Dikunci sebelum forecasting; tanpa tuning hasil forecasting",
+        "seed": 42,
+        "covariates": [
+          "PM10",
+          "PM2.5",
+          "CO",
+          "O3",
+          "NO2",
+          "Kec.Angin",
+          "Kelembaban",
+          "Suhu",
+          "Tek.Udara",
+          "Sol.Rad"
+        ],
+        "covariate_lag_slots": 1,
+        "so2_lags": [
+          0,
+          1,
+          2,
+          6,
+          12,
+          24,
+          48
+        ],
+        "horizon_minutes": 30,
+        "warmup_slots": 4320,
+        "prefix_update_slots": 1440,
+        "ffill_limit_slots": 4,
+        "knn": {
+          "k": 10,
+          "weights": "distance",
+          "metric": "nan_euclidean",
+          "minimum_original_covariates": 2
+        },
+        "ridge": {
+          "alpha": 1.0,
+          "fit_intercept": true,
+          "solver": "svd"
+        },
+        "fold_cuts": [
+          5760,
+          10732,
+          15703,
+          20674,
+          25645
+        ],
+        "folds": [
+          {
+            "Fold": "Fold_01",
+            "Train mulai": "2025-01-01 00:00:00",
+            "Train akhir": "2025-04-30 23:30:00",
+            "Validasi mulai": "2025-05-01 00:00:00",
+            "Validasi akhir": "2025-08-12 13:30:00",
+            "Validasi akhir eksklusif": "2025-08-12 14:00:00",
+            "Slot train": 5760,
+            "Slot validasi": 4972,
+            "Durasi validasi jam": 2486.0,
+            "Index awal validasi": 5760,
+            "Index akhir validasi eksklusif": 10732
+          },
+          {
+            "Fold": "Fold_02",
+            "Train mulai": "2025-01-01 00:00:00",
+            "Train akhir": "2025-08-12 13:30:00",
+            "Validasi mulai": "2025-08-12 14:00:00",
+            "Validasi akhir": "2025-11-24 03:00:00",
+            "Validasi akhir eksklusif": "2025-11-24 03:30:00",
+            "Slot train": 10732,
+            "Slot validasi": 4971,
+            "Durasi validasi jam": 2485.5,
+            "Index awal validasi": 10732,
+            "Index akhir validasi eksklusif": 15703
+          },
+          {
+            "Fold": "Fold_03",
+            "Train mulai": "2025-01-01 00:00:00",
+            "Train akhir": "2025-11-24 03:00:00",
+            "Validasi mulai": "2025-11-24 03:30:00",
+            "Validasi akhir": "2026-03-07 16:30:00",
+            "Validasi akhir eksklusif": "2026-03-07 17:00:00",
+            "Slot train": 15703,
+            "Slot validasi": 4971,
+            "Durasi validasi jam": 2485.5,
+            "Index awal validasi": 15703,
+            "Index akhir validasi eksklusif": 20674
+          },
+          {
+            "Fold": "Fold_04",
+            "Train mulai": "2025-01-01 00:00:00",
+            "Train akhir": "2026-03-07 16:30:00",
+            "Validasi mulai": "2026-03-07 17:00:00",
+            "Validasi akhir": "2026-06-19 06:00:00",
+            "Validasi akhir eksklusif": "2026-06-19 06:30:00",
+            "Slot train": 20674,
+            "Slot validasi": 4971,
+            "Durasi validasi jam": 2485.5,
+            "Index awal validasi": 20674,
+            "Index akhir validasi eksklusif": 25645
+          }
+        ],
+        "availability": "SO2(u) diasumsikan tersedia pada origin u; kovariat(u-1) diasumsikan tersedia pada u. Latensi aktual belum diketahui.",
+        "quality": "nol, lonjakan, konstan dan ekstrem dipertahankan; ledger off-grid tahap 4 tidak dipetakan",
+        "threads": 1,
+        "versions": {
+          "numpy": "2.5.4",
+          "pandas": "3.1.1",
+          "scikit-learn": "1.9.1",
+          "scipy": "1.18.1"
+        },
+        "test_loaded": false,
+        "test_evaluated": false
+      }
+    },
+    {
+      "Tahap": "7_LSTM",
+      "File sumber": "outputs/lstm_preprocessing/config_locked.json",
+      "Salinan": "salinan/outputs/lstm_preprocessing/config_locked.json",
+      "SHA256": "0d059513ec74bcb5d4a086ac8cae9f93691dabf154250fe97805c56cba6afdfe",
+      "Tersedia": true,
+      "Parameter tercatat": {
+        "station": "Way Urang pilot sementara",
+        "status": "Dikunci sebelum forecasting; tanpa tuning hasil forecasting",
+        "seeds": [
+          11,
+          23,
+          47
+        ],
+        "seed": 42,
+        "covariates": [
+          "PM10",
+          "PM2.5",
+          "CO",
+          "O3",
+          "NO2",
+          "Kec.Angin",
+          "Kelembaban",
+          "Suhu",
+          "Tek.Udara",
+          "Sol.Rad"
+        ],
+        "covariate_lag_slots": 1,
+        "so2_lags": [
+          0,
+          1,
+          2,
+          6,
+          12,
+          24,
+          48
+        ],
+        "horizon_minutes": 30,
+        "warmup_slots": 4320,
+        "prefix_update_slots": 1440,
+        "ffill_limit_slots": 4,
+        "knn": {
+          "k": 10,
+          "weights": "distance",
+          "metric": "nan_euclidean",
+          "minimum_original_covariates": 2
+        },
+        "ridge": {
+          "alpha": 1.0,
+          "fit_intercept": true,
+          "solver": "svd"
+        },
+        "fold_cuts": [
+          5760,
+          10732,
+          15703,
+          20674,
+          25645
+        ],
+        "folds": [
+          {
+            "Fold": "Fold_01",
+            "Train mulai": "2025-01-01 00:00:00",
+            "Train akhir": "2025-04-30 23:30:00",
+            "Validasi mulai": "2025-05-01 00:00:00",
+            "Validasi akhir": "2025-08-12 13:30:00",
+            "Validasi akhir eksklusif": "2025-08-12 14:00:00",
+            "Slot train": 5760,
+            "Slot validasi": 4972,
+            "Durasi validasi jam": 2486.0,
+            "Index awal validasi": 5760,
+            "Index akhir validasi eksklusif": 10732
+          },
+          {
+            "Fold": "Fold_02",
+            "Train mulai": "2025-01-01 00:00:00",
+            "Train akhir": "2025-08-12 13:30:00",
+            "Validasi mulai": "2025-08-12 14:00:00",
+            "Validasi akhir": "2025-11-24 03:00:00",
+            "Validasi akhir eksklusif": "2025-11-24 03:30:00",
+            "Slot train": 10732,
+            "Slot validasi": 4971,
+            "Durasi validasi jam": 2485.5,
+            "Index awal validasi": 10732,
+            "Index akhir validasi eksklusif": 15703
+          },
+          {
+            "Fold": "Fold_03",
+            "Train mulai": "2025-01-01 00:00:00",
+            "Train akhir": "2025-11-24 03:00:00",
+            "Validasi mulai": "2025-11-24 03:30:00",
+            "Validasi akhir": "2026-03-07 16:30:00",
+            "Validasi akhir eksklusif": "2026-03-07 17:00:00",
+            "Slot train": 15703,
+            "Slot validasi": 4971,
+            "Durasi validasi jam": 2485.5,
+            "Index awal validasi": 15703,
+            "Index akhir validasi eksklusif": 20674
+          },
+          {
+            "Fold": "Fold_04",
+            "Train mulai": "2025-01-01 00:00:00",
+            "Train akhir": "2026-03-07 16:30:00",
+            "Validasi mulai": "2026-03-07 17:00:00",
+            "Validasi akhir": "2026-06-19 06:00:00",
+            "Validasi akhir eksklusif": "2026-06-19 06:30:00",
+            "Slot train": 20674,
+            "Slot validasi": 4971,
+            "Durasi validasi jam": 2485.5,
+            "Index awal validasi": 20674,
+            "Index akhir validasi eksklusif": 25645
+          }
+        ],
+        "architecture": {
+          "lstm_layers": 1,
+          "units": 32,
+          "dense_output": 1,
+          "output_activation": "linear",
+          "bidirectional": false,
+          "dropout": 0,
+          "stateful": false,
+          "parameters": 7201
+        },
+        "optimization": {
+          "loss": "MSE standardized original target",
+          "optimizer": "Adam",
+          "lr": 0.001,
+          "betas": [
+            0.9,
+            0.999
+          ],
+          "eps": 1e-08,
+          "weight_decay": 0,
+          "batch_size": 64,
+          "max_epochs": 50,
+          "patience": 8,
+          "min_delta": 0,
+          "restore_best_weights": true,
+          "epoch_shuffle": "same permutation seed+epoch*100003 across pipelines",
+          "gradient_clipping": false,
+          "prediction_clipping": false
+        },
+        "sequence_features": [
+          "SO2_origin",
+          "PM10_lag1",
+          "PM2.5_lag1",
+          "CO_lag1",
+          "O3_lag1",
+          "NO2_lag1",
+          "Kec.Angin_lag1",
+          "Kelembaban_lag1",
+          "Suhu_lag1",
+          "Tek.Udara_lag1",
+          "Sol.Rad_lag1",
+          "missing_asli_SO2_origin",
+          "missing_asli_PM10_lag1",
+          "missing_asli_PM2.5_lag1",
+          "missing_asli_CO_lag1",
+          "missing_asli_O3_lag1",
+          "missing_asli_NO2_lag1",
+          "missing_asli_Kec.Angin_lag1",
+          "missing_asli_Kelembaban_lag1",
+          "missing_asli_Suhu_lag1",
+          "missing_asli_Tek.Udara_lag1",
+          "missing_asli_Sol.Rad_lag1"
+        ],
+        "sequence_length": 48,
+        "internal_split": "floor(0.85*slot_train_fold) menjadi batas target validasi internal; tanpa memilih konsentrasi",
+        "imputer_fit_scope": "Prefix kausal inner train; setelah batas inner train dibekukan termasuk evaluasi outer. Ffill tetap memakai pengamatan asli terdahulu yang sudah tersedia.",
+        "feature_scaling": "StandardScaler11kanal numerik pada slot input UNIK yang dipakai sekuens train bersama internal;11indikator tetap0/1.",
+        "target_scaling": "z=(target-mean_train_bersama_internal)/SDpopulasi_train; MSE training di satuan standar; prediksi di-inverse ke satuan asli sebelum semua skor. Tidak mengisi target.",
+        "availability": "SO2(u) diasumsikan tersedia pada origin u; kovariat(u-1) diasumsikan tersedia pada u. Latensi aktual belum diketahui.",
+        "quality": "nol, lonjakan, konstan dan ekstrem dipertahankan; ledger off-grid tahap 4 tidak dipetakan",
+        "device": "cpu",
+        "threads": 1,
+        "torch_threads": 1,
+        "deterministic_algorithms": true,
+        "environment": {
+          "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+          "executable": "C:\\Users\\INTAN\\airpollutan_SO2\\.venv-lstm\\Scripts\\python.exe",
+          "platform": "Windows-11-10.0.26300-SP0",
+          "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+          "logical_cpus": 12,
+          "cuda_available": false,
+          "torch_cuda_build": null,
+          "versions": {
+            "torch": "2.15.0+cpu",
+            "numpy": "2.5.4",
+            "pandas": "3.1.1",
+            "scikit-learn": "1.9.1",
+            "scipy": "1.18.1",
+            "matplotlib": "3.11.2",
+            "ipykernel": "7.4.0"
+          }
+        },
+        "versions": {
+          "numpy": "2.5.4",
+          "pandas": "3.1.1",
+          "scikit-learn": "1.9.1",
+          "scipy": "1.18.1"
+        },
+        "test_loaded": false,
+        "test_evaluated": false
+      }
+    },
+    {
+      "Tahap": "8_sensitivitas_warmup",
+      "File sumber": "outputs/sensitivitas_kalibrasi/config_locked.json",
+      "Salinan": "salinan/outputs/sensitivitas_kalibrasi/config_locked.json",
+      "SHA256": "594d344745fda9723d5b00b106a83977fedd6aa11a5636155ce1dc51025abfa8",
+      "Tersedia": true,
+      "Parameter tercatat": {
+        "station": "Way Urang pilot sementara",
+        "covariates": [
+          "PM10",
+          "PM2.5",
+          "CO",
+          "O3",
+          "NO2",
+          "Kec.Angin",
+          "Kelembaban",
+          "Suhu",
+          "Tek.Udara",
+          "Sol.Rad"
+        ],
+        "covariate_lag_slots": 1,
+        "so2_lags": [
+          0,
+          1,
+          2,
+          6,
+          12,
+          24,
+          48
+        ],
+        "horizon_minutes": 30,
+        "prefix_update_slots": 1440,
+        "ridge": {
+          "alpha": 1.0,
+          "fit_intercept": true,
+          "solver": "svd"
+        },
+        "fold_cuts": [
+          5760,
+          10732,
+          15703,
+          20674,
+          25645
+        ],
+        "folds": [
+          {
+            "Fold": "Fold_01",
+            "Train mulai": "2025-01-01 00:00:00",
+            "Train akhir": "2025-04-30 23:30:00",
+            "Validasi mulai": "2025-05-01 00:00:00",
+            "Validasi akhir": "2025-08-12 13:30:00",
+            "Validasi akhir eksklusif": "2025-08-12 14:00:00",
+            "Slot train": 5760,
+            "Slot validasi": 4972,
+            "Durasi validasi jam": 2486.0,
+            "Index awal validasi": 5760,
+            "Index akhir validasi eksklusif": 10732
+          },
+          {
+            "Fold": "Fold_02",
+            "Train mulai": "2025-01-01 00:00:00",
+            "Train akhir": "2025-08-12 13:30:00",
+            "Validasi mulai": "2025-08-12 14:00:00",
+            "Validasi akhir": "2025-11-24 03:00:00",
+            "Validasi akhir eksklusif": "2025-11-24 03:30:00",
+            "Slot train": 10732,
+            "Slot validasi": 4971,
+            "Durasi validasi jam": 2485.5,
+            "Index awal validasi": 10732,
+            "Index akhir validasi eksklusif": 15703
+          },
+          {
+            "Fold": "Fold_03",
+            "Train mulai": "2025-01-01 00:00:00",
+            "Train akhir": "2025-11-24 03:00:00",
+            "Validasi mulai": "2025-11-24 03:30:00",
+            "Validasi akhir": "2026-03-07 16:30:00",
+            "Validasi akhir eksklusif": "2026-03-07 17:00:00",
+            "Slot train": 15703,
+            "Slot validasi": 4971,
+            "Durasi validasi jam": 2485.5,
+            "Index awal validasi": 15703,
+            "Index akhir validasi eksklusif": 20674
+          },
+          {
+            "Fold": "Fold_04",
+            "Train mulai": "2025-01-01 00:00:00",
+            "Train akhir": "2026-03-07 16:30:00",
+            "Validasi mulai": "2026-03-07 17:00:00",
+            "Validasi akhir": "2026-06-19 06:00:00",
+            "Validasi akhir eksklusif": "2026-06-19 06:30:00",
+            "Slot train": 20674,
+            "Slot validasi": 4971,
+            "Durasi validasi jam": 2485.5,
+            "Index awal validasi": 20674,
+            "Index akhir validasi eksklusif": 25645
+          }
+        ],
+        "target_scaling": false,
+        "availability": "SO2(u) diasumsikan tersedia pada origin u; kovariat(u-1) diasumsikan tersedia pada u. Latensi aktual belum diketahui.",
+        "quality": "nol, lonjakan, konstan dan ekstrem dipertahankan; ledger off-grid tahap 4 tidak dipetakan",
+        "threads": 1,
+        "versions": {
+          "numpy": "2.5.4",
+          "pandas": "3.1.1",
+          "scikit-learn": "1.9.1",
+          "scipy": "1.18.1"
+        },
+        "python": "3.15.2 (tags/v3.15.2:5e58eaa, Oct 25 2026, 17:27:03) [MSC v.1951 64 bit (AMD64)]",
+        "calibration_days": [
+          30,
+          60,
+          90
+        ],
+        "buffer_slots": 48,
+        "test_start": "2026-06-19 06:30:00",
+        "test_loaded": false,
+        "test_evaluated": false,
+        "deep_learning_trained": false
+      }
+    },
+    {
+      "Tahap": "6_diagnosis",
+      "File sumber": "outputs/diagnosis_fold1/aturan_diagnosis.json",
+      "Salinan": "salinan/outputs/diagnosis_fold1/aturan_diagnosis.json",
+      "SHA256": "580239e30dc486f3dd53cb5125e862fcf7521a3a5d823c89d7fb97e987d9b00e",
+      "Tersedia": true,
+      "Parameter tercatat": {}
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "fit_count": 12,
+  "test_loaded": false,
+  "test_evaluated": false,
+  "deep_learning_trained": false,
+  "config_sha256": "594d344745fda9723d5b00b106a83977fedd6aa11a5636155ce1dc51025abfa8",
+  "oof_target_n": 19797,
+  "common_target_n": 19797,
+  "old_files_identical": 367
+}

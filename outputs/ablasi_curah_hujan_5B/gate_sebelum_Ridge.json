@@ -1,0 +1,16 @@
+{
+  "Ridge fit count saat pemeriksaan": 0,
+  "Train bersama lama": 12654,
+  "Train bersama baru": 16530,
+  "Tambahan timestamp": 3876,
+  "Timestamp lama tidak lagi layak": 0,
+  "Target tinggi lama": 0,
+  "Target tinggi baru": 3786,
+  "Target tinggi kembali masuk": 3786,
+  "Minimum target baru": 1.04,
+  "Median target baru": 1.6,
+  "Maksimum target baru": 47.81,
+  "Konfigurasi SHA256": "a79225e0f1136d8a5158dc5a414871ef1c39c084c7aae50be5b440ed0dc3ba02",
+  "Test dimuat": false,
+  "Test dievaluasi": false
+}

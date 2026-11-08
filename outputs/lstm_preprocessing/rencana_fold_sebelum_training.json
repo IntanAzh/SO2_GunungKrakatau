@@ -1,0 +1,54 @@
+[
+  {
+    "Fold": "Fold_01",
+    "Inner train awal": "2025-01-01 00:00:00",
+    "Inner train akhir": "2025-04-12 23:30:00",
+    "Validasi internal awal": "2025-04-13 00:00:00",
+    "Validasi internal akhir": "2025-04-30 23:30:00",
+    "Evaluasi awal": "2025-05-01 00:00:00",
+    "Evaluasi akhir": "2025-08-12 13:30:00",
+    "Slot inner train": 4896,
+    "Slot internal validation": 864,
+    "Slot outer train": 5760,
+    "Slot evaluasi": 4972
+  },
+  {
+    "Fold": "Fold_02",
+    "Inner train awal": "2025-01-01 00:00:00",
+    "Inner train akhir": "2025-07-10 00:30:00",
+    "Validasi internal awal": "2025-07-10 01:00:00",
+    "Validasi internal akhir": "2025-08-12 13:30:00",
+    "Evaluasi awal": "2025-08-12 14:00:00",
+    "Evaluasi akhir": "2025-11-24 03:00:00",
+    "Slot inner train": 9122,
+    "Slot internal validation": 1610,
+    "Slot outer train": 10732,
+    "Slot evaluasi": 4971
+  },
+  {
+    "Fold": "Fold_03",
+    "Inner train awal": "2025-01-01 00:00:00",
+    "Inner train akhir": "2025-10-06 01:00:00",
+    "Validasi internal awal": "2025-10-06 01:30:00",
+    "Validasi internal akhir": "2025-11-24 03:00:00",
+    "Evaluasi awal": "2025-11-24 03:30:00",
+    "Evaluasi akhir": "2026-03-07 16:30:00",
+    "Slot inner train": 13347,
+    "Slot internal validation": 2356,
+    "Slot outer train": 15703,
+    "Slot evaluasi": 4971
+  },
+  {
+    "Fold": "Fold_04",
+    "Inner train awal": "2025-01-01 00:00:00",
+    "Inner train akhir": "2026-01-02 01:30:00",
+    "Validasi internal awal": "2026-01-02 02:00:00",
+    "Validasi internal akhir": "2026-03-07 16:30:00",
+    "Evaluasi awal": "2026-03-07 17:00:00",
+    "Evaluasi akhir": "2026-06-19 06:00:00",
+    "Slot inner train": 17572,
+    "Slot internal validation": 3102,
+    "Slot outer train": 20674,
+    "Slot evaluasi": 4971
+  }
+]

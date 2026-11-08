@@ -1,0 +1,16 @@
+{
+  "completed_checkpoints_verified": 36,
+  "manual_knn_prefix_checks": 26,
+  "sequence_shape_verified": [
+    48,
+    22
+  ],
+  "causal_preprocessing_and_inner_scalers": true,
+  "early_stopping_best_weights_verified": true,
+  "all_metrics_recomputed": true,
+  "target_inverse_verified": true,
+  "test_loaded": false,
+  "old_hashes_identical": 166,
+  "preexisting_notebook_discrepancies": 1,
+  "tables_sha256": "ac8f9e1a14ee5703de81c0bb08a925c8f00be7f62eaa92c69f50d7f1c037c3fb"
+}

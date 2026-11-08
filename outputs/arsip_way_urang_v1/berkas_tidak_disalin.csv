@@ -1,0 +1,14 @@
+﻿Lokasi,Tipe,Ukuran byte,SHA256,Alasan
+outputs/.ipython,direktori,,,Cache/runtime atau arsip lain; bukan hasil eksperimen yang diduplikasi
+outputs/.mplconfig,direktori,,,Cache/runtime atau arsip lain; bukan hasil eksperimen yang diduplikasi
+outputs/.uvcache,direktori,,,Cache/runtime atau arsip lain; bukan hasil eksperimen yang diduplikasi
+outputs/audit_kualitas_data.xlsx.inspect.ndjson,file,41199264,403a09f6a0d54d7ca6ac375a293b74ed68bdee12fbfbeeb7bd0fe8a77b217875,Log inspeksi internal exporter; tidak memuat hasil ilmiah tambahan. XLSX/JSON/PNG hasil utama tetap disalin.
+outputs/backtesting_preprocessing.xlsx.inspect.ndjson,file,70084637,3e2d2197fe837bbd5db13999eb2aac1bf5cacb8038226f47524ba3b1a45493e9,Log inspeksi internal exporter; tidak memuat hasil ilmiah tambahan. XLSX/JSON/PNG hasil utama tetap disalin.
+outputs/diagnosis_fold1.xlsx.inspect.ndjson,file,73764036,1e14f0a4d88d1455ed6685eee8d05cf13a30b5835e49f837f753a06ba7e19f90,Log inspeksi internal exporter; tidak memuat hasil ilmiah tambahan. XLSX/JSON/PNG hasil utama tetap disalin.
+outputs/forecasting_acuan_way_urang.xlsx.inspect.ndjson,file,17807847,0dae93bd99a06c734be1ab68115d3ed73a2aa383d557a97291c9de48d2f9e3cf,Log inspeksi internal exporter; tidak memuat hasil ilmiah tambahan. XLSX/JSON/PNG hasil utama tetap disalin.
+outputs/hasil_5B_ablasi_curah_hujan.xlsx.inspect.ndjson,file,42755652,b7bb8d51b170291a3afad9a58fbc87b40cde0235195a7bb330f757aae295f7ed,Log inspeksi internal exporter; tidak memuat hasil ilmiah tambahan. XLSX/JSON/PNG hasil utama tetap disalin.
+outputs/hasil_lstm_preprocessing.xlsx.inspect.ndjson,file,136393155,5d2c22a5a1770c2682d38e2f591aff8d25850c522a8220fa4314c0751dc89a11,Log inspeksi internal exporter; tidak memuat hasil ilmiah tambahan. XLSX/JSON/PNG hasil utama tetap disalin.
+outputs/hasil_sensitivitas_kalibrasi.xlsx.inspect.ndjson,file,73619376,0f7761e246b92404a55adc051e39ea7e9a1999008105639f6007ababf83d1a4f,Log inspeksi internal exporter; tidak memuat hasil ilmiah tambahan. XLSX/JSON/PNG hasil utama tetap disalin.
+outputs/pemeriksaan_lanjutan_kualitas.xlsx.inspect.ndjson,file,4555083,c4b6cbe25b47b4bec7b9e6789f2399977f9f1fdb4cfffe399f93bd046e28d211,Log inspeksi internal exporter; tidak memuat hasil ilmiah tambahan. XLSX/JSON/PNG hasil utama tetap disalin.
+outputs/penelusuran_sampel_tahap5.xlsx.inspect.ndjson,file,60164174,949d898e21c25fc302187a7504b8ee2c8ae5c0cf05eecf2d7d4a4159520c14a7,Log inspeksi internal exporter; tidak memuat hasil ilmiah tambahan. XLSX/JSON/PNG hasil utama tetap disalin.
+outputs/pilot_imputasi_way_urang.xlsx.inspect.ndjson,file,26811608,549af212343d82a6098ee6984e708e143736e0a7e12f33d6f7bad7e321511566,Log inspeksi internal exporter; tidak memuat hasil ilmiah tambahan. XLSX/JSON/PNG hasil utama tetap disalin.

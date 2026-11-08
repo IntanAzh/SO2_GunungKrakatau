@@ -1,0 +1,13 @@
+{
+  "Fold": "Fold_04",
+  "Ridge fit count global sebelum gate": 0,
+  "Jumlah fitur": 34,
+  "Minimum train bersama disyaratkan": 340,
+  "Jumlah train bersama": 16086,
+  "Target unik train bersama": 449,
+  "Cukup sampel": true,
+  "Kalibrasi mulai": "2025-01-01 00:00:00",
+  "Kalibrasi sampai": "2025-03-31 23:30:00",
+  "Origin dipurge": "2026-03-07 16:30:00",
+  "Target origin dipurge": "2026-03-07 17:00:00"
+}

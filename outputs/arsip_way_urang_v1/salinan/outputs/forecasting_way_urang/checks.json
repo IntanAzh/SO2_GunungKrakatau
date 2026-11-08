@@ -1,0 +1,12 @@
+{
+  "test_loaded": false,
+  "test_evaluated": false,
+  "config_sha256": "f6b7aacb5e9a10f6532321a79acd780246439072871e74311a39b31803e511c1",
+  "n_train_common": 12654,
+  "n_valid_observed_targets": 4524,
+  "n_common_evaluation": 4487,
+  "max_loaded_time": "2026-06-19 06:00:00",
+  "max_target_time": "2026-06-19 06:00:00",
+  "purged_train_origin": "2026-03-16 23:00:00",
+  "source_unchanged": true
+}

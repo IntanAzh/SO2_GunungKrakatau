@@ -1,0 +1,14 @@
+{
+  "test_loaded": false,
+  "test_evaluated": false,
+  "ridge_fit_count": 6,
+  "config_sha256": "a79225e0f1136d8a5158dc5a414871ef1c39c084c7aae50be5b440ed0dc3ba02",
+  "gate_passed_before_ridge": true,
+  "old_ids_subset_new": true,
+  "global_eval_count": 4487,
+  "global_eval_hash": "07c6593b5604cd00ff23346493a4f90174685a0b0c76bf6137ed4c8a92b137c4",
+  "rain_in_features": false,
+  "rain_in_imputer_matrix": false,
+  "source_and_legacy_unchanged": true,
+  "impute_history_total_seconds": 5.819241200000761
+}

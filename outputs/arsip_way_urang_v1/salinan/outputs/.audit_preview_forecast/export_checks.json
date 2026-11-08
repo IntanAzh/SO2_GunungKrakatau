@@ -1,0 +1,97 @@
+[
+  {
+    "sheet": "Ringkasan",
+    "records": 8,
+    "columns": 9
+  },
+  {
+    "sheet": "Performa_bulanan",
+    "records": 32,
+    "columns": 10
+  },
+  {
+    "sheet": "Strata_missing",
+    "records": 12,
+    "columns": 10
+  },
+  {
+    "sheet": "Distribusi_train_Ridge",
+    "records": 11,
+    "columns": 9
+  },
+  {
+    "sheet": "SO2_bulanan_train_validasi",
+    "records": 19,
+    "columns": 16
+  },
+  {
+    "sheet": "SO2_distribusi_split",
+    "records": 2,
+    "columns": 16
+  },
+  {
+    "sheet": "Pilot_P0_KNN_per_seed",
+    "records": 72,
+    "columns": 17
+  },
+  {
+    "sheet": "Pilot_P0_KNN_variasi",
+    "records": 24,
+    "columns": 21
+  },
+  {
+    "sheet": "Pilot_waktu_fit",
+    "records": 2,
+    "columns": 3
+  },
+  {
+    "sheet": "Rancangan_dikunci",
+    "records": 30,
+    "columns": 2
+  },
+  {
+    "sheet": "Train_bersama_purge",
+    "records": 3,
+    "columns": 9
+  },
+  {
+    "sheet": "Prefix_imputer_kausal",
+    "records": 13,
+    "columns": 12
+  },
+  {
+    "sheet": "Kelengkapan_input",
+    "records": 3,
+    "columns": 5
+  },
+  {
+    "sheet": "Waktu_Ridge",
+    "records": 3,
+    "columns": 4
+  },
+  {
+    "sheet": "Koefisien_Ridge",
+    "records": 108,
+    "columns": 6
+  },
+  {
+    "sheet": "Prediksi_validasi",
+    "records": 4524,
+    "columns": 13
+  },
+  {
+    "sheet": "Definisi",
+    "records": 17,
+    "columns": 2
+  },
+  {
+    "sheet": "Integritas_SHA256",
+    "records": 7,
+    "columns": 4
+  },
+  {
+    "sheet": "Pembagian_waktu",
+    "records": 3,
+    "columns": 7
+  }
+]
