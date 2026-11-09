@@ -1,0 +1,322 @@
+[
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 1,
+    "Train MSE standar": 0.37654106597617387,
+    "Internal MSE standar": 0.008519468335218208
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 2,
+    "Train MSE standar": 0.03655731334403497,
+    "Internal MSE standar": 0.0028691431117612264
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 3,
+    "Train MSE standar": 0.0233042786968055,
+    "Internal MSE standar": 0.002118116599875827
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 4,
+    "Train MSE standar": 0.017741781536012767,
+    "Internal MSE standar": 0.0018423244010570437
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 5,
+    "Train MSE standar": 0.015117198806436827,
+    "Internal MSE standar": 0.0015098958860996158
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 6,
+    "Train MSE standar": 0.012651170491383102,
+    "Internal MSE standar": 0.0019524988220181575
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 7,
+    "Train MSE standar": 0.011167017638352367,
+    "Internal MSE standar": 0.0019915362083634666
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 8,
+    "Train MSE standar": 0.010232158831573437,
+    "Internal MSE standar": 0.0015777877596921698
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 9,
+    "Train MSE standar": 0.009702883208429176,
+    "Internal MSE standar": 0.0014419818513615188
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 10,
+    "Train MSE standar": 0.008833594980294016,
+    "Internal MSE standar": 0.0014120778545390728
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 11,
+    "Train MSE standar": 0.008232577598732648,
+    "Internal MSE standar": 0.0012832982075768847
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 12,
+    "Train MSE standar": 0.007831328327914602,
+    "Internal MSE standar": 0.0013418374539807786
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 13,
+    "Train MSE standar": 0.007842189997463122,
+    "Internal MSE standar": 0.0012447383081497147
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 14,
+    "Train MSE standar": 0.007056768588859417,
+    "Internal MSE standar": 0.0013127792713253997
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 15,
+    "Train MSE standar": 0.007013291322506934,
+    "Internal MSE standar": 0.0016945391200309575
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 16,
+    "Train MSE standar": 0.0065314318371513256,
+    "Internal MSE standar": 0.001717462511949761
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 17,
+    "Train MSE standar": 0.00712565152053125,
+    "Internal MSE standar": 0.001382065113893775
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 18,
+    "Train MSE standar": 0.006527658183087316,
+    "Internal MSE standar": 0.0011767836071031037
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 19,
+    "Train MSE standar": 0.006051687906559149,
+    "Internal MSE standar": 0.001179609880890957
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 20,
+    "Train MSE standar": 0.005884381380667767,
+    "Internal MSE standar": 0.0014746138349521992
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 21,
+    "Train MSE standar": 0.005662157013160623,
+    "Internal MSE standar": 0.001348246001573496
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 22,
+    "Train MSE standar": 0.005441127692299891,
+    "Internal MSE standar": 0.0015423863606397496
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 23,
+    "Train MSE standar": 0.005054748052548299,
+    "Internal MSE standar": 0.0012884538534075716
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 24,
+    "Train MSE standar": 0.004800180957712422,
+    "Internal MSE standar": 0.0011351600116075472
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 25,
+    "Train MSE standar": 0.00437981304789074,
+    "Internal MSE standar": 0.001215232839418012
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 26,
+    "Train MSE standar": 0.004661857086355816,
+    "Internal MSE standar": 0.0015346693957960882
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 27,
+    "Train MSE standar": 0.0044619511755912685,
+    "Internal MSE standar": 0.0011436960464993188
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 28,
+    "Train MSE standar": 0.0043042152164905105,
+    "Internal MSE standar": 0.0012231488040713376
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 29,
+    "Train MSE standar": 0.004115098424759228,
+    "Internal MSE standar": 0.0011341846439727517
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 30,
+    "Train MSE standar": 0.003949539311881656,
+    "Internal MSE standar": 0.0011677459315505138
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 31,
+    "Train MSE standar": 0.0039058170688434876,
+    "Internal MSE standar": 0.001211349336906921
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 32,
+    "Train MSE standar": 0.003770212889150113,
+    "Internal MSE standar": 0.0011266922708167587
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 33,
+    "Train MSE standar": 0.0037347160522402246,
+    "Internal MSE standar": 0.0012210864833621092
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 34,
+    "Train MSE standar": 0.0034731461658007276,
+    "Internal MSE standar": 0.001128472846954368
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 35,
+    "Train MSE standar": 0.003532018902276675,
+    "Internal MSE standar": 0.001138202863377194
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 36,
+    "Train MSE standar": 0.003136349861506969,
+    "Internal MSE standar": 0.0013275616910568503
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 37,
+    "Train MSE standar": 0.0031542521592030754,
+    "Internal MSE standar": 0.0013286909564983013
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 38,
+    "Train MSE standar": 0.0031151428438299664,
+    "Internal MSE standar": 0.001197679843320403
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 39,
+    "Train MSE standar": 0.003138335791220746,
+    "Internal MSE standar": 0.001243960840064426
+  },
+  {
+    "Fold": "Fold_01",
+    "Algoritma": "TCN",
+    "Seed": 11,
+    "Epoch": 40,
+    "Train MSE standar": 0.003015534625676874,
+    "Internal MSE standar": 0.0011934664187043212
+  }
+]

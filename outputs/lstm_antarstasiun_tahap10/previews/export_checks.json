@@ -1,0 +1,152 @@
+[
+  {
+    "sheet": "Ringkasan",
+    "records": 15,
+    "columns": 24
+  },
+  {
+    "sheet": "Skor_fold_seed",
+    "records": 72,
+    "columns": 12
+  },
+  {
+    "sheet": "Gabungan_per_seed",
+    "records": 18,
+    "columns": 12
+  },
+  {
+    "sheet": "Perubahan_S1_vs_S0",
+    "records": 15,
+    "columns": 12
+  },
+  {
+    "sheet": "Skor_bulanan",
+    "records": 558,
+    "columns": 13
+  },
+  {
+    "sheet": "Perubahan_bulanan",
+    "records": 93,
+    "columns": 8
+  },
+  {
+    "sheet": "Ridge_timestamp_identik",
+    "records": 75,
+    "columns": 12
+  },
+  {
+    "sheet": "Transisi_per_seed",
+    "records": 18,
+    "columns": 13
+  },
+  {
+    "sheet": "Tingkat_transisi",
+    "records": 18,
+    "columns": 10
+  },
+  {
+    "sheet": "Alur_sampel",
+    "records": 24,
+    "columns": 12
+  },
+  {
+    "sheet": "Distribusi_target",
+    "records": 36,
+    "columns": 16
+  },
+  {
+    "sheet": "Target_bulanan",
+    "records": 177,
+    "columns": 15
+  },
+  {
+    "sheet": "Keluar_irisan",
+    "records": 24,
+    "columns": 15
+  },
+  {
+    "sheet": "Sampel_tersisih",
+    "records": 60,
+    "columns": 17
+  },
+  {
+    "sheet": "Tersisih_bulanan",
+    "records": 295,
+    "columns": 16
+  },
+  {
+    "sheet": "Purge_batas",
+    "records": 8,
+    "columns": 7
+  },
+  {
+    "sheet": "Ketersediaan_donor",
+    "records": 12,
+    "columns": 11
+  },
+  {
+    "sheet": "Donor_bulanan",
+    "records": 55,
+    "columns": 10
+  },
+  {
+    "sheet": "Distribusi_usia_donor",
+    "records": 4838,
+    "columns": 6
+  },
+  {
+    "sheet": "Rentetan_konstan_donor",
+    "records": 512,
+    "columns": 10
+  },
+  {
+    "sheet": "Training_dan_waktu",
+    "records": 24,
+    "columns": 12
+  },
+  {
+    "sheet": "Riwayat_training",
+    "records": 808,
+    "columns": 6
+  },
+  {
+    "sheet": "Scaler_train_internal",
+    "records": 92,
+    "columns": 9
+  },
+  {
+    "sheet": "Prefix_median",
+    "records": 408,
+    "columns": 10
+  },
+  {
+    "sheet": "Gate_sebelum_training",
+    "records": 4,
+    "columns": 11
+  },
+  {
+    "sheet": "Offgrid_development",
+    "records": 3,
+    "columns": 7
+  },
+  {
+    "sheet": "Prediksi_seluruh_seed",
+    "records": 19797,
+    "columns": 20
+  },
+  {
+    "sheet": "Konfigurasi",
+    "records": 44,
+    "columns": 2
+  },
+  {
+    "sheet": "Definisi",
+    "records": 11,
+    "columns": 2
+  },
+  {
+    "sheet": "Integritas_SHA256",
+    "records": 1254,
+    "columns": 5
+  }
+]

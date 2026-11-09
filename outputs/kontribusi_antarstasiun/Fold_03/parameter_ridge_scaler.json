@@ -1,0 +1,1730 @@
+[
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "SO2_lag0",
+    "Mean train": 19.355696148678735,
+    "Scale train": 22.369736410819904,
+    "Koefisien standar": 12.79560603044018,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "SO2_lag1",
+    "Mean train": 19.35572003284055,
+    "Scale train": 22.36977628160597,
+    "Koefisien standar": 5.692253230005336,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "SO2_lag2",
+    "Mean train": 19.356020077623352,
+    "Scale train": 22.37012489792573,
+    "Koefisien standar": 2.510912226541228,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "SO2_lag6",
+    "Mean train": 19.345790938945935,
+    "Scale train": 22.367865295955003,
+    "Koefisien standar": 1.0910058253033286,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "SO2_lag12",
+    "Mean train": 19.325978280340173,
+    "Scale train": 22.364245951749538,
+    "Koefisien standar": 0.30095350490756484,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "SO2_lag24",
+    "Mean train": 19.28653433348244,
+    "Scale train": 22.356792867165872,
+    "Koefisien standar": 0.15436829915411743,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "SO2_lag48",
+    "Mean train": 19.207044111061187,
+    "Scale train": 22.34083935942955,
+    "Koefisien standar": -0.0026787857441954704,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "PM10_lag1",
+    "Mean train": 16.551749514853032,
+    "Scale train": 10.146965812283725,
+    "Koefisien standar": 0.14122538643295895,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "PM2.5_lag1",
+    "Mean train": 12.479761904761931,
+    "Scale train": 7.84557613092434,
+    "Koefisien standar": -0.15183728687668585,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "CO_lag1",
+    "Mean train": 342.9247148828192,
+    "Scale train": 163.16237271396037,
+    "Koefisien standar": -0.12477605159846683,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "O3_lag1",
+    "Mean train": 12.462052545155899,
+    "Scale train": 12.00388702021934,
+    "Koefisien standar": -0.08786862762177834,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "NO2_lag1",
+    "Mean train": 8.31989326765186,
+    "Scale train": 3.953353990392461,
+    "Koefisien standar": -0.08805699205743459,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "Kec.Angin_lag1",
+    "Mean train": 6.3259553664726225,
+    "Scale train": 13.466133186648067,
+    "Koefisien standar": -0.008311913505989617,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "Kelembaban_lag1",
+    "Mean train": 83.30878414688762,
+    "Scale train": 6.662384933563,
+    "Koefisien standar": 0.017162912680595346,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "Suhu_lag1",
+    "Mean train": 28.683884161815165,
+    "Scale train": 2.145845673595894,
+    "Koefisien standar": 0.022466103881752186,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "Tek.Udara_lag1",
+    "Mean train": 992.891494252876,
+    "Scale train": 26.845624980905026,
+    "Koefisien standar": 0.004815733823029436,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "Sol.Rad_lag1",
+    "Mean train": 88.06479549186375,
+    "Scale train": 187.14360233201987,
+    "Koefisien standar": -0.004167493674762676,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "missing_asli_SO2_lag0",
+    "Mean train": 0.0012688460964323032,
+    "Scale train": 0.03559826015433269,
+    "Koefisien standar": -0.1366696609649483,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "missing_asli_SO2_lag1",
+    "Mean train": 0.001567398119122257,
+    "Scale train": 0.0395593400129367,
+    "Koefisien standar": -0.007538611271248765,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "missing_asli_SO2_lag2",
+    "Mean train": 0.0018659501418122107,
+    "Scale train": 0.043156324818958786,
+    "Koefisien standar": -0.013020131166525157,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "missing_asli_SO2_lag6",
+    "Mean train": 0.0028362442155545602,
+    "Scale train": 0.053180822993871654,
+    "Koefisien standar": 0.08541044211827219,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "missing_asli_SO2_lag12",
+    "Mean train": 0.0041797283176593526,
+    "Scale train": 0.0645155654772608,
+    "Koefisien standar": 0.06400857426419483,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "missing_asli_SO2_lag24",
+    "Mean train": 0.0068666965218689355,
+    "Scale train": 0.08258053645230169,
+    "Koefisien standar": 0.03373516409131376,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "missing_asli_SO2_lag48",
+    "Mean train": 0.012240632930288103,
+    "Scale train": 0.10995817311936922,
+    "Koefisien standar": 0.003729303475517501,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "missing_asli_PM10_lag1",
+    "Mean train": 0.0016420361247947454,
+    "Scale train": 0.04048876192426521,
+    "Koefisien standar": -0.0043706345159588295,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "missing_asli_PM2.5_lag1",
+    "Mean train": 0.0016420361247947454,
+    "Scale train": 0.04048876192426521,
+    "Koefisien standar": 0.002659645537688515,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "missing_asli_CO_lag1",
+    "Mean train": 0.004030452306314375,
+    "Scale train": 0.06335777584890107,
+    "Koefisien standar": 0.010124311526055859,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "missing_asli_O3_lag1",
+    "Mean train": 0.0016420361247947454,
+    "Scale train": 0.04048876192426521,
+    "Koefisien standar": -0.01500344441065045,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "missing_asli_NO2_lag1",
+    "Mean train": 0.001567398119122257,
+    "Scale train": 0.0395593400129367,
+    "Koefisien standar": -0.007538611271911784,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "missing_asli_Kec.Angin_lag1",
+    "Mean train": 0.001567398119122257,
+    "Scale train": 0.0395593400129367,
+    "Koefisien standar": -0.0075386112718151006,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "missing_asli_Kelembaban_lag1",
+    "Mean train": 0.001567398119122257,
+    "Scale train": 0.0395593400129367,
+    "Koefisien standar": -0.007538611271862549,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "missing_asli_Suhu_lag1",
+    "Mean train": 0.001567398119122257,
+    "Scale train": 0.0395593400129367,
+    "Koefisien standar": -0.007538611271796182,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "missing_asli_Tek.Udara_lag1",
+    "Mean train": 0.001567398119122257,
+    "Scale train": 0.0395593400129367,
+    "Koefisien standar": -0.007538611271772976,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S0",
+    "Fitur": "missing_asli_Sol.Rad_lag1",
+    "Mean train": 0.052545155993431854,
+    "Scale train": 0.22312364862348844,
+    "Koefisien standar": -0.002614852920966901,
+    "Intercept": 19.34651567398099
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "SO2_lag0",
+    "Mean train": 19.355696148678735,
+    "Scale train": 22.369736410819904,
+    "Koefisien standar": 12.79249418068759,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "SO2_lag1",
+    "Mean train": 19.35572003284055,
+    "Scale train": 22.36977628160597,
+    "Koefisien standar": 5.656672052134937,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "SO2_lag2",
+    "Mean train": 19.356020077623352,
+    "Scale train": 22.37012489792573,
+    "Koefisien standar": 2.5088349795224234,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "SO2_lag6",
+    "Mean train": 19.345790938945935,
+    "Scale train": 22.367865295955003,
+    "Koefisien standar": 1.0912142160037583,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "SO2_lag12",
+    "Mean train": 19.325978280340173,
+    "Scale train": 22.364245951749538,
+    "Koefisien standar": 0.3007272235194043,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "SO2_lag24",
+    "Mean train": 19.28653433348244,
+    "Scale train": 22.356792867165872,
+    "Koefisien standar": 0.15486172485097693,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "SO2_lag48",
+    "Mean train": 19.207044111061187,
+    "Scale train": 22.34083935942955,
+    "Koefisien standar": -0.0021127363098167873,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "PM10_lag1",
+    "Mean train": 16.551749514853032,
+    "Scale train": 10.146965812283725,
+    "Koefisien standar": 0.14794329050133653,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "PM2.5_lag1",
+    "Mean train": 12.479761904761931,
+    "Scale train": 7.84557613092434,
+    "Koefisien standar": -0.16126756826778427,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "CO_lag1",
+    "Mean train": 342.9247148828192,
+    "Scale train": 163.16237271396037,
+    "Koefisien standar": -0.11717794908318596,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "O3_lag1",
+    "Mean train": 12.462052545155899,
+    "Scale train": 12.00388702021934,
+    "Koefisien standar": -0.06110362240490069,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "NO2_lag1",
+    "Mean train": 8.31989326765186,
+    "Scale train": 3.953353990392461,
+    "Koefisien standar": -0.07246723160288877,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "Kec.Angin_lag1",
+    "Mean train": 6.3259553664726225,
+    "Scale train": 13.466133186648067,
+    "Koefisien standar": -0.008353044893098596,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "Kelembaban_lag1",
+    "Mean train": 83.30878414688762,
+    "Scale train": 6.662384933563,
+    "Koefisien standar": 0.018088375303751736,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "Suhu_lag1",
+    "Mean train": 28.683884161815165,
+    "Scale train": 2.145845673595894,
+    "Koefisien standar": 0.02164134535182534,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "Tek.Udara_lag1",
+    "Mean train": 992.891494252876,
+    "Scale train": 26.845624980905026,
+    "Koefisien standar": 0.004060521318560111,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "Sol.Rad_lag1",
+    "Mean train": 88.06479549186375,
+    "Scale train": 187.14360233201987,
+    "Koefisien standar": -0.002979435525246682,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "missing_asli_SO2_lag0",
+    "Mean train": 0.0012688460964323032,
+    "Scale train": 0.03559826015433269,
+    "Koefisien standar": -0.13678227987732677,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "missing_asli_SO2_lag1",
+    "Mean train": 0.001567398119122257,
+    "Scale train": 0.0395593400129367,
+    "Koefisien standar": -0.00744058284513677,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "missing_asli_SO2_lag2",
+    "Mean train": 0.0018659501418122107,
+    "Scale train": 0.043156324818958786,
+    "Koefisien standar": -0.013356234466694497,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "missing_asli_SO2_lag6",
+    "Mean train": 0.0028362442155545602,
+    "Scale train": 0.053180822993871654,
+    "Koefisien standar": 0.08541620040967535,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "missing_asli_SO2_lag12",
+    "Mean train": 0.0041797283176593526,
+    "Scale train": 0.0645155654772608,
+    "Koefisien standar": 0.06394758268023598,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "missing_asli_SO2_lag24",
+    "Mean train": 0.0068666965218689355,
+    "Scale train": 0.08258053645230169,
+    "Koefisien standar": 0.03393036460139912,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "missing_asli_SO2_lag48",
+    "Mean train": 0.012240632930288103,
+    "Scale train": 0.10995817311936922,
+    "Koefisien standar": 0.003372402540379538,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "missing_asli_PM10_lag1",
+    "Mean train": 0.0016420361247947454,
+    "Scale train": 0.04048876192426521,
+    "Koefisien standar": -0.004192607858623607,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "missing_asli_PM2.5_lag1",
+    "Mean train": 0.0016420361247947454,
+    "Scale train": 0.04048876192426521,
+    "Koefisien standar": 0.003118720723775472,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "missing_asli_CO_lag1",
+    "Mean train": 0.004030452306314375,
+    "Scale train": 0.06335777584890107,
+    "Koefisien standar": 0.00979758918396953,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "missing_asli_O3_lag1",
+    "Mean train": 0.0016420361247947454,
+    "Scale train": 0.04048876192426521,
+    "Koefisien standar": -0.014935577465092064,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "missing_asli_NO2_lag1",
+    "Mean train": 0.001567398119122257,
+    "Scale train": 0.0395593400129367,
+    "Koefisien standar": -0.00744058284553021,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "missing_asli_Kec.Angin_lag1",
+    "Mean train": 0.001567398119122257,
+    "Scale train": 0.0395593400129367,
+    "Koefisien standar": -0.007440582845524818,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "missing_asli_Kelembaban_lag1",
+    "Mean train": 0.001567398119122257,
+    "Scale train": 0.0395593400129367,
+    "Koefisien standar": -0.00744058284551197,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "missing_asli_Suhu_lag1",
+    "Mean train": 0.001567398119122257,
+    "Scale train": 0.0395593400129367,
+    "Koefisien standar": -0.007440582845465393,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "missing_asli_Tek.Udara_lag1",
+    "Mean train": 0.001567398119122257,
+    "Scale train": 0.0395593400129367,
+    "Koefisien standar": -0.007440582845455948,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "missing_asli_Sol.Rad_lag1",
+    "Mean train": 0.052545155993431854,
+    "Scale train": 0.22312364862348844,
+    "Koefisien standar": -0.0023487955287854355,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "Pulomerak_SO2_origin_minus1",
+    "Mean train": 35.48093894611167,
+    "Scale train": 3.608588672858962,
+    "Koefisien standar": -0.009746174045711873,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "Pulomerak_SO2_origin_minus2",
+    "Mean train": 35.48072697417557,
+    "Scale train": 3.6089628884575995,
+    "Koefisien standar": -0.030264479995803145,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "Pulomerak_SO2_origin_minus3",
+    "Mean train": 35.48024033437858,
+    "Scale train": 3.6092325076644456,
+    "Koefisien standar": 0.01643770507179213,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "Pulomerak_SO2_origin_minus7",
+    "Mean train": 35.478151962979865,
+    "Scale train": 3.610249220750586,
+    "Koefisien standar": -0.002369882858136713,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "Pulomerak_SO2_origin_minus13",
+    "Mean train": 35.47446260635949,
+    "Scale train": 3.6113975182315325,
+    "Koefisien standar": -0.009732573801119068,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "Pulomerak_SO2_origin_minus25",
+    "Mean train": 35.46831094193198,
+    "Scale train": 3.61440850608079,
+    "Koefisien standar": 0.02239721347237105,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "Pulomerak_SO2_origin_minus49",
+    "Mean train": 35.45461785341132,
+    "Scale train": 3.6201860829550103,
+    "Koefisien standar": -0.013116335226936162,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "missing_asli_Pulomerak_SO2_origin_minus1",
+    "Mean train": 0.05403791610688163,
+    "Scale train": 0.2260925025949978,
+    "Koefisien standar": -0.016127824050628223,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "missing_asli_Pulomerak_SO2_origin_minus2",
+    "Mean train": 0.05403791610688163,
+    "Scale train": 0.2260925025949978,
+    "Koefisien standar": 0.0014698620011041035,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "missing_asli_Pulomerak_SO2_origin_minus3",
+    "Mean train": 0.05403791610688163,
+    "Scale train": 0.2260925025949978,
+    "Koefisien standar": -0.003477124164171304,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "missing_asli_Pulomerak_SO2_origin_minus7",
+    "Mean train": 0.05403791610688163,
+    "Scale train": 0.22609250259499783,
+    "Koefisien standar": 0.019747745499109477,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "missing_asli_Pulomerak_SO2_origin_minus13",
+    "Mean train": 0.05403791610688163,
+    "Scale train": 0.22609250259499789,
+    "Koefisien standar": -0.00580559127083195,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "missing_asli_Pulomerak_SO2_origin_minus25",
+    "Mean train": 0.05403791610688163,
+    "Scale train": 0.22609250259499797,
+    "Koefisien standar": 0.01680710560887643,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S1",
+    "Fitur": "missing_asli_Pulomerak_SO2_origin_minus49",
+    "Mean train": 0.05411255411255411,
+    "Scale train": 0.22623966407316182,
+    "Koefisien standar": -0.010674882802404266,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "SO2_lag0",
+    "Mean train": 19.355696148678735,
+    "Scale train": 22.369736410819904,
+    "Koefisien standar": 12.685805964566114,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "SO2_lag1",
+    "Mean train": 19.35572003284055,
+    "Scale train": 22.36977628160597,
+    "Koefisien standar": 5.707781385270584,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "SO2_lag2",
+    "Mean train": 19.356020077623352,
+    "Scale train": 22.37012489792573,
+    "Koefisien standar": 2.5180019841078645,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "SO2_lag6",
+    "Mean train": 19.345790938945935,
+    "Scale train": 22.367865295955003,
+    "Koefisien standar": 1.1797363956026528,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "SO2_lag12",
+    "Mean train": 19.325978280340173,
+    "Scale train": 22.364245951749538,
+    "Koefisien standar": 0.35145059088629527,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "SO2_lag24",
+    "Mean train": 19.28653433348244,
+    "Scale train": 22.356792867165872,
+    "Koefisien standar": 0.18740992220303554,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "SO2_lag48",
+    "Mean train": 19.207044111061187,
+    "Scale train": 22.34083935942955,
+    "Koefisien standar": -0.05236330869904543,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "PM10_lag1",
+    "Mean train": 16.551749514853032,
+    "Scale train": 10.146965812283725,
+    "Koefisien standar": 0.1371819853813769,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "PM2.5_lag1",
+    "Mean train": 12.479761904761931,
+    "Scale train": 7.84557613092434,
+    "Koefisien standar": -0.14546755091901353,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "CO_lag1",
+    "Mean train": 342.9247148828192,
+    "Scale train": 163.16237271396037,
+    "Koefisien standar": -0.1455503311222637,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "O3_lag1",
+    "Mean train": 12.462052545155899,
+    "Scale train": 12.00388702021934,
+    "Koefisien standar": -0.10533744738948164,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "NO2_lag1",
+    "Mean train": 8.31989326765186,
+    "Scale train": 3.953353990392461,
+    "Koefisien standar": -0.10174939076452771,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "Kec.Angin_lag1",
+    "Mean train": 6.3259553664726225,
+    "Scale train": 13.466133186648067,
+    "Koefisien standar": -0.006563017536500498,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "Kelembaban_lag1",
+    "Mean train": 83.30878414688762,
+    "Scale train": 6.662384933563,
+    "Koefisien standar": 0.022288292165946733,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "Suhu_lag1",
+    "Mean train": 28.683884161815165,
+    "Scale train": 2.145845673595894,
+    "Koefisien standar": 0.029962166430664093,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "Tek.Udara_lag1",
+    "Mean train": 992.891494252876,
+    "Scale train": 26.845624980905026,
+    "Koefisien standar": 0.005985800553137858,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "Sol.Rad_lag1",
+    "Mean train": 88.06479549186375,
+    "Scale train": 187.14360233201987,
+    "Koefisien standar": -0.005387558248449298,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "missing_asli_SO2_lag0",
+    "Mean train": 0.0012688460964323032,
+    "Scale train": 0.03559826015433269,
+    "Koefisien standar": -0.13485768842917173,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "missing_asli_SO2_lag1",
+    "Mean train": 0.001567398119122257,
+    "Scale train": 0.0395593400129367,
+    "Koefisien standar": -0.0072571880370159575,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "missing_asli_SO2_lag2",
+    "Mean train": 0.0018659501418122107,
+    "Scale train": 0.043156324818958786,
+    "Koefisien standar": -0.012179011546196605,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "missing_asli_SO2_lag6",
+    "Mean train": 0.0028362442155545602,
+    "Scale train": 0.053180822993871654,
+    "Koefisien standar": 0.08501638993226021,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "missing_asli_SO2_lag12",
+    "Mean train": 0.0041797283176593526,
+    "Scale train": 0.0645155654772608,
+    "Koefisien standar": 0.06646874071405165,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "missing_asli_SO2_lag24",
+    "Mean train": 0.0068666965218689355,
+    "Scale train": 0.08258053645230169,
+    "Koefisien standar": 0.033451666524654956,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "missing_asli_SO2_lag48",
+    "Mean train": 0.012240632930288103,
+    "Scale train": 0.10995817311936922,
+    "Koefisien standar": 0.0023591399263551065,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "missing_asli_PM10_lag1",
+    "Mean train": 0.0016420361247947454,
+    "Scale train": 0.04048876192426521,
+    "Koefisien standar": -0.0054143763655973755,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "missing_asli_PM2.5_lag1",
+    "Mean train": 0.0016420361247947454,
+    "Scale train": 0.04048876192426521,
+    "Koefisien standar": 0.0017528129950528711,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "missing_asli_CO_lag1",
+    "Mean train": 0.004030452306314375,
+    "Scale train": 0.06335777584890107,
+    "Koefisien standar": 0.011265410581730053,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "missing_asli_O3_lag1",
+    "Mean train": 0.0016420361247947454,
+    "Scale train": 0.04048876192426521,
+    "Koefisien standar": -0.01590371975985678,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "missing_asli_NO2_lag1",
+    "Mean train": 0.001567398119122257,
+    "Scale train": 0.0395593400129367,
+    "Koefisien standar": -0.007257188037304456,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "missing_asli_Kec.Angin_lag1",
+    "Mean train": 0.001567398119122257,
+    "Scale train": 0.0395593400129367,
+    "Koefisien standar": -0.007257188037363298,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "missing_asli_Kelembaban_lag1",
+    "Mean train": 0.001567398119122257,
+    "Scale train": 0.0395593400129367,
+    "Koefisien standar": -0.007257188037308734,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "missing_asli_Suhu_lag1",
+    "Mean train": 0.001567398119122257,
+    "Scale train": 0.0395593400129367,
+    "Koefisien standar": -0.0072571880374219305,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "missing_asli_Tek.Udara_lag1",
+    "Mean train": 0.001567398119122257,
+    "Scale train": 0.0395593400129367,
+    "Koefisien standar": -0.007257188037335748,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "missing_asli_Sol.Rad_lag1",
+    "Mean train": 0.052545155993431854,
+    "Scale train": 0.22312364862348844,
+    "Koefisien standar": -0.003950663434927249,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "Talang_SO2_origin_minus1",
+    "Mean train": 68.3277354829079,
+    "Scale train": 16.766687292625935,
+    "Koefisien standar": -0.003273634984694934,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "Talang_SO2_origin_minus2",
+    "Mean train": 68.33407971339005,
+    "Scale train": 16.780474233763822,
+    "Koefisien standar": -0.037553762218587916,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "Talang_SO2_origin_minus3",
+    "Mean train": 68.3404985818779,
+    "Scale train": 16.794510378479167,
+    "Koefisien standar": -0.09542366614767916,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "Talang_SO2_origin_minus7",
+    "Mean train": 68.36550231377818,
+    "Scale train": 16.850091869101192,
+    "Koefisien standar": 0.08683262641482474,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "Talang_SO2_origin_minus13",
+    "Mean train": 68.40073145245559,
+    "Scale train": 16.93060631301425,
+    "Koefisien standar": 0.07133234726210186,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "Talang_SO2_origin_minus25",
+    "Mean train": 68.48410210479176,
+    "Scale train": 17.11467018798159,
+    "Koefisien standar": -0.006336133079854395,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "Talang_SO2_origin_minus49",
+    "Mean train": 68.63487087625019,
+    "Scale train": 17.428462076908108,
+    "Koefisien standar": -0.030316232988253953,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "missing_asli_Talang_SO2_origin_minus1",
+    "Mean train": 0.0838184803702045,
+    "Scale train": 0.2771153960331484,
+    "Koefisien standar": -0.016525023387619908,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "missing_asli_Talang_SO2_origin_minus2",
+    "Mean train": 0.0838184803702045,
+    "Scale train": 0.2771153960331484,
+    "Koefisien standar": -0.06135482083513477,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "missing_asli_Talang_SO2_origin_minus3",
+    "Mean train": 0.0838184803702045,
+    "Scale train": 0.2771153960331484,
+    "Koefisien standar": -0.24517311572922854,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "missing_asli_Talang_SO2_origin_minus7",
+    "Mean train": 0.0838184803702045,
+    "Scale train": 0.2771153960331484,
+    "Koefisien standar": 0.19932154875312724,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "missing_asli_Talang_SO2_origin_minus13",
+    "Mean train": 0.0838184803702045,
+    "Scale train": 0.27711539603314844,
+    "Koefisien standar": 0.23162555669719126,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "missing_asli_Talang_SO2_origin_minus25",
+    "Mean train": 0.0838184803702045,
+    "Scale train": 0.27711539603314844,
+    "Koefisien standar": -0.08105754013812863,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S2",
+    "Fitur": "missing_asli_Talang_SO2_origin_minus49",
+    "Mean train": 0.08292282430213464,
+    "Scale train": 0.2757655335822643,
+    "Koefisien standar": -0.05083314191630971,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "SO2_lag0",
+    "Mean train": 19.355696148678735,
+    "Scale train": 22.369736410819904,
+    "Koefisien standar": 12.679303346332729,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "SO2_lag1",
+    "Mean train": 19.35572003284055,
+    "Scale train": 22.36977628160597,
+    "Koefisien standar": 5.68531918232615,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "SO2_lag2",
+    "Mean train": 19.356020077623352,
+    "Scale train": 22.37012489792573,
+    "Koefisien standar": 2.5149829845337983,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "SO2_lag6",
+    "Mean train": 19.345790938945935,
+    "Scale train": 22.367865295955003,
+    "Koefisien standar": 1.1787292584579219,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "SO2_lag12",
+    "Mean train": 19.325978280340173,
+    "Scale train": 22.364245951749538,
+    "Koefisien standar": 0.35151559352951595,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "SO2_lag24",
+    "Mean train": 19.28653433348244,
+    "Scale train": 22.356792867165872,
+    "Koefisien standar": 0.19008012912723105,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "SO2_lag48",
+    "Mean train": 19.207044111061187,
+    "Scale train": 22.34083935942955,
+    "Koefisien standar": -0.04963199653518708,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "PM10_lag1",
+    "Mean train": 16.551749514853032,
+    "Scale train": 10.146965812283725,
+    "Koefisien standar": 0.14172981973626847,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "PM2.5_lag1",
+    "Mean train": 12.479761904761931,
+    "Scale train": 7.84557613092434,
+    "Koefisien standar": -0.15209372231952822,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "CO_lag1",
+    "Mean train": 342.9247148828192,
+    "Scale train": 163.16237271396037,
+    "Koefisien standar": -0.14250737617216705,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "O3_lag1",
+    "Mean train": 12.462052545155899,
+    "Scale train": 12.00388702021934,
+    "Koefisien standar": -0.09056149796199345,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "NO2_lag1",
+    "Mean train": 8.31989326765186,
+    "Scale train": 3.953353990392461,
+    "Koefisien standar": -0.09046231409186706,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "Kec.Angin_lag1",
+    "Mean train": 6.3259553664726225,
+    "Scale train": 13.466133186648067,
+    "Koefisien standar": -0.006391726343782827,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "Kelembaban_lag1",
+    "Mean train": 83.30878414688762,
+    "Scale train": 6.662384933563,
+    "Koefisien standar": 0.023897972375509138,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "Suhu_lag1",
+    "Mean train": 28.683884161815165,
+    "Scale train": 2.145845673595894,
+    "Koefisien standar": 0.03055585136499052,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "Tek.Udara_lag1",
+    "Mean train": 992.891494252876,
+    "Scale train": 26.845624980905026,
+    "Koefisien standar": 0.005492331473115235,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "Sol.Rad_lag1",
+    "Mean train": 88.06479549186375,
+    "Scale train": 187.14360233201987,
+    "Koefisien standar": -0.004638852946619618,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_SO2_lag0",
+    "Mean train": 0.0012688460964323032,
+    "Scale train": 0.03559826015433269,
+    "Koefisien standar": -0.13481849387491648,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_SO2_lag1",
+    "Mean train": 0.001567398119122257,
+    "Scale train": 0.0395593400129367,
+    "Koefisien standar": -0.007157994518694183,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_SO2_lag2",
+    "Mean train": 0.0018659501418122107,
+    "Scale train": 0.043156324818958786,
+    "Koefisien standar": -0.012359229456169596,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_SO2_lag6",
+    "Mean train": 0.0028362442155545602,
+    "Scale train": 0.053180822993871654,
+    "Koefisien standar": 0.08506490945301937,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_SO2_lag12",
+    "Mean train": 0.0041797283176593526,
+    "Scale train": 0.0645155654772608,
+    "Koefisien standar": 0.06641923920054667,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_SO2_lag24",
+    "Mean train": 0.0068666965218689355,
+    "Scale train": 0.08258053645230169,
+    "Koefisien standar": 0.0337141988938363,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_SO2_lag48",
+    "Mean train": 0.012240632930288103,
+    "Scale train": 0.10995817311936922,
+    "Koefisien standar": 0.002316365944336184,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_PM10_lag1",
+    "Mean train": 0.0016420361247947454,
+    "Scale train": 0.04048876192426521,
+    "Koefisien standar": -0.005455220035633332,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_PM2.5_lag1",
+    "Mean train": 0.0016420361247947454,
+    "Scale train": 0.04048876192426521,
+    "Koefisien standar": 0.0019980092997059526,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_CO_lag1",
+    "Mean train": 0.004030452306314375,
+    "Scale train": 0.06335777584890107,
+    "Koefisien standar": 0.011199027193711082,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_O3_lag1",
+    "Mean train": 0.0016420361247947454,
+    "Scale train": 0.04048876192426521,
+    "Koefisien standar": -0.016027330361056573,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_NO2_lag1",
+    "Mean train": 0.001567398119122257,
+    "Scale train": 0.0395593400129367,
+    "Koefisien standar": -0.0071579945205544155,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_Kec.Angin_lag1",
+    "Mean train": 0.001567398119122257,
+    "Scale train": 0.0395593400129367,
+    "Koefisien standar": -0.007157994521083206,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_Kelembaban_lag1",
+    "Mean train": 0.001567398119122257,
+    "Scale train": 0.0395593400129367,
+    "Koefisien standar": -0.007157994521134034,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_Suhu_lag1",
+    "Mean train": 0.001567398119122257,
+    "Scale train": 0.0395593400129367,
+    "Koefisien standar": -0.007157994521027127,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_Tek.Udara_lag1",
+    "Mean train": 0.001567398119122257,
+    "Scale train": 0.0395593400129367,
+    "Koefisien standar": -0.007157994520731054,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_Sol.Rad_lag1",
+    "Mean train": 0.052545155993431854,
+    "Scale train": 0.22312364862348844,
+    "Koefisien standar": -0.0038924658082640316,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "Pulomerak_SO2_origin_minus1",
+    "Mean train": 35.48093894611167,
+    "Scale train": 3.608588672858962,
+    "Koefisien standar": -0.009889890504316275,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "Pulomerak_SO2_origin_minus2",
+    "Mean train": 35.48072697417557,
+    "Scale train": 3.6089628884575995,
+    "Koefisien standar": -0.030417140846729817,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "Pulomerak_SO2_origin_minus3",
+    "Mean train": 35.48024033437858,
+    "Scale train": 3.6092325076644456,
+    "Koefisien standar": 0.01584577778279345,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "Pulomerak_SO2_origin_minus7",
+    "Mean train": 35.478151962979865,
+    "Scale train": 3.610249220750586,
+    "Koefisien standar": -0.00226327343054765,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "Pulomerak_SO2_origin_minus13",
+    "Mean train": 35.47446260635949,
+    "Scale train": 3.6113975182315325,
+    "Koefisien standar": -0.009202204766070737,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "Pulomerak_SO2_origin_minus25",
+    "Mean train": 35.46831094193198,
+    "Scale train": 3.61440850608079,
+    "Koefisien standar": 0.020499133216893724,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "Pulomerak_SO2_origin_minus49",
+    "Mean train": 35.45461785341132,
+    "Scale train": 3.6201860829550103,
+    "Koefisien standar": -0.013009003208039879,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_Pulomerak_SO2_origin_minus1",
+    "Mean train": 0.05403791610688163,
+    "Scale train": 0.2260925025949978,
+    "Koefisien standar": -0.00861815304914984,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_Pulomerak_SO2_origin_minus2",
+    "Mean train": 0.05403791610688163,
+    "Scale train": 0.2260925025949978,
+    "Koefisien standar": 0.0036867014385058077,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_Pulomerak_SO2_origin_minus3",
+    "Mean train": 0.05403791610688163,
+    "Scale train": 0.2260925025949978,
+    "Koefisien standar": 0.00040440471510455893,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_Pulomerak_SO2_origin_minus7",
+    "Mean train": 0.05403791610688163,
+    "Scale train": 0.22609250259499783,
+    "Koefisien standar": 0.020294725012887697,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_Pulomerak_SO2_origin_minus13",
+    "Mean train": 0.05403791610688163,
+    "Scale train": 0.22609250259499789,
+    "Koefisien standar": -0.009309440198879514,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_Pulomerak_SO2_origin_minus25",
+    "Mean train": 0.05403791610688163,
+    "Scale train": 0.22609250259499797,
+    "Koefisien standar": 0.010356942217304365,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_Pulomerak_SO2_origin_minus49",
+    "Mean train": 0.05411255411255411,
+    "Scale train": 0.22623966407316182,
+    "Koefisien standar": -0.004093917648348396,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "Talang_SO2_origin_minus1",
+    "Mean train": 68.3277354829079,
+    "Scale train": 16.766687292625935,
+    "Koefisien standar": -0.00237723513788329,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "Talang_SO2_origin_minus2",
+    "Mean train": 68.33407971339005,
+    "Scale train": 16.780474233763822,
+    "Koefisien standar": -0.03792364757275142,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "Talang_SO2_origin_minus3",
+    "Mean train": 68.3404985818779,
+    "Scale train": 16.794510378479167,
+    "Koefisien standar": -0.09436231512231986,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "Talang_SO2_origin_minus7",
+    "Mean train": 68.36550231377818,
+    "Scale train": 16.850091869101192,
+    "Koefisien standar": 0.0861215099707764,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "Talang_SO2_origin_minus13",
+    "Mean train": 68.40073145245559,
+    "Scale train": 16.93060631301425,
+    "Koefisien standar": 0.07016180352023821,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "Talang_SO2_origin_minus25",
+    "Mean train": 68.48410210479176,
+    "Scale train": 17.11467018798159,
+    "Koefisien standar": -0.005939784062779636,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "Talang_SO2_origin_minus49",
+    "Mean train": 68.63487087625019,
+    "Scale train": 17.428462076908108,
+    "Koefisien standar": -0.03473762900913136,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_Talang_SO2_origin_minus1",
+    "Mean train": 0.0838184803702045,
+    "Scale train": 0.2771153960331484,
+    "Koefisien standar": -0.01528859033490175,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_Talang_SO2_origin_minus2",
+    "Mean train": 0.0838184803702045,
+    "Scale train": 0.2771153960331484,
+    "Koefisien standar": -0.061912599919152496,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_Talang_SO2_origin_minus3",
+    "Mean train": 0.0838184803702045,
+    "Scale train": 0.2771153960331484,
+    "Koefisien standar": -0.2446400690108473,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_Talang_SO2_origin_minus7",
+    "Mean train": 0.0838184803702045,
+    "Scale train": 0.2771153960331484,
+    "Koefisien standar": 0.19912505507852643,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_Talang_SO2_origin_minus13",
+    "Mean train": 0.0838184803702045,
+    "Scale train": 0.27711539603314844,
+    "Koefisien standar": 0.22984643965914475,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_Talang_SO2_origin_minus25",
+    "Mean train": 0.0838184803702045,
+    "Scale train": 0.27711539603314844,
+    "Koefisien standar": -0.081852544262032,
+    "Intercept": 19.346515673980985
+  },
+  {
+    "Fold": "Fold_03",
+    "Skenario": "S3",
+    "Fitur": "missing_asli_Talang_SO2_origin_minus49",
+    "Mean train": 0.08292282430213464,
+    "Scale train": 0.2757655335822643,
+    "Koefisien standar": -0.05732469318266255,
+    "Intercept": 19.346515673980985
+  }
+]

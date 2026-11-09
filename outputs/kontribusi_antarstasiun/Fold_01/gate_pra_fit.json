@@ -1,0 +1,11 @@
+{
+  "Fold": "Fold_01",
+  "Fit count sebelum gate": 0,
+  "Train bersama": 3539,
+  "Evaluasi bersama": 4890,
+  "Minimum train komputasional": 620,
+  "S0 train layak mandiri": 3539,
+  "S0 hilang akibat irisan": 0,
+  "Lulus": true,
+  "S0 fitur identik C30 lama": true
+}

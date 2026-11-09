@@ -1,0 +1,1132 @@
+[
+  {
+    "File": "notebooks/10_lstm_antarstasiun.ipynb",
+    "Bytes": 1578195,
+    "SHA256": "0b280d0a9b390eb662f564a08aa5e8c053f297d9c708e878cb15b20b8a36b199"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/checks.json",
+    "Bytes": 392,
+    "SHA256": "1610df5301bfbae61a5ca235f3b0df6f5de5aa8ef0d95428ccea6cb0f92bf53f"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/config_locked.json",
+    "Bytes": 155273,
+    "SHA256": "3fcd7cdd49c906ea7f2ad47ed261362c9f68e45cc03a4036318a321c3c035c7f"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/config_prefit_attempt_01.json",
+    "Bytes": 155096,
+    "SHA256": "1018f850406ef3df5fb756864d47eeccc0c3fd1af749caa33d5f0910d581f1e3"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/daftar_fitur.json",
+    "Bytes": 1244,
+    "SHA256": "ba6ba0c87410e909235a385bff5ad53b06459290d6b22b02ff5a361149800af9"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/delivery_checks.json",
+    "Bytes": 339,
+    "SHA256": "2c0bae02dc4204af14f0cd325d3a04c2bb9da9873b6034b764badec16e876501"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/dependensi_freeze.txt",
+    "Bytes": 990,
+    "SHA256": "db9b959811819dbb1e634141278059506cebeaac23695dc39f13b368b9105aec"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/figures/perubahan_pulomerak.png",
+    "Bytes": 108439,
+    "SHA256": "301275244a40989a7b8cd40a3970c97cf8e748ebfac2d974f23a4c7bdc403ae8"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/figures/riwayat_early_stopping.png",
+    "Bytes": 310628,
+    "SHA256": "0c6824d237dd0a02936d66cc3dd4f3e5fc7c03e84db5c3656d2293f0c5ac8910"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/figures/skor_per_fold.png",
+    "Bytes": 156666,
+    "SHA256": "cf67045fd86466ebac0ff04901e0d9474e9f1db015469c64fa63a32efb8a1950"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/figures/transisi_22_juni.png",
+    "Bytes": 455665,
+    "SHA256": "6f1db24df388163d80f9e9f378e46b3f04cfa51790e38dc211cb49826dd28121"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/gate_pra_training.json",
+    "Bytes": 454,
+    "SHA256": "fcdd8d1cce2d7098f84992ad7d3f01fb1b51948bd59fef8aa57cdd2d09f84cee"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/inputs_sekuens.npz",
+    "Bytes": 818160,
+    "SHA256": "a4d27536ec8524688d0059aec647f7e583350ddf6b085a6af9d713b45a93f7b5"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/ledger_evaluation_S0.csv",
+    "Bytes": 395380,
+    "SHA256": "9ab546e1547760b73e6e8f13ceb79f379e4b5c42889541411a8712a6f6437c16"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/ledger_evaluation_S1.csv",
+    "Bytes": 395380,
+    "SHA256": "9ab546e1547760b73e6e8f13ceb79f379e4b5c42889541411a8712a6f6437c16"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/ledger_inner_train_S0.csv",
+    "Bytes": 268825,
+    "SHA256": "244449f0c3eaeb6a045b2b6629411ef8fecf4b42ea487a375301afd4276fe008"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/ledger_inner_train_S1.csv",
+    "Bytes": 268825,
+    "SHA256": "244449f0c3eaeb6a045b2b6629411ef8fecf4b42ea487a375301afd4276fe008"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/ledger_inner_validation_S0.csv",
+    "Bytes": 69168,
+    "SHA256": "28df95a4ff79284202d2060922c52d1d57b6ef49af408cfc79ec602f946023be"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/ledger_inner_validation_S1.csv",
+    "Bytes": 69168,
+    "SHA256": "28df95a4ff79284202d2060922c52d1d57b6ef49af408cfc79ec602f946023be"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/parameter_scaler.json",
+    "Bytes": 7172,
+    "SHA256": "5fbf939d965ae16e35df5c8c4359efdc59151eb437154b45c1190a665c8839a0"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/preprocessing.json",
+    "Bytes": 42470,
+    "SHA256": "41827876ae02fbb8bca06ae83d931eacb469cb3b645b48995df93b38411d3cf9"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S0_seed11/best.pt",
+    "Bytes": 31509,
+    "SHA256": "a15e3a680b608855f821d678a0db236c999a8d078ef5751d82a966d786dbd60d"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S0_seed11/complete.json",
+    "Bytes": 967,
+    "SHA256": "2abbec03c7c5c5912c85cd2fc48061c4836d104f24d203b005a127c9b61a7262"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S0_seed11/history.json",
+    "Bytes": 4780,
+    "SHA256": "16e2858f055e8ec193e185b37041667a308afa2dd19eb696f04f83cd6d774f9a"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S0_seed11/last_epoch.pt",
+    "Bytes": 132324,
+    "SHA256": "75d4e1f78ee09d2a80fad380e2f5e17a79206f6a55b73c61b8a2fab3aadd7e94"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S0_seed11/prediksi.csv",
+    "Bytes": 690570,
+    "SHA256": "b867803c61b1deea7a7dfb0bc11791ea119ac3eede6e7aa8ce4aecd0fe00f4c8"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S0_seed11/progress.json",
+    "Bytes": 190,
+    "SHA256": "35ffa37f12679b0b1a108b8045f11b23ec0352d1f34f411aba777e978632d1a6"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S0_seed23/best.pt",
+    "Bytes": 31509,
+    "SHA256": "32e1882f4bbc398a8b05a9fbd12f1c39d91c778e316a3eeba1c064f32cffa166"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S0_seed23/complete.json",
+    "Bytes": 968,
+    "SHA256": "9373af28455ad3f0fbbb75ad73aadd79b226a2b08c56801c1facff57046993f8"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S0_seed23/history.json",
+    "Bytes": 5167,
+    "SHA256": "9ea0b7102fcc6fff262dfb899fd3dd1108fab73ad7437faff539efb902a6717a"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S0_seed23/last_epoch.pt",
+    "Bytes": 132452,
+    "SHA256": "49401b4ecba5674c1d1ac5c3142277467cfb36e99df8376b2712edeabc98042a"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S0_seed23/prediksi.csv",
+    "Bytes": 690592,
+    "SHA256": "a324750fdd34513233902e611cd177042bbfa87e8bebedfb72a2ed76aeff1e89"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S0_seed23/progress.json",
+    "Bytes": 190,
+    "SHA256": "3632c75b782b8288d1374bb53fb6e77713035fe7945ad72c29a9722a913a6170"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S0_seed47/best.pt",
+    "Bytes": 31509,
+    "SHA256": "3341dfea87fea567be4ca3854434d670710ff00bca1e9ef6c590c58166481a85"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S0_seed47/complete.json",
+    "Bytes": 966,
+    "SHA256": "131963f70b419f61dfd36710f2f410c1ac3ba4b9e6e7c803c1bae41e0419f34e"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S0_seed47/history.json",
+    "Bytes": 8430,
+    "SHA256": "bdabb90d9c282833752d424dfc32573fbe10f73b036593ffd3ebe5ce723038fa"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S0_seed47/last_epoch.pt",
+    "Bytes": 133604,
+    "SHA256": "7e5c5dc46d189d2094eeb2541a94f812f895f90c19ff3ce708814cdbe85090bd"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S0_seed47/prediksi.csv",
+    "Bytes": 690149,
+    "SHA256": "2f3e756a05b80cb4330682d5e1ae99f70cb5aed899ccaec7d3b5aeef39627d89"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S0_seed47/progress.json",
+    "Bytes": 188,
+    "SHA256": "247b722744c2147fd1865d23c4655c0627325bfc475e774410eb86f0b21f1a33"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S1_seed11/best.pt",
+    "Bytes": 32533,
+    "SHA256": "d9ff9dd449b3c3b0f6b7df8ec3471f532eab8ce97304ba4147e0f4668072a1ab"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S1_seed11/complete.json",
+    "Bytes": 967,
+    "SHA256": "7d79f5a2a87b3bdc16ac01e00a16f27d6c7a5f62bb8b807e5cc2cdda7315d420"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S1_seed11/history.json",
+    "Bytes": 6511,
+    "SHA256": "40adfab8f6e149a74e200b2fd8c93df228e458752b7c8e0051e0a1faa9ca1f3a"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S1_seed11/last_epoch.pt",
+    "Bytes": 137060,
+    "SHA256": "d8f67273c83cffd0822848a3c34458f95871e8a341619add739f00b15b768e9c"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S1_seed11/prediksi.csv",
+    "Bytes": 690542,
+    "SHA256": "56874e8f1145674410443fa54e6043a853ce631677395cf56f4832f13775e3e1"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S1_seed11/progress.json",
+    "Bytes": 189,
+    "SHA256": "0c7eeeb310205fb299592b094eca37e54421b9f450d5fe7faf1d7b4f7868b41b"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S1_seed23/best.pt",
+    "Bytes": 32533,
+    "SHA256": "bf38329637bc88c26d67d7d18e58e1b182b7df8a2a61ee2304200e0d81ab78c3"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S1_seed23/complete.json",
+    "Bytes": 968,
+    "SHA256": "2516e6d5f8e8208adebfcc0cebfe75888ab784c0a5888d4542221ee70884d0ee"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S1_seed23/history.json",
+    "Bytes": 5938,
+    "SHA256": "7cd59c0646a046e34d51a8ea31ddc185f661f33f8df0c7a97c5bbcec799d3ce5"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S1_seed23/last_epoch.pt",
+    "Bytes": 136804,
+    "SHA256": "e95ea490134dc8ebd52d83ad5d0401e9b31e5f6fb37089ab7d496a5fbb6f74b0"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S1_seed23/prediksi.csv",
+    "Bytes": 690436,
+    "SHA256": "c91be24424e0b327fea6d96b92379d511783c637710521af4f49fec5aea8f0e1"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S1_seed23/progress.json",
+    "Bytes": 190,
+    "SHA256": "01db17ad07e0ad95edf21a47263986ee4aa351928f4482376e0580942b477f9a"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S1_seed47/best.pt",
+    "Bytes": 32533,
+    "SHA256": "2487c2d71eea405e720a7ba77a52c064fa1ad6bdeb9782791aa805e3c5ef96ca"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S1_seed47/complete.json",
+    "Bytes": 967,
+    "SHA256": "51d25fa7e7d5f71ac32aa4c4974ccc4cf19abbc0cd7ffb37b87e3c7d0b36972d"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S1_seed47/history.json",
+    "Bytes": 6322,
+    "SHA256": "d2465341ebf5c21f4cce8b03bb8c582495caf5d1776d5cc1b0597e3d7e28367e"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S1_seed47/last_epoch.pt",
+    "Bytes": 136932,
+    "SHA256": "a491eff1319cac938bbabfc1ba4d398f020f48aa4c4fc591ff9a231b73a53231"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S1_seed47/prediksi.csv",
+    "Bytes": 690576,
+    "SHA256": "fcca4786e6af3908db4bd53276dae6be78627351418d12d7b0a125c452a20df2"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/S1_seed47/progress.json",
+    "Bytes": 189,
+    "SHA256": "88b1e1203cab6c6299a46bbcea5d6bb59f50e4094d58f0a04956a72433171892"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/timestamp_evaluation_bersama.csv",
+    "Bytes": 252121,
+    "SHA256": "101305a5aa75a7e57229453543128f128a34826268b7ad462024a53572273f70"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/timestamp_inner_train_bersama.csv",
+    "Bytes": 138380,
+    "SHA256": "975c38a98e2a8724f3a37a0b9434456e563e852d7fa859c066b7fd82a86640d2"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_01/timestamp_inner_validation_bersama.csv",
+    "Bytes": 44679,
+    "SHA256": "4f412da7eb02df3c92fb1cb68c0b3792f93cff61e0fa49d9d7dd21c73182eb94"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/gate_pra_training.json",
+    "Bytes": 455,
+    "SHA256": "4f22a04e25f7784cfe7e9e36fade0c0be84488fb521009a7225cd28897bac3e2"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/inputs_sekuens.npz",
+    "Bytes": 1345489,
+    "SHA256": "7b604b4a92af85834b3fd6bca22759f50a660afdbf836d158121ea226eed3890"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/ledger_evaluation_S0.csv",
+    "Bytes": 397406,
+    "SHA256": "bfbf5770ddf39c96c481ec8343bdad63861193968b42bd541d770cf2f5381b25"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/ledger_evaluation_S1.csv",
+    "Bytes": 397406,
+    "SHA256": "bfbf5770ddf39c96c481ec8343bdad63861193968b42bd541d770cf2f5381b25"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/ledger_inner_train_S0.csv",
+    "Bytes": 605317,
+    "SHA256": "dedd39070b3f0ce23886b4576089b134034a65968024ce2189f9ff58d9615ae4"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/ledger_inner_train_S1.csv",
+    "Bytes": 605317,
+    "SHA256": "dedd39070b3f0ce23886b4576089b134034a65968024ce2189f9ff58d9615ae4"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/ledger_inner_validation_S0.csv",
+    "Bytes": 127897,
+    "SHA256": "906557cabaf5c8331e50eb65ddf3c2007ec50469b5218e2c4c8bdd504e21ed45"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/ledger_inner_validation_S1.csv",
+    "Bytes": 127897,
+    "SHA256": "906557cabaf5c8331e50eb65ddf3c2007ec50469b5218e2c4c8bdd504e21ed45"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/parameter_scaler.json",
+    "Bytes": 7175,
+    "SHA256": "034ec560172e0cd4a39d040d892fbab8d38363afc97ca9151ecf6b1886445e09"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/preprocessing.json",
+    "Bytes": 62350,
+    "SHA256": "b5348732a5d09a955816661c33c3d5a60631cc0601c00fcc5bf9784e0b2a9466"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S0_seed11/best.pt",
+    "Bytes": 31509,
+    "SHA256": "9c70a63c0066d1fd264d469f7a2b3d847e3b0026336384a58c2bb120c78d1467"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S0_seed11/complete.json",
+    "Bytes": 967,
+    "SHA256": "3ad312f5588d5dc892a01c7e423510e98101c9baec4290b7c4fd3aa3c7b72a50"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S0_seed11/history.json",
+    "Bytes": 3058,
+    "SHA256": "d6763b32658276376ed438c30a4e17e85173c1f7f5a087b546466741cec5dbcc"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S0_seed11/last_epoch.pt",
+    "Bytes": 131684,
+    "SHA256": "b3c841937e16db7d5a1f0aea3c22ae2dc3104187cdb75725bea0c9c51d9bef7f"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S0_seed11/prediksi.csv",
+    "Bytes": 701144,
+    "SHA256": "13867fe30e7c329c93c602625a8e694541e46d6177006aa0b664cc39182245a7"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S0_seed11/progress.json",
+    "Bytes": 188,
+    "SHA256": "f78c2ad694f9dde21a8ec585d175fc23aa7d5fc3efd4c350a7c655d28d36848b"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S0_seed23/best.pt",
+    "Bytes": 31509,
+    "SHA256": "0c7a9e4cce3616e6710866d5f0d5be4504b45e0c1b3faf631320d449e7592fd2"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S0_seed23/complete.json",
+    "Bytes": 964,
+    "SHA256": "748c0126ac4093d716058c0f34fd0c7c31097399831a56d0437f2eeb09dda4bd"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S0_seed23/history.json",
+    "Bytes": 6889,
+    "SHA256": "a71b53dd863a5c840061990b6805da3e3aa4249994187c104c5eb6ae0290665b"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S0_seed23/last_epoch.pt",
+    "Bytes": 133092,
+    "SHA256": "8869a8ca35da3b22d84f99678ae116dabf96d4f78da8d3f7e7f9b6d90cd5b316"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S0_seed23/prediksi.csv",
+    "Bytes": 700722,
+    "SHA256": "cf3d6e9c8db12883fe36b918b2cff69a3d8e2fbf1ea25258efe3a032f2c8de4f"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S0_seed23/progress.json",
+    "Bytes": 189,
+    "SHA256": "4a618a29598da5431671d3ce6c1474a4fd88595beda0835b4ee81af3188ecb5e"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S0_seed47/best.pt",
+    "Bytes": 31509,
+    "SHA256": "1e1cc8ea2a84266740662abbdc7db033f6e71d80899d7ebc44a0413c00fa96e5"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S0_seed47/complete.json",
+    "Bytes": 967,
+    "SHA256": "11792c6c189a200f729d9cc9324593af4694f1f7da8709da5fa9189420443032"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S0_seed47/history.json",
+    "Bytes": 3054,
+    "SHA256": "80c7941bdbf4f7a77d7bb8a094bba7a107484300f128242a18d0b43fbf07a1d5"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S0_seed47/last_epoch.pt",
+    "Bytes": 131684,
+    "SHA256": "7f86242afc6e57672b95fc79a93238cbf0baf630e5eb3400bbab96a0d85c489f"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S0_seed47/prediksi.csv",
+    "Bytes": 701497,
+    "SHA256": "88a3267a0bf71ebe77b86ee33e5e9cf659a8ee7898e6ba93ad90eeab5e33b65e"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S0_seed47/progress.json",
+    "Bytes": 188,
+    "SHA256": "56e3aac2d3cc9d5f505983229cc2a706257940d8c70a67ec7a74f378dd5d97f2"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S1_seed11/best.pt",
+    "Bytes": 32533,
+    "SHA256": "bfaa524fe3847594fc15380da371d50f757619a79083ec54a2b6a05ddb5a1276"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S1_seed11/complete.json",
+    "Bytes": 968,
+    "SHA256": "4462f6ac0173f7263b7e1ac124fae1e71767275a1055e48807f8103a25fb7524"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S1_seed11/history.json",
+    "Bytes": 4791,
+    "SHA256": "b67b2a77d72ae49878d24ae2b24a18f7ec344939d57e95fbb4e1f00cf22e7697"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S1_seed11/last_epoch.pt",
+    "Bytes": 136420,
+    "SHA256": "f0abfc59669d8b2824efca4e7dd768e907148375f27e5b773180c087b10be7dd"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S1_seed11/prediksi.csv",
+    "Bytes": 701552,
+    "SHA256": "587ef469133cde18e27c4c67a6f399be489a33a310042072d32dc9f1479a08df"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S1_seed11/progress.json",
+    "Bytes": 189,
+    "SHA256": "ee4d3df5df2377c42396e2903950e4a43f1a8d924269f17f6e320b56d6e694ee"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S1_seed23/best.pt",
+    "Bytes": 32533,
+    "SHA256": "49e889d04eea3dfa55ba1b6e26c8c85f8e19ff97df4da8700122116851a93ec3"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S1_seed23/complete.json",
+    "Bytes": 969,
+    "SHA256": "8aae1a2beb52001879801b1c19b709e4bee40410e361ff191af0a79fff7ded0e"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S1_seed23/history.json",
+    "Bytes": 8054,
+    "SHA256": "0a3c01e4f9f0806f7a8d659a55f370927b8be1a8e4294006f74445deccc23db4"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S1_seed23/last_epoch.pt",
+    "Bytes": 137572,
+    "SHA256": "3899d95defe0508ed8388eb250a3415b22da0d78bd77b01429d894ffd07a3b78"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S1_seed23/prediksi.csv",
+    "Bytes": 701560,
+    "SHA256": "7dfa0f8d042d445103ae71944a535086214902482185df26749838ac570b0348"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S1_seed23/progress.json",
+    "Bytes": 190,
+    "SHA256": "269a6e43f9818f13d9055daac56ea58f691b2695cf08d9460245af92c9af0c7b"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S1_seed47/best.pt",
+    "Bytes": 32533,
+    "SHA256": "71bc6e5d1489f49495aa821b5da8ebad16df846d296c54c9cff639ad250e05e6"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S1_seed47/complete.json",
+    "Bytes": 968,
+    "SHA256": "e4a6a09eee906116beead8706536464702887e5463e418c8547a0dd9106c8f36"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S1_seed47/history.json",
+    "Bytes": 4206,
+    "SHA256": "d08d5e3ed1d687872a0ada2f0ccfb30e7dcdb5b635c2522f556778cdca6eae83"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S1_seed47/last_epoch.pt",
+    "Bytes": 136164,
+    "SHA256": "c04ec2cea05c25396f64e07e6c25c37d171fe5f9da97f9f8486fa300223a873d"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S1_seed47/prediksi.csv",
+    "Bytes": 701410,
+    "SHA256": "fb59c9bba93d8ba18c7630e37dd8a1e9f4e8f6b59d4fff4400bb08da55948855"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/S1_seed47/progress.json",
+    "Bytes": 189,
+    "SHA256": "d02115c2e9840aa704d01303e22193348b2f3b50a3029bc2a566960163430a88"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/timestamp_evaluation_bersama.csv",
+    "Bytes": 258015,
+    "SHA256": "347c9eca08093a9d229eabeec24c768cfa14a1e78fed7c1e6265d5dd4228393d"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/timestamp_inner_train_bersama.csv",
+    "Bytes": 352560,
+    "SHA256": "bf062faba9b148eb63596f5aafb35fcb4a0395688ff632158b1647a02d47dddd"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_02/timestamp_inner_validation_bersama.csv",
+    "Bytes": 82566,
+    "SHA256": "74a989c2b92838f8da80ac7541bbea9ad785aa7b33b644721dd88a5828ce2df3"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/gate_pra_training.json",
+    "Bytes": 456,
+    "SHA256": "7328f23b210259c023531dd0fb4fbbf18d437e819c7e5cb8ee9ed390f22edbb8"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/inputs_sekuens.npz",
+    "Bytes": 1839479,
+    "SHA256": "5c3c3b3edbfdb050f0306ec79d1b8c6bc2957285be7571638ccdb81b0b175009"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/ledger_evaluation_S0.csv",
+    "Bytes": 397397,
+    "SHA256": "92453a9a679a31b81b4c9707f0a64f085bdba9b1dbe5016335bb0ac53267fc2b"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/ledger_evaluation_S1.csv",
+    "Bytes": 397397,
+    "SHA256": "92453a9a679a31b81b4c9707f0a64f085bdba9b1dbe5016335bb0ac53267fc2b"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/ledger_inner_train_S0.csv",
+    "Bytes": 942011,
+    "SHA256": "417ecfd8f62a55509cfe93d6717ce04980a413223c81ccc1d36e317a87079574"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/ledger_inner_train_S1.csv",
+    "Bytes": 942011,
+    "SHA256": "417ecfd8f62a55509cfe93d6717ce04980a413223c81ccc1d36e317a87079574"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/ledger_inner_validation_S0.csv",
+    "Bytes": 188450,
+    "SHA256": "1724e4b7aa5ac8c7f7adbfa4a89e074a2637ca6e2a586613e313924f268460bc"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/ledger_inner_validation_S1.csv",
+    "Bytes": 188450,
+    "SHA256": "1724e4b7aa5ac8c7f7adbfa4a89e074a2637ca6e2a586613e313924f268460bc"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/parameter_scaler.json",
+    "Bytes": 7212,
+    "SHA256": "d075711f57fd5ae9adf3d36ed1faf3fc6c9d6cd6f7b6ddafcbfd873282112c0b"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/preprocessing.json",
+    "Bytes": 82456,
+    "SHA256": "6ac162c691be601a0165f75d8f85ba51c35b652ac3a4a5a57f4a5a5db130043c"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S0_seed11/best.pt",
+    "Bytes": 31509,
+    "SHA256": "f3f2bbfe3371efbf8d5ba9050f8c144ef394cb2ac1bc89cfe1f842487291d20c"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S0_seed11/complete.json",
+    "Bytes": 969,
+    "SHA256": "11ca58a19cc1d25b74ef736f9a510ba0cc105179a5d19c9ba1fb9bed91e191be"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S0_seed11/history.json",
+    "Bytes": 9642,
+    "SHA256": "411c0821f951cdd7037b6dc3cc844b1919733c1a62b6c7c864d699d38f113b0d"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S0_seed11/last_epoch.pt",
+    "Bytes": 134052,
+    "SHA256": "f09aaf4bfe280f9013a48f2e7f496ab4721e507e6739c7762ed7b59bc14f943c"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S0_seed11/prediksi.csv",
+    "Bytes": 711146,
+    "SHA256": "18a5b935f321b54cfa9e2a8da820371ab4c722f9e429367579f67a8a3cfda6f3"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S0_seed11/progress.json",
+    "Bytes": 190,
+    "SHA256": "07d85e3664d1ca671a0b2ef7da23739498d57a563fd6faa0281d02ca48d3c672"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S0_seed23/best.pt",
+    "Bytes": 31509,
+    "SHA256": "9a5dcc8b5a1f264f31b5ad81a974a51f59df58a7e8a76f98d54e6aaae84a16cb"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S0_seed23/complete.json",
+    "Bytes": 971,
+    "SHA256": "8d2e447a9494d5e1e1385d4a7df281c5ff9c936a11a6135fdea7a2c3a605ee75"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S0_seed23/history.json",
+    "Bytes": 9639,
+    "SHA256": "6285aeabaaef6b08df956b828f9bf66dbbcf554939b6c7660479a5a3f88700a7"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S0_seed23/last_epoch.pt",
+    "Bytes": 134052,
+    "SHA256": "11783abbe1333dd737cbc4ec9873ae76ae649369f20ba2c3c9112f45536ad742"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S0_seed23/prediksi.csv",
+    "Bytes": 711053,
+    "SHA256": "ffc2023d11b6d8615a6370177fdff95c604f5d51e9aeca7e1ff4e8cc01edbe74"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S0_seed23/progress.json",
+    "Bytes": 190,
+    "SHA256": "567d6d866d842dc121f50caa255cb5217bd656f16f2a8b007761d8fe9b894ae0"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S0_seed47/best.pt",
+    "Bytes": 31509,
+    "SHA256": "882cec6f38dfb5e56672def3c64923742e17e47164bed1b244c5cb3229a61e32"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S0_seed47/complete.json",
+    "Bytes": 969,
+    "SHA256": "809bcd06531d4c57ac2e23958d1297204c788219b7be463d3cdb2da18b8407fe"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S0_seed47/history.json",
+    "Bytes": 9648,
+    "SHA256": "c31faee5068a50515d18788bb4352038936cfefffc5972115cc80fde1689a027"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S0_seed47/last_epoch.pt",
+    "Bytes": 134052,
+    "SHA256": "87c5bc7283c1a9136cabeebc5ddc9c0ea58406c51f9dc3f3cd281c502e672d36"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S0_seed47/prediksi.csv",
+    "Bytes": 711064,
+    "SHA256": "96895c01e1717a5b675751ac5c53e86ffb906a16f46bb6c1b4e4a4e2fb00ce77"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S0_seed47/progress.json",
+    "Bytes": 190,
+    "SHA256": "36c55a5f52cdc38b76bd1904400166b7b00360a721af7dae7e7eec78bde52f63"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S1_seed11/best.pt",
+    "Bytes": 32533,
+    "SHA256": "3cd5590e0d760a151cd4a9c0e68d4105b9e2ac5556e240b57e21fc541e98bbe9"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S1_seed11/complete.json",
+    "Bytes": 970,
+    "SHA256": "b2d0dde96edfdea435a3e757e9e38896e7dac9e76c986d7ffa302cfbfe1bd60d"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S1_seed11/history.json",
+    "Bytes": 9641,
+    "SHA256": "4e7ac7633d2a47abc92b365b636d63d843b17beb339764fc4daa55e047af696e"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S1_seed11/last_epoch.pt",
+    "Bytes": 138148,
+    "SHA256": "6369ccce8f17880c9c926d33f40c8c7650fc5ab6d5bf7cca68e7e1293a749166"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S1_seed11/prediksi.csv",
+    "Bytes": 710323,
+    "SHA256": "68023b61abc5363adc349b2005905f7948884e342d1e151b209bddb9c282f584"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S1_seed11/progress.json",
+    "Bytes": 190,
+    "SHA256": "7e1a294e2e5b1315d3cb8e9f7d541023e1c0471c0fec85900791b40d97e10d30"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S1_seed23/best.pt",
+    "Bytes": 32533,
+    "SHA256": "291318523a75b3836339f086e0863c9144f2552d3df8aa0fbc5d2012bb2ef451"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S1_seed23/complete.json",
+    "Bytes": 971,
+    "SHA256": "64502f07850cc697ac82918f2114249774d8ab3d835ed4119b56fa7c58225f13"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S1_seed23/history.json",
+    "Bytes": 9640,
+    "SHA256": "e2f9020dcdf5b2701d70c0981ae4e936b00bf9e4e6f01f88e5e8cebcb11a2ad2"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S1_seed23/last_epoch.pt",
+    "Bytes": 138148,
+    "SHA256": "b51d9a7a65a49b3701748baddf7af182e6981cd086e4f1dc60612a8d9b2a5ebe"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S1_seed23/prediksi.csv",
+    "Bytes": 710662,
+    "SHA256": "84439666a29bdae0b5f46baa94274016fbb9a61b5a3d344b9be94d2cd4b9615e"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S1_seed23/progress.json",
+    "Bytes": 190,
+    "SHA256": "645a7d822d18354f911d4327fadb0aa4b9fedf7fbd629bd21d169ff2d62975aa"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S1_seed47/best.pt",
+    "Bytes": 32533,
+    "SHA256": "c92aa74357a0d62ee7c35a707ffd513f1fa756de80f665113e5a53ece06cb325"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S1_seed47/complete.json",
+    "Bytes": 969,
+    "SHA256": "f0a962358b5356fee3b3f4897d57d1cdb580a616ce3d8bfbfa47bd7c894a8633"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S1_seed47/history.json",
+    "Bytes": 9636,
+    "SHA256": "dfe4f6653edf1c826a475770c856de68ecfbec25e06de5fe00047edf408a1ce2"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S1_seed47/last_epoch.pt",
+    "Bytes": 138148,
+    "SHA256": "454da859786191e19693ffc99d642271133b4a2f50e97f67c53502cb0f3773e6"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S1_seed47/prediksi.csv",
+    "Bytes": 710580,
+    "SHA256": "729133bf2857ff8e6017d1b78fed16a05915e9a06b31ad4d6bdaa27a34b056bb"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/S1_seed47/progress.json",
+    "Bytes": 190,
+    "SHA256": "aec3b4a786921be0502c2cf2d87c555a4cc89a5fc8db3d5774d1d5240531c027"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/timestamp_evaluation_bersama.csv",
+    "Bytes": 258006,
+    "SHA256": "b246bdd4156c9d60a448e9a432442d0e788389bf7c8db938ec6b7b540131be51"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/timestamp_inner_train_bersama.csv",
+    "Bytes": 570710,
+    "SHA256": "6f907a9efebb121af6e7057076e85f52f95bf31a5c3a0c072aa2908c3324e273"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_03/timestamp_inner_validation_bersama.csv",
+    "Bytes": 122377,
+    "SHA256": "5882b682f99e0cb523749affb69e16dd04b1ecc4d302945bd1bf26f620af829e"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/gate_pra_training.json",
+    "Bytes": 456,
+    "SHA256": "030b454a860e5310c7ff58a66b9a6191436c20f4ea2a2e36628ce1dc2c4e8fc2"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/inputs_sekuens.npz",
+    "Bytes": 2323939,
+    "SHA256": "db4345241d07d02d1f729cff99066814d7ec060623fc2f4d50f9a6b42206a33a"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/ledger_evaluation_S0.csv",
+    "Bytes": 397403,
+    "SHA256": "e11c24f9cc5a023351259837e7c9e33516306348ee49fb67bc5aef8499fad451"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/ledger_evaluation_S1.csv",
+    "Bytes": 397403,
+    "SHA256": "e11c24f9cc5a023351259837e7c9e33516306348ee49fb67bc5aef8499fad451"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/ledger_inner_train_S0.csv",
+    "Bytes": 1279657,
+    "SHA256": "69f2c823064eae8d091495044608ceb6f09aa54b7c0e2c489733ecba485c56b8"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/ledger_inner_train_S1.csv",
+    "Bytes": 1279657,
+    "SHA256": "69f2c823064eae8d091495044608ceb6f09aa54b7c0e2c489733ecba485c56b8"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/ledger_inner_validation_S0.csv",
+    "Bytes": 248042,
+    "SHA256": "391aa3c2d360e9f5fc94993f4ea2486cdbbbeecfc68f7a693fad50b96b67d080"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/ledger_inner_validation_S1.csv",
+    "Bytes": 248042,
+    "SHA256": "391aa3c2d360e9f5fc94993f4ea2486cdbbbeecfc68f7a693fad50b96b67d080"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/parameter_scaler.json",
+    "Bytes": 7150,
+    "SHA256": "f65ac09a6a0ddc1480bc3dd68b51fd365dacd4b27327b0424b70d2c84c15dbf9"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/preprocessing.json",
+    "Bytes": 101244,
+    "SHA256": "75a64f6d3e8ad864eb9a7dbf97d56c77c384163f55ed5869da33c5adc8cfe40c"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S0_seed11/best.pt",
+    "Bytes": 31509,
+    "SHA256": "2d25c9cec4eb416cc41e12b1aa5b97ba3ebb90eef6b0282cf0cf86cdb2ec3b31"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S0_seed11/complete.json",
+    "Bytes": 971,
+    "SHA256": "b371c2fbe240655ecec862899a90663787d9342df9f9d1468858c89878a6c678"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S0_seed11/history.json",
+    "Bytes": 6733,
+    "SHA256": "76e9aa0c5e79f0e6a86143264c715b01c2d49842d89517ef3d1272937ed5fc01"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S0_seed11/last_epoch.pt",
+    "Bytes": 133028,
+    "SHA256": "7bbda6d8823d5b23c38d59bdfb818797a4ccfa418fd6f7f372e3a508bd90b195"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S0_seed11/prediksi.csv",
+    "Bytes": 705421,
+    "SHA256": "da8971f358d83fbfaafe2a7a59c4a025734c0b70c5e3d49ff09ccdaee1d24ad3"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S0_seed11/progress.json",
+    "Bytes": 190,
+    "SHA256": "1b0c243e2d3c473a75c90cec758d2c15f060dd6fd0f0cf852e74dd3e39494868"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S0_seed23/best.pt",
+    "Bytes": 31509,
+    "SHA256": "de3e077a0763e10659f4b7231d3c5fc455b704114d075926453aa3d29c8b1068"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S0_seed23/complete.json",
+    "Bytes": 968,
+    "SHA256": "ea6d2e61e876f9564a9ea73f9e0f14c356e8d71b8f9d6e71bfb6d8f75e1ef092"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S0_seed23/history.json",
+    "Bytes": 4421,
+    "SHA256": "6904167a09de2c1a3921bb417ec9f907e4bc15b392d48130274efccc350bd4c1"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S0_seed23/last_epoch.pt",
+    "Bytes": 132196,
+    "SHA256": "4dfb8ae57aeffd30fa5758dd85bbbe88e3c114e880dca8cbb8335e564f22fa81"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S0_seed23/prediksi.csv",
+    "Bytes": 705490,
+    "SHA256": "0d42dc0627ab49b079c6ca6335ab0c6874074405fb250939c53e9e1432093b58"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S0_seed23/progress.json",
+    "Bytes": 189,
+    "SHA256": "7299fd70fce4b489d0a743d9f76b40eff43c0d0bfbbbf71f4302e0fd1c0d3d27"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S0_seed47/best.pt",
+    "Bytes": 31509,
+    "SHA256": "e01c8b323fb6ae9376b0160bf7a0e97298cb04d5c92620a3da457ee41dbdd914"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S0_seed47/complete.json",
+    "Bytes": 968,
+    "SHA256": "197b50e9a1602c3f4a303005b8d44bab1c580c1ee2d2279bb491ea8e447a9069"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S0_seed47/history.json",
+    "Bytes": 5975,
+    "SHA256": "b436495f661659c95e0ffcadd792769d28a3ed5dbce845c8c94885b6b0adb164"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S0_seed47/last_epoch.pt",
+    "Bytes": 132708,
+    "SHA256": "b9b9bda93701b8b36d3467933db2d8757af09f69a55bdd4703222c56163051b3"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S0_seed47/prediksi.csv",
+    "Bytes": 705435,
+    "SHA256": "111df02cbb1ba3ee5be593a273b23b17595a4f1767ecdeb207aa5d4b1846af65"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S0_seed47/progress.json",
+    "Bytes": 188,
+    "SHA256": "78368a69b248f55144114aa7bccc1b0f824a1b14624e78e7c000fb3a8e3e2caf"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S1_seed11/best.pt",
+    "Bytes": 32533,
+    "SHA256": "537db97a7cd2847e97e51d4ee0c1b089a2962ca655451a1c0c29c82613abf30f"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S1_seed11/complete.json",
+    "Bytes": 965,
+    "SHA256": "8032bbb7794f3d0b354de28c61063edaae4be27965b17e1d898b65985b9d539c"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S1_seed11/history.json",
+    "Bytes": 1707,
+    "SHA256": "07eea6643d2b83a369d43aebe35ca55c3032ed664189d3d2e3d5565eba6b0963"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S1_seed11/last_epoch.pt",
+    "Bytes": 135268,
+    "SHA256": "e6eea86b6acdcb6dfc154fb18964ae8f244d25e847f20bc3b779e0282ededf74"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S1_seed11/prediksi.csv",
+    "Bytes": 704990,
+    "SHA256": "7f8466e95bf67e7d2154b15eed8401c3f5065fdeecd9413eebcafe446ede5082"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S1_seed11/progress.json",
+    "Bytes": 187,
+    "SHA256": "7c47bdfda1b1fd5f24adf171b2a7019bad8961febcac4ea8a038cd2f1659101b"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S1_seed23/best.pt",
+    "Bytes": 32533,
+    "SHA256": "f73c18498c81ea2fbfee4ff783a61175816e34f968a0a090034aa4101ba6a2af"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S1_seed23/complete.json",
+    "Bytes": 968,
+    "SHA256": "d15daae289c4855688dc4f6a90992a26c513b291abf5ef4458214ecab8f2ecce"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S1_seed23/history.json",
+    "Bytes": 9507,
+    "SHA256": "cf64e712c47670078913a0005ea4a6505affe30de848b1b2d2c75d2ab1a50843"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S1_seed23/last_epoch.pt",
+    "Bytes": 138148,
+    "SHA256": "81a504f2407b9225b51220f9d1ca2ca9836ed87fb8b0a69c572fd82b54e9a6a4"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S1_seed23/prediksi.csv",
+    "Bytes": 704943,
+    "SHA256": "f24a2b15064396dd18669a6c5bf479924d2c39637f3395c59bd1507a879684ce"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S1_seed23/progress.json",
+    "Bytes": 190,
+    "SHA256": "4cc11d60e60418d4010e2f4226e4a44c3b1bda9ff5909e968b48a595dc5f8217"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S1_seed47/best.pt",
+    "Bytes": 32533,
+    "SHA256": "c564397479053d7a2754a52c8c4892d5a6e8bf4c64bfcc1d6212b224e9c9de77"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S1_seed47/complete.json",
+    "Bytes": 964,
+    "SHA256": "5d9dc66c898b397834968d4a0064d163ba720b8223fa97606d6882daf658f4c8"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S1_seed47/history.json",
+    "Bytes": 1701,
+    "SHA256": "515e415997419f83a050eedf42c1d3d7236c37486bd729292c9785702bbc32ff"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S1_seed47/last_epoch.pt",
+    "Bytes": 135268,
+    "SHA256": "5fb63c2d4f3c38babf2f33d1ec767a0536b334b2366385e22317d93aaabf278f"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S1_seed47/prediksi.csv",
+    "Bytes": 703434,
+    "SHA256": "546692d4ffd8f37bb56e8309e3f411216ed243ac59f542e2853b828bdc942339"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/S1_seed47/progress.json",
+    "Bytes": 187,
+    "SHA256": "07cc7bb3558fad8f945433a315578fbb2cc808fbd0aa94e2fea5bbb656fab098"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/timestamp_evaluation_bersama.csv",
+    "Bytes": 258012,
+    "SHA256": "7bd34d8670f452198a0505c2135c896e8c657a7727d921b6d208dc8421c0f421"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/timestamp_inner_train_bersama.csv",
+    "Bytes": 790056,
+    "SHA256": "91d24bbb62a37aac4dd8936ba6aecfc3d8e9c6a5cc2447137d337ae873c4f244"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/Fold_04/timestamp_inner_validation_bersama.csv",
+    "Bytes": 160983,
+    "SHA256": "9be6a00bcde91aedf4bfcbd3fd2d2aeaa4f6890999fe14695bf0e75a0aa63412"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/gate_semua_sebelum_fit.json",
+    "Bytes": 2170,
+    "SHA256": "0986c68326e97e367f5e7abdb0460ed5f0766786d25c71d2811b5fae42a17e7d"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/hasil_lstm_antarstasiun.xlsx",
+    "Bytes": 3087049,
+    "SHA256": "c5433fa604092ef59a29ab527f1c4b83fe233e3150dc323f931715750d8d8014"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/hasil_lstm_antarstasiun.xlsx.inspect.ndjson",
+    "Bytes": 134346985,
+    "SHA256": "ea87d039364aac43a49b44b281f4e93baa791f80f274a1370318cc1f869f6127"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/independent_checks.json",
+    "Bytes": 1527,
+    "SHA256": "fbb998ec44d7f4fb6e04a878b61aedbc3c5afb43b9e0d00a7b4b42e61f516417"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/ledger_offgrid_development.csv",
+    "Bytes": 273,
+    "SHA256": "2e46732b828190380c9a47d2b92fdc4846c8b319caaedff8a0e2c76d045e7dd5"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/partial_checkpoint_checks.json",
+    "Bytes": 1390,
+    "SHA256": "847bf8571e1cf66244fa76ae9201536d2643db189ba722c13bb8d14dd0d96545"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/prediksi_oof_seluruh_seed.csv",
+    "Bytes": 9344164,
+    "SHA256": "f086abd16f9ba2f0360037309670512dd96928ed584d93f36037d157ff8bcdbc"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/prediksi_wide_seluruh_seed.csv",
+    "Bytes": 4526304,
+    "SHA256": "186e76f27f3f27ad011638388121f57b8c65f0eb59bf30c53843a6ebc09729af"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/preflight_independent_checks.json",
+    "Bytes": 1289,
+    "SHA256": "7c3f85e377b8ec9a43861d0463d23dd46e730dccec22a8fbb06b3d0d11cd03e3"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/ringkasan_lstm_antarstasiun.md",
+    "Bytes": 48432,
+    "SHA256": "cfb2d24465846c77901a61d309e95874041314057d82152b6799d5b04ab5d359"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/tabel_hasil.json",
+    "Bytes": 18727820,
+    "SHA256": "de546193ab6357bcbcfe39b2f20f1e433e6e984a759ed9654f7fc2fbb3e93474"
+  },
+  {
+    "File": "outputs/lstm_antarstasiun_tahap10/timestamp_seluruh_bagian.csv",
+    "Bytes": 4578301,
+    "SHA256": "c5f603ce636e39c90f1cca012df76937a0e2be50aee9a2a3df31916303792b1b"
+  },
+  {
+    "File": "outputs/STATUS_PROYEK.md",
+    "Bytes": 5202,
+    "SHA256": "a45ca3db38dade86d1c504aa3785f46ca2ddec70c9ac37798b7ba83cc4d3025d"
+  },
+  {
+    "File": "scripts/build_stage10_notebook.py",
+    "Bytes": 5476,
+    "SHA256": "c2c4063447d0b633809e88efed4439e71e5de2a168fc4ce87788a64a6b718a9a"
+  },
+  {
+    "File": "scripts/lstm_interstation_stage10.py",
+    "Bytes": 23836,
+    "SHA256": "3e4f51b10f7b7389e085660ffb58055b0dab70018199910aeb2e0ee1338e4e92"
+  },
+  {
+    "File": "scripts/report_interstation_stage10.py",
+    "Bytes": 29678,
+    "SHA256": "96f530edd275699e7116bd6e9eb5c04affa928ea8cd792baa7b20ab0a5d7acb2"
+  },
+  {
+    "File": "scripts/summarize_interstation_stage10.py",
+    "Bytes": 19383,
+    "SHA256": "1f3d35f909e52770198f613408cbe5726ef04b0b350bf0487d2202012bf24f81"
+  },
+  {
+    "File": "scripts/verify_interstation_stage10.py",
+    "Bytes": 9747,
+    "SHA256": "29d60c14db8dde5cb580c3671b087cc4be9579164342913a2928f8efa07f1d66"
+  },
+  {
+    "File": "scripts/verify_stage10_delivery.py",
+    "Bytes": 3014,
+    "SHA256": "652e0515b41e685156c38f053108e2d299f6524ce3c223294ef26bae1e4abfac"
+  }
+]

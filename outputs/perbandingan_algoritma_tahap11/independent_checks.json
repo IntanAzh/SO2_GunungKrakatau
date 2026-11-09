@@ -1,0 +1,235 @@
+{
+  "config_sha256": "63b680d82cb7cf753824f2532ba9ce76d1695a415530790b23724c00467b54b0",
+  "new_models_verified_without_fit": 24,
+  "checkpoint_predictions_recomputed": 534,
+  "old_files_sha256_identical": 1479,
+  "folds": [
+    {
+      "Fold": "Fold_01",
+      "Train N": 2679,
+      "Internal N": 860,
+      "Evaluasi N": 4890,
+      "Causality and source verified": true
+    },
+    {
+      "Fold": "Fold_02",
+      "Train N": 6822,
+      "Internal N": 1607,
+      "Evaluasi N": 4969,
+      "Causality and source verified": true
+    },
+    {
+      "Fold": "Fold_03",
+      "Train N": 11042,
+      "Internal N": 2356,
+      "Evaluasi N": 4969,
+      "Causality and source verified": true
+    },
+    {
+      "Fold": "Fold_04",
+      "Train N": 15267,
+      "Internal N": 3100,
+      "Evaluasi N": 4969,
+      "Causality and source verified": true
+    }
+  ],
+  "model_shapes": [
+    {
+      "Fold": "Fold_01",
+      "Algoritma": "GRU",
+      "Seed": 11,
+      "Parameter": 5409,
+      "Checkpoint direkonstruksi": 29,
+      "Best epoch": 42
+    },
+    {
+      "Fold": "Fold_01",
+      "Algoritma": "TCN",
+      "Seed": 11,
+      "Parameter": 6945,
+      "Checkpoint direkonstruksi": 29,
+      "Best epoch": 32
+    },
+    {
+      "Fold": "Fold_01",
+      "Algoritma": "GRU",
+      "Seed": 23,
+      "Parameter": 5409,
+      "Checkpoint direkonstruksi": 29,
+      "Best epoch": 29
+    },
+    {
+      "Fold": "Fold_01",
+      "Algoritma": "TCN",
+      "Seed": 23,
+      "Parameter": 6945,
+      "Checkpoint direkonstruksi": 29,
+      "Best epoch": 35
+    },
+    {
+      "Fold": "Fold_01",
+      "Algoritma": "GRU",
+      "Seed": 47,
+      "Parameter": 5409,
+      "Checkpoint direkonstruksi": 29,
+      "Best epoch": 39
+    },
+    {
+      "Fold": "Fold_01",
+      "Algoritma": "TCN",
+      "Seed": 47,
+      "Parameter": 6945,
+      "Checkpoint direkonstruksi": 29,
+      "Best epoch": 34
+    },
+    {
+      "Fold": "Fold_02",
+      "Algoritma": "GRU",
+      "Seed": 11,
+      "Parameter": 5409,
+      "Checkpoint direkonstruksi": 20,
+      "Best epoch": 39
+    },
+    {
+      "Fold": "Fold_02",
+      "Algoritma": "TCN",
+      "Seed": 11,
+      "Parameter": 6945,
+      "Checkpoint direkonstruksi": 20,
+      "Best epoch": 18
+    },
+    {
+      "Fold": "Fold_02",
+      "Algoritma": "GRU",
+      "Seed": 23,
+      "Parameter": 5409,
+      "Checkpoint direkonstruksi": 20,
+      "Best epoch": 37
+    },
+    {
+      "Fold": "Fold_02",
+      "Algoritma": "TCN",
+      "Seed": 23,
+      "Parameter": 6945,
+      "Checkpoint direkonstruksi": 20,
+      "Best epoch": 17
+    },
+    {
+      "Fold": "Fold_02",
+      "Algoritma": "GRU",
+      "Seed": 47,
+      "Parameter": 5409,
+      "Checkpoint direkonstruksi": 20,
+      "Best epoch": 18
+    },
+    {
+      "Fold": "Fold_02",
+      "Algoritma": "TCN",
+      "Seed": 47,
+      "Parameter": 6945,
+      "Checkpoint direkonstruksi": 20,
+      "Best epoch": 14
+    },
+    {
+      "Fold": "Fold_03",
+      "Algoritma": "GRU",
+      "Seed": 11,
+      "Parameter": 5409,
+      "Checkpoint direkonstruksi": 20,
+      "Best epoch": 48
+    },
+    {
+      "Fold": "Fold_03",
+      "Algoritma": "TCN",
+      "Seed": 11,
+      "Parameter": 6945,
+      "Checkpoint direkonstruksi": 20,
+      "Best epoch": 46
+    },
+    {
+      "Fold": "Fold_03",
+      "Algoritma": "GRU",
+      "Seed": 23,
+      "Parameter": 5409,
+      "Checkpoint direkonstruksi": 20,
+      "Best epoch": 36
+    },
+    {
+      "Fold": "Fold_03",
+      "Algoritma": "TCN",
+      "Seed": 23,
+      "Parameter": 6945,
+      "Checkpoint direkonstruksi": 20,
+      "Best epoch": 50
+    },
+    {
+      "Fold": "Fold_03",
+      "Algoritma": "GRU",
+      "Seed": 47,
+      "Parameter": 5409,
+      "Checkpoint direkonstruksi": 20,
+      "Best epoch": 48
+    },
+    {
+      "Fold": "Fold_03",
+      "Algoritma": "TCN",
+      "Seed": 47,
+      "Parameter": 6945,
+      "Checkpoint direkonstruksi": 20,
+      "Best epoch": 50
+    },
+    {
+      "Fold": "Fold_04",
+      "Algoritma": "GRU",
+      "Seed": 11,
+      "Parameter": 5409,
+      "Checkpoint direkonstruksi": 20,
+      "Best epoch": 22
+    },
+    {
+      "Fold": "Fold_04",
+      "Algoritma": "TCN",
+      "Seed": 11,
+      "Parameter": 6945,
+      "Checkpoint direkonstruksi": 20,
+      "Best epoch": 21
+    },
+    {
+      "Fold": "Fold_04",
+      "Algoritma": "GRU",
+      "Seed": 23,
+      "Parameter": 5409,
+      "Checkpoint direkonstruksi": 20,
+      "Best epoch": 18
+    },
+    {
+      "Fold": "Fold_04",
+      "Algoritma": "TCN",
+      "Seed": 23,
+      "Parameter": 6945,
+      "Checkpoint direkonstruksi": 20,
+      "Best epoch": 31
+    },
+    {
+      "Fold": "Fold_04",
+      "Algoritma": "GRU",
+      "Seed": 47,
+      "Parameter": 5409,
+      "Checkpoint direkonstruksi": 20,
+      "Best epoch": 33
+    },
+    {
+      "Fold": "Fold_04",
+      "Algoritma": "TCN",
+      "Seed": 47,
+      "Parameter": 6945,
+      "Checkpoint direkonstruksi": 20,
+      "Best epoch": 44
+    }
+  ],
+  "causal_tcn_prefix_tests_passed": true,
+  "test_loaded": false,
+  "test_evaluated": false,
+  "metrics_fold_month_pooled_recomputed": true,
+  "tables_sha256": "5724f818efbfea5236d0d84f5f45881fdfbcf06efdce9d7fefa8f7b63756d0a0"
+}

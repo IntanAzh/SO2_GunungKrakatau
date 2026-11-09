@@ -1,0 +1,21 @@
+{
+  "Fold": "Fold_02",
+  "Skenario": "S0",
+  "Seed": 11,
+  "config_sha256": "3fcd7cdd49c906ea7f2ad47ed261362c9f68e45cc03a4036318a321c3c035c7f",
+  "Epoch dijalankan": 16,
+  "Epoch terbaik": 8,
+  "Internal MSE standar terbaik": 0.0012167980656834516,
+  "Fit early stopping detik": 42.02197600004729,
+  "Predict detik": 0.1624487999943085,
+  "Waktu fit definisi": "Jumlah durasi epoch train+validasi internal; tidak termasuk penulisan checkpoint, persiapan tensor, dan jeda resume.",
+  "N train bersama": 6822,
+  "N validasi internal bersama": 1607,
+  "Jumlah parameter": 7201,
+  "files_sha256": {
+    "best.pt": "9c70a63c0066d1fd264d469f7a2b3d847e3b0026336384a58c2bb120c78d1467",
+    "last_epoch.pt": "b3c841937e16db7d5a1f0aea3c22ae2dc3104187cdb75725bea0c9c51d9bef7f",
+    "history.json": "d6763b32658276376ed438c30a4e17e85173c1f7f5a087b546466741cec5dbcc",
+    "prediksi.csv": "13867fe30e7c329c93c602625a8e694541e46d6177006aa0b664cc39182245a7"
+  }
+}

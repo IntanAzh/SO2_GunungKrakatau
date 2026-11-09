@@ -1,0 +1,22 @@
+{
+  "Fold": "Fold_02",
+  "Algoritma": "GRU",
+  "Seed": 47,
+  "config_sha256": "63b680d82cb7cf753824f2532ba9ce76d1695a415530790b23724c00467b54b0",
+  "Epoch dijalankan": 26,
+  "Epoch terbaik": 18,
+  "Internal MSE standar terbaik": 0.001417768682169484,
+  "Fit early stopping detik": 130.05111849989044,
+  "Predict detik": 0.4650029999902472,
+  "N train": 6822,
+  "N internal": 1607,
+  "N evaluasi target asli": 4969,
+  "Jumlah parameter": 5409,
+  "Waktu definisi": "Fit=sum durasi epoch training dan validasi internal; checkpoint I/O, persiapan tensor, dan jeda resume tidak termasuk. Predict=inferensi dan inverse target scaling.",
+  "files_sha256": {
+    "best.pt": "62e1cbe4d46d33bbf2682224bc638134584aa42ee4ae878cdfd78280b9712f2b",
+    "last_epoch.pt": "94c90c3a909fc9bf3c5770d063a110ac75ef035f7dc0853dcecf629e3188c165",
+    "history.json": "994c7c9c1e00fa7ba093ac6138ed633c4a9d536232b58184fe02a38c4b1cedc7",
+    "prediksi.csv": "71530f4c4b60bbe34f5a8640626ddecdbb4a816412e4f617eba326c20bbbf9ff"
+  }
+}

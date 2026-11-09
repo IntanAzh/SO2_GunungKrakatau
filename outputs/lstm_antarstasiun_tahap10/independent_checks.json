@@ -1,0 +1,48 @@
+{
+  "config_sha256": "3fcd7cdd49c906ea7f2ad47ed261362c9f68e45cc03a4036318a321c3c035c7f",
+  "preflight_only": false,
+  "model_fits_in_verifier": 0,
+  "folds": [
+    {
+      "Fold": "Fold_01",
+      "causal_prefix_verified": true,
+      "train_scalers_verified": true,
+      "sequence_and_original_flags_verified": true,
+      "train_common_N": 2679,
+      "internal_common_N": 860,
+      "evaluation_common_N": 4890
+    },
+    {
+      "Fold": "Fold_02",
+      "causal_prefix_verified": true,
+      "train_scalers_verified": true,
+      "sequence_and_original_flags_verified": true,
+      "train_common_N": 6822,
+      "internal_common_N": 1607,
+      "evaluation_common_N": 4969
+    },
+    {
+      "Fold": "Fold_03",
+      "causal_prefix_verified": true,
+      "train_scalers_verified": true,
+      "sequence_and_original_flags_verified": true,
+      "train_common_N": 11042,
+      "internal_common_N": 2356,
+      "evaluation_common_N": 4969
+    },
+    {
+      "Fold": "Fold_04",
+      "causal_prefix_verified": true,
+      "train_scalers_verified": true,
+      "sequence_and_original_flags_verified": true,
+      "train_common_N": 15267,
+      "internal_common_N": 3100,
+      "evaluation_common_N": 4969
+    }
+  ],
+  "old_files_identical": 991,
+  "old_files_union_with_stage9_baseline": 1254,
+  "checkpoint_models_verified_without_refit": 24,
+  "metrics_fold_monthly_pooled_verified": true,
+  "tables_sha256": "de546193ab6357bcbcfe39b2f20f1e433e6e984a759ed9654f7fc2fbb3e93474"
+}

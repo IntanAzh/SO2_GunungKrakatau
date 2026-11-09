@@ -1,0 +1,58 @@
+{
+  "fit_count": 0,
+  "config_sha256": "3fcd7cdd49c906ea7f2ad47ed261362c9f68e45cc03a4036318a321c3c035c7f",
+  "gates": [
+    {
+      "Fold": "Fold_01",
+      "Train bersama": 2679,
+      "Validasi internal bersama": 860,
+      "Evaluasi bersama": 4890,
+      "Fit count sebelum gate": 0,
+      "Lulus": true,
+      "Train internal akhir kalender": "2025-04-12 23:30:00",
+      "Validasi internal awal kalender": "2025-04-13 00:00:00",
+      "Validasi internal akhir kalender": "2025-04-30 23:30:00",
+      "Evaluasi awal kalender": "2025-05-01 00:00:00",
+      "Evaluasi akhir kalender": "2025-08-12 13:30:00"
+    },
+    {
+      "Fold": "Fold_02",
+      "Train bersama": 6822,
+      "Validasi internal bersama": 1607,
+      "Evaluasi bersama": 4969,
+      "Fit count sebelum gate": 0,
+      "Lulus": true,
+      "Train internal akhir kalender": "2025-07-10 00:30:00",
+      "Validasi internal awal kalender": "2025-07-10 01:00:00",
+      "Validasi internal akhir kalender": "2025-08-12 13:30:00",
+      "Evaluasi awal kalender": "2025-08-12 14:00:00",
+      "Evaluasi akhir kalender": "2025-11-24 03:00:00"
+    },
+    {
+      "Fold": "Fold_03",
+      "Train bersama": 11042,
+      "Validasi internal bersama": 2356,
+      "Evaluasi bersama": 4969,
+      "Fit count sebelum gate": 0,
+      "Lulus": true,
+      "Train internal akhir kalender": "2025-10-06 01:00:00",
+      "Validasi internal awal kalender": "2025-10-06 01:30:00",
+      "Validasi internal akhir kalender": "2025-11-24 03:00:00",
+      "Evaluasi awal kalender": "2025-11-24 03:30:00",
+      "Evaluasi akhir kalender": "2026-03-07 16:30:00"
+    },
+    {
+      "Fold": "Fold_04",
+      "Train bersama": 15267,
+      "Validasi internal bersama": 3100,
+      "Evaluasi bersama": 4969,
+      "Fit count sebelum gate": 0,
+      "Lulus": true,
+      "Train internal akhir kalender": "2026-01-02 01:30:00",
+      "Validasi internal awal kalender": "2026-01-02 02:00:00",
+      "Validasi internal akhir kalender": "2026-03-07 16:30:00",
+      "Evaluasi awal kalender": "2026-03-07 17:00:00",
+      "Evaluasi akhir kalender": "2026-06-19 06:00:00"
+    }
+  ]
+}

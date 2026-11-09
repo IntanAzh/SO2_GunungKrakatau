@@ -1,0 +1,87 @@
+[
+  {
+    "sheet": "Ringkasan",
+    "records": 20,
+    "columns": 14
+  },
+  {
+    "sheet": "Skor_fold_seed",
+    "records": 96,
+    "columns": 12
+  },
+  {
+    "sheet": "Gabungan_per_seed",
+    "records": 24,
+    "columns": 12
+  },
+  {
+    "sheet": "Vs_persistence",
+    "records": 45,
+    "columns": 8
+  },
+  {
+    "sheet": "Skor_bulanan",
+    "records": 744,
+    "columns": 13
+  },
+  {
+    "sheet": "Bulanan_vs_persistence",
+    "records": 279,
+    "columns": 7
+  },
+  {
+    "sheet": "Transisi_22_juni",
+    "records": 24,
+    "columns": 16
+  },
+  {
+    "sheet": "Waktu_dan_parameter",
+    "records": 36,
+    "columns": 14
+  },
+  {
+    "sheet": "Ringkas_waktu",
+    "records": 3,
+    "columns": 8
+  },
+  {
+    "sheet": "Riwayat_training",
+    "records": 1362,
+    "columns": 7
+  },
+  {
+    "sheet": "Gate_sebelum_fit",
+    "records": 4,
+    "columns": 18
+  },
+  {
+    "sheet": "Distribusi_target",
+    "records": 12,
+    "columns": 15
+  },
+  {
+    "sheet": "Target_bulanan",
+    "records": 55,
+    "columns": 14
+  },
+  {
+    "sheet": "Prediksi_seluruh_seed",
+    "records": 19797,
+    "columns": 17
+  },
+  {
+    "sheet": "Konfigurasi",
+    "records": 35,
+    "columns": 2
+  },
+  {
+    "sheet": "Definisi",
+    "records": 10,
+    "columns": 2
+  },
+  {
+    "sheet": "Integritas_SHA256",
+    "records": 1479,
+    "columns": 4
+  }
+]

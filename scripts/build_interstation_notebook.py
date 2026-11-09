@@ -1,0 +1,16 @@
+from pathlib import Path
+import json,sys
+ROOT=Path(__file__).resolve().parents[1];cells=[]
+def add(kind,text):
+    c={'cell_type':kind,'id':f'interstation-{len(cells):02d}','metadata':{},'source':text}
+    if kind=='code':c.update(execution_count=None,outputs=[])
+    cells.append(c)
+add('markdown','# Tahap9 — kontribusi antarstasiun\n\nTarget asli Way Urang, horizon30menit, empat fold tahap6. S0=C30WayUrang; S1 tambahPulomerak; S2 tambahTalang; S3 keduanya. HanyaSO2 donor, offsetorigin1/2/3/7/13/25/49 dan missingasli; usia hanya diagnostik. Clock sebanding dan delay30menit adalah asumsi belum terverifikasi. Tidak melatih DL, tuning, atau membuka nilai test akhir. Semua hasil lama dipertahankan.')
+add('code',"from pathlib import Path\nimport sys\nROOT=Path.cwd()\nif ROOT.name=='notebooks': ROOT=ROOT.parent\nsys.path.insert(0,str(ROOT/'scripts'))\nfrom interstation_stage9 import Experiment\nfrom IPython.display import display,Markdown,Image\nimport pandas as pd\ne=Experiment().prepare()\nprint('Config pra-fit SHA256:',e.config_hash)\ndisplay(pd.DataFrame(e.cfg['folds']))\ndisplay(pd.DataFrame(e.source_checks))\ndisplay(pd.DataFrame(e.offgrid))\nprint('Fitur donor offsets:',e.cfg['donor_origin_offsets'])\n")
+add('markdown','## Kausalitas dan irisan sebelum model\n\nMedianC30 pada tiapseri sendiri, prefix30hari hanya masa lalu. Donorfreeze[:a−1] agar statistik tersedia pada origin evaluasi pertama; Wayfreeze[:a] persisC30 lama. S0buffer48slot, donorbuffer49. Train semua skenario dan targetasli sama; tidak ada donor untuk target. S0 di-fit ulang. Laporkan jumlah/distribusi yang tersisih sebelum menafsirkan skor.')
+add('code',"e.prepare_all()\ndisplay(pd.DataFrame([f.gate for f in e.folds]))\ndisplay(pd.DataFrame([r for f in e.folds for r in f.flow]))\ndisplay(pd.DataFrame([r for f in e.folds for r in f.dist]))\ndisplay(pd.DataFrame([r for f in e.folds for r in f.lost]))\nprint('Fitcount sebelum semua gate:',e.fit_count)\n")
+add('markdown','## Ridge tetap dan evaluasi\n\n16Ridge baru, alpha1/intercept/SVD sama; StandardScaler hanya trainbersama foldterkait, targettidak diskalakan. Semua targetevaluasi asli; persistence dari originalWay terakhir≤origin. Cakupanmandiri danbersama terpisah. Persentaseperbaikan=100×(errorS0−errorscenario)/errorS0. Tidak mengubah split/fold/fitur sesudah melihat skor.')
+add('code',"e.train()\ndisplay(pd.DataFrame(e.metrics))\ndisplay(pd.DataFrame(e.pooled))\ndisplay(pd.DataFrame(e.deltas))\ndisplay(pd.DataFrame(e.s0_audit))\ndisplay(pd.DataFrame(e.age_stats))\ndisplay(pd.DataFrame(e.constant_summary))\ndisplay(pd.DataFrame(e.integrity))\nfor name in ['skor_per_fold.png','perubahan_vs_S0.png','transisi_22_juni.png']:\n    display(Image(filename=str(ROOT/'outputs/figures/kontribusi_antarstasiun'/name)))\n")
+add('code',"e.export_excel()\ndisplay(Markdown((ROOT/'outputs/ringkasan_kontribusi_antarstasiun.md').read_text(encoding='utf-8')))\n")
+nb={'nbformat':4,'nbformat_minor':5,'metadata':{'kernelspec':{'display_name':'Python (.venv SO2 audit)','language':'python','name':'so2-audit'},'language_info':{'name':'python','version':sys.version.split()[0]}},'cells':cells}
+(ROOT/'notebooks/09_kontribusi_antarstasiun.ipynb').write_text(json.dumps(nb,ensure_ascii=False,indent=1),encoding='utf-8')

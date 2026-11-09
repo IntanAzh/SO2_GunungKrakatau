@@ -1,0 +1,17 @@
+{
+  "completed_models": 24,
+  "config_sha256": "3fcd7cdd49c906ea7f2ad47ed261362c9f68e45cc03a4036318a321c3c035c7f",
+  "old_files_sha256_identical": 1254,
+  "unique_targets_per_seed": {
+    "11": 19797,
+    "23": 19797,
+    "47": 19797
+  },
+  "common_targets_per_seed": {
+    "11": 19797,
+    "23": 19797,
+    "47": 19797
+  },
+  "test_loaded": false,
+  "test_evaluated": false
+}

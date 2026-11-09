@@ -1,0 +1,20 @@
+{
+  "Fold": "Fold_03",
+  "Train N": 11042,
+  "Internal N": 2356,
+  "Evaluasi N": 4969,
+  "Stage10 S0 train cocok": true,
+  "Stage10 S0 internal cocok": true,
+  "Stage10 S0 evaluasi cocok": true,
+  "Fitur kanal": 22,
+  "Fitur terverifikasi": true,
+  "Target asli": true,
+  "Scaler train internal": true,
+  "Fit baru sebelum gate": 0,
+  "Lulus": true,
+  "Train akhir kalender": "2025-10-06 01:00:00",
+  "Internal mulai kalender": "2025-10-06 01:30:00",
+  "Internal akhir kalender": "2025-11-24 03:00:00",
+  "Evaluasi mulai kalender": "2025-11-24 03:30:00",
+  "Evaluasi akhir kalender": "2026-03-07 16:30:00"
+}

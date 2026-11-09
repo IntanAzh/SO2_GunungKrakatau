@@ -1,0 +1,18 @@
+{
+  "new_completed_models": 24,
+  "old_lstm_reference_models": 12,
+  "config_sha256": "63b680d82cb7cf753824f2532ba9ce76d1695a415530790b23724c00467b54b0",
+  "old_files_identical": 1479,
+  "prediction_rows_per_seed": {
+    "11": 19797,
+    "23": 19797,
+    "47": 19797
+  },
+  "common_rows_per_seed": {
+    "11": 19797,
+    "23": 19797,
+    "47": 19797
+  },
+  "test_loaded": false,
+  "test_evaluated": false
+}

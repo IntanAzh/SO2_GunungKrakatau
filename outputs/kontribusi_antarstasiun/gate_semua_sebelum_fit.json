@@ -1,0 +1,50 @@
+{
+  "fit_count": 0,
+  "config_sha256": "a4f323b413cf588de32669eef014c4a43a8580286f3ae8835cb5b2d5b0bbbcf8",
+  "gates": [
+    {
+      "Fold": "Fold_01",
+      "Fit count sebelum gate": 0,
+      "Train bersama": 3539,
+      "Evaluasi bersama": 4890,
+      "Minimum train komputasional": 620,
+      "S0 train layak mandiri": 3539,
+      "S0 hilang akibat irisan": 0,
+      "Lulus": true,
+      "S0 fitur identik C30 lama": true
+    },
+    {
+      "Fold": "Fold_02",
+      "Fit count sebelum gate": 0,
+      "Train bersama": 8429,
+      "Evaluasi bersama": 4969,
+      "Minimum train komputasional": 620,
+      "S0 train layak mandiri": 8429,
+      "S0 hilang akibat irisan": 0,
+      "Lulus": true,
+      "S0 fitur identik C30 lama": true
+    },
+    {
+      "Fold": "Fold_03",
+      "Fit count sebelum gate": 0,
+      "Train bersama": 13398,
+      "Evaluasi bersama": 4969,
+      "Minimum train komputasional": 620,
+      "S0 train layak mandiri": 13398,
+      "S0 hilang akibat irisan": 0,
+      "Lulus": true,
+      "S0 fitur identik C30 lama": true
+    },
+    {
+      "Fold": "Fold_04",
+      "Fit count sebelum gate": 0,
+      "Train bersama": 18367,
+      "Evaluasi bersama": 4969,
+      "Minimum train komputasional": 620,
+      "S0 train layak mandiri": 18367,
+      "S0 hilang akibat irisan": 0,
+      "Lulus": true,
+      "S0 fitur identik C30 lama": true
+    }
+  ]
+}

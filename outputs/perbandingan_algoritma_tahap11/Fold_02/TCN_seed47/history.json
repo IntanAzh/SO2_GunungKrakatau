@@ -1,0 +1,178 @@
+[
+  {
+    "Fold": "Fold_02",
+    "Algoritma": "TCN",
+    "Seed": 47,
+    "Epoch": 1,
+    "Train MSE standar": 0.13495616014905948,
+    "Internal MSE standar": 0.046907335760879756
+  },
+  {
+    "Fold": "Fold_02",
+    "Algoritma": "TCN",
+    "Seed": 47,
+    "Epoch": 2,
+    "Train MSE standar": 0.016553502100307142,
+    "Internal MSE standar": 0.023595525970648887
+  },
+  {
+    "Fold": "Fold_02",
+    "Algoritma": "TCN",
+    "Seed": 47,
+    "Epoch": 3,
+    "Train MSE standar": 0.012884380731909673,
+    "Internal MSE standar": 0.029177862105342862
+  },
+  {
+    "Fold": "Fold_02",
+    "Algoritma": "TCN",
+    "Seed": 47,
+    "Epoch": 4,
+    "Train MSE standar": 0.010939009350019268,
+    "Internal MSE standar": 0.014881764759391305
+  },
+  {
+    "Fold": "Fold_02",
+    "Algoritma": "TCN",
+    "Seed": 47,
+    "Epoch": 5,
+    "Train MSE standar": 0.009822549723521229,
+    "Internal MSE standar": 0.016547441779268996
+  },
+  {
+    "Fold": "Fold_02",
+    "Algoritma": "TCN",
+    "Seed": 47,
+    "Epoch": 6,
+    "Train MSE standar": 0.008880315637752486,
+    "Internal MSE standar": 0.010400651865444647
+  },
+  {
+    "Fold": "Fold_02",
+    "Algoritma": "TCN",
+    "Seed": 47,
+    "Epoch": 7,
+    "Train MSE standar": 0.007947707387646843,
+    "Internal MSE standar": 0.010868991578522868
+  },
+  {
+    "Fold": "Fold_02",
+    "Algoritma": "TCN",
+    "Seed": 47,
+    "Epoch": 8,
+    "Train MSE standar": 0.007960043367496996,
+    "Internal MSE standar": 0.009633890538016832
+  },
+  {
+    "Fold": "Fold_02",
+    "Algoritma": "TCN",
+    "Seed": 47,
+    "Epoch": 9,
+    "Train MSE standar": 0.007182628898443155,
+    "Internal MSE standar": 0.009803202816916313
+  },
+  {
+    "Fold": "Fold_02",
+    "Algoritma": "TCN",
+    "Seed": 47,
+    "Epoch": 10,
+    "Train MSE standar": 0.0065772065945238324,
+    "Internal MSE standar": 0.01076685657171856
+  },
+  {
+    "Fold": "Fold_02",
+    "Algoritma": "TCN",
+    "Seed": 47,
+    "Epoch": 11,
+    "Train MSE standar": 0.006410587316625228,
+    "Internal MSE standar": 0.009897300024246235
+  },
+  {
+    "Fold": "Fold_02",
+    "Algoritma": "TCN",
+    "Seed": 47,
+    "Epoch": 12,
+    "Train MSE standar": 0.006094838147797291,
+    "Internal MSE standar": 0.013536326656745099
+  },
+  {
+    "Fold": "Fold_02",
+    "Algoritma": "TCN",
+    "Seed": 47,
+    "Epoch": 13,
+    "Train MSE standar": 0.006175836891619032,
+    "Internal MSE standar": 0.009476619009357397
+  },
+  {
+    "Fold": "Fold_02",
+    "Algoritma": "TCN",
+    "Seed": 47,
+    "Epoch": 14,
+    "Train MSE standar": 0.005830879580827194,
+    "Internal MSE standar": 0.007896471298030243
+  },
+  {
+    "Fold": "Fold_02",
+    "Algoritma": "TCN",
+    "Seed": 47,
+    "Epoch": 15,
+    "Train MSE standar": 0.005506933367519269,
+    "Internal MSE standar": 0.009399172917759486
+  },
+  {
+    "Fold": "Fold_02",
+    "Algoritma": "TCN",
+    "Seed": 47,
+    "Epoch": 16,
+    "Train MSE standar": 0.00531167780620198,
+    "Internal MSE standar": 0.013002425914383409
+  },
+  {
+    "Fold": "Fold_02",
+    "Algoritma": "TCN",
+    "Seed": 47,
+    "Epoch": 17,
+    "Train MSE standar": 0.005300398735325141,
+    "Internal MSE standar": 0.008014312342003999
+  },
+  {
+    "Fold": "Fold_02",
+    "Algoritma": "TCN",
+    "Seed": 47,
+    "Epoch": 18,
+    "Train MSE standar": 0.004960697048161604,
+    "Internal MSE standar": 0.013633524028870655
+  },
+  {
+    "Fold": "Fold_02",
+    "Algoritma": "TCN",
+    "Seed": 47,
+    "Epoch": 19,
+    "Train MSE standar": 0.004791372785141581,
+    "Internal MSE standar": 0.010506821962046787
+  },
+  {
+    "Fold": "Fold_02",
+    "Algoritma": "TCN",
+    "Seed": 47,
+    "Epoch": 20,
+    "Train MSE standar": 0.004597285045916993,
+    "Internal MSE standar": 0.009004834995332087
+  },
+  {
+    "Fold": "Fold_02",
+    "Algoritma": "TCN",
+    "Seed": 47,
+    "Epoch": 21,
+    "Train MSE standar": 0.0044740501871647605,
+    "Internal MSE standar": 0.010416996111837173
+  },
+  {
+    "Fold": "Fold_02",
+    "Algoritma": "TCN",
+    "Seed": 47,
+    "Epoch": 22,
+    "Train MSE standar": 0.004469625726852776,
+    "Internal MSE standar": 0.011971037851109888
+  }
+]

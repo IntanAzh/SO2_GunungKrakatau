@@ -1,0 +1,22 @@
+{
+  "Fold": "Fold_04",
+  "Algoritma": "TCN",
+  "Seed": 11,
+  "config_sha256": "63b680d82cb7cf753824f2532ba9ce76d1695a415530790b23724c00467b54b0",
+  "Epoch dijalankan": 29,
+  "Epoch terbaik": 21,
+  "Internal MSE standar terbaik": 0.00013680919599268706,
+  "Fit early stopping detik": 288.1112889998476,
+  "Predict detik": 0.8534782999777235,
+  "N train": 15267,
+  "N internal": 3100,
+  "N evaluasi target asli": 4969,
+  "Jumlah parameter": 6945,
+  "Waktu definisi": "Fit=sum durasi epoch training dan validasi internal; checkpoint I/O, persiapan tensor, dan jeda resume tidak termasuk. Predict=inferensi dan inverse target scaling.",
+  "files_sha256": {
+    "best.pt": "64e9b65d2c30579ce8a62869f04b4c2fc891fb99bfd4992c8bfd5d60b188a25d",
+    "last_epoch.pt": "0c9159a1c7c7867461a0978386f13cefbb6185cc946b26d33b4f6998417d7ac4",
+    "history.json": "ae79e5084788108a7c5b9698f578dff0947b2be9320064221053fe73ed729d25",
+    "prediksi.csv": "f2875568a31fd2c7281b419945f29a32101ca9e4bcfb533742949e0a4647323d"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "config_sha256": "3fcd7cdd49c906ea7f2ad47ed261362c9f68e45cc03a4036318a321c3c035c7f",
+  "epoch": 50,
+  "best_epoch": 44,
+  "fit_seconds": 217.85420500012697,
+  "state": "training"
+}

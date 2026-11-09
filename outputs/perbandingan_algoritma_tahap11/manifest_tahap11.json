@@ -1,0 +1,933 @@
+{
+  "purpose": "Stage 11 delivery integrity",
+  "created_after_all_models": true,
+  "old_files_verified": 1479,
+  "workbook_cells_verified": 367728,
+  "files": [
+    {
+      "path": "notebooks/11_perbandingan_algoritma.ipynb",
+      "size_bytes": 1469791,
+      "sha256": "04eb13558c2f97f89b3fae95858a65e778c3f95473ce2c85d088983d0a2d36de"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/checks.json",
+      "size_bytes": 423,
+      "sha256": "d3c506c6111ceea2c36bd7f27ba19fb403726ec81640d0531ac0985880df405d"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/config_locked.json",
+      "size_bytes": 226671,
+      "sha256": "63b680d82cb7cf753824f2532ba9ce76d1695a415530790b23724c00467b54b0"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/daftar_fitur.json",
+      "size_bytes": 1271,
+      "sha256": "a29358f4c80b6aa68dfd7764fa9d039f3b0110d63d0b1e30ee4e823c64922c1a"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/figures/riwayat_internal.png",
+      "size_bytes": 440536,
+      "sha256": "e786b9b1027db1d36d5f42ed9d76e3ff838d62b72d0961fc859a9a2dcdb99ba3"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/figures/skor_per_fold.png",
+      "size_bytes": 163717,
+      "sha256": "f994d1bfe6cd6a294ade1793a1e253527fc6fb1e8226ed2171afcd4093e46e95"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/figures/transisi_22_juni.png",
+      "size_bytes": 376252,
+      "sha256": "2a94e7c6ac4d80e380d67e3e8e8304543f1220e86f1a1766a7e11d715cbc0967"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/figures/waktu_training.png",
+      "size_bytes": 30816,
+      "sha256": "ba33d781d645cb2fdc39d987d030d04a09c033c509bb9bed4df29e03738f0e22"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/gate_pra_fit.json",
+      "size_bytes": 624,
+      "sha256": "051ae7d82ecdc6084d859cffc99aea9b690778176232ad3635519e5a4bc7b7e6"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/GRU_seed11/best.pt",
+      "size_bytes": 24341,
+      "sha256": "c228462979f3d0ce0f8c356071855e0b5e75247965684648d029d0d1064981fa"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/GRU_seed11/complete.json",
+      "size_bytes": 1024,
+      "sha256": "9ea0527537b47333a6fc94cee9932c15e4b484f7ffeaf4af31d65c47888da9d0"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/GRU_seed11/history.json",
+      "size_bytes": 9675,
+      "sha256": "682b200ac388d2b99e9e1b9d8499a091ff9a30d73b1ae96333cb515c8cf93cf8"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/GRU_seed11/last_epoch.pt",
+      "size_bytes": 105380,
+      "sha256": "c3df3d8fa49483d8780b9bb4400318f652f51e7476989a1b01888e1007ceccec"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/GRU_seed11/prediksi.csv",
+      "size_bytes": 476047,
+      "sha256": "1e99d3705e66d82ddd3e8941627d4df83d423c7b480f932c0f2e34728c79e19d"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/GRU_seed11/progress.json",
+      "size_bytes": 189,
+      "sha256": "429323fc9fd9f342bb29cf5ab7c9586fac2f568a81227dd7ab5888912e65c1c2"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/GRU_seed23/best.pt",
+      "size_bytes": 24341,
+      "sha256": "affe5bfe8f0f0c609633a1c154675b0d411e71698985dd1854d70e697854119d"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/GRU_seed23/complete.json",
+      "size_bytes": 1024,
+      "sha256": "296b0dc3386b3151f06faee3798d01d5d96902f39af62bdaa9741438b6e0052f"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/GRU_seed23/history.json",
+      "size_bytes": 7159,
+      "sha256": "18492692b70563a8f3c7f8402cedc1cc950baf7d1751ff9c88e0e583749ffd23"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/GRU_seed23/last_epoch.pt",
+      "size_bytes": 104484,
+      "sha256": "6b033cb875527e8e7e5dbac03fabfba91a74d175726fac6415f3c7853eb6b1bf"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/GRU_seed23/prediksi.csv",
+      "size_bytes": 476254,
+      "sha256": "c3f716241f679792603f787a18035cef6d10bbf6d4a706bbdf4acdc525ba45cc"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/GRU_seed23/progress.json",
+      "size_bytes": 189,
+      "sha256": "ee08e3679d2afe15b17662917289af9ebfffb071ed8a2443a1eacb1d3815b2b8"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/GRU_seed47/best.pt",
+      "size_bytes": 24341,
+      "sha256": "3fe5fa5612582c22578752302065d8dec3349964d7c64753e3b5422aab0cc98e"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/GRU_seed47/complete.json",
+      "size_bytes": 1023,
+      "sha256": "10bb5fc2f6b4bf88b9e276884aec099f1aede750fd462502ec30a1c8e110c3b5"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/GRU_seed47/history.json",
+      "size_bytes": 9102,
+      "sha256": "a36441b68a0303218c73d82b71366ef36ba2e87de5c70d74bdb7602444af6c5e"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/GRU_seed47/last_epoch.pt",
+      "size_bytes": 105188,
+      "sha256": "1286ac82f015600a8c426642a6feb06a523d7d9db7364377ec5d09eb6cd0b383"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/GRU_seed47/prediksi.csv",
+      "size_bytes": 476641,
+      "sha256": "b3a7e6cd52d5f9848fb4ee435de3ec431d27105bca0097bdff12736d6ffeb8bb"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/GRU_seed47/progress.json",
+      "size_bytes": 189,
+      "sha256": "49f8e716dde40579aa261af678ae6079225b0e5468805315b42d3c36cfee0a3f"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/TCN_seed11/best.pt",
+      "size_bytes": 35047,
+      "sha256": "30f89495c9539f6561beec45b162a4de70b9bbf558bd1bd52b8ccc1289330dc6"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/TCN_seed11/complete.json",
+      "size_bytes": 1023,
+      "sha256": "8ad73dc19a591def038fa4e2623e4ca57ad9dbb3d35d7cc77751f1f3d11fc66b"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/TCN_seed11/history.json",
+      "size_bytes": 7744,
+      "sha256": "03a7c61adcafbfe14763617d13b592792e4f13d6eb32a6d11a8bc8110ae0c9f2"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/TCN_seed11/last_epoch.pt",
+      "size_bytes": 151607,
+      "sha256": "cc54e89f751c4a5284e6ebb7bca2232dfa657ce2dee153b906967d1a9f1b3c46"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/TCN_seed11/prediksi.csv",
+      "size_bytes": 474553,
+      "sha256": "0173b4fc66e5b6e4a299d9fb5cc2d27b5b1ecc9df7d1d2e28f61d0bd9e02434f"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/TCN_seed11/progress.json",
+      "size_bytes": 189,
+      "sha256": "cf4923b39d3d49f213c2e498da65ad23be8dd21c972e62a2ce603e393a366b80"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/TCN_seed23/best.pt",
+      "size_bytes": 35047,
+      "sha256": "fabc598413ebf0d1158740661bb3b8d5c08407072471608a9d69b6f8a5e771f0"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/TCN_seed23/complete.json",
+      "size_bytes": 1023,
+      "sha256": "f0987740af05b7238333faee40cbdbcef6fe4615907298167eebf2864a75f9f3"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/TCN_seed23/history.json",
+      "size_bytes": 8321,
+      "sha256": "4ea78f1310e823d0c836a1dcd74b6ef7200e42aa65745e37b562e85b1350c459"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/TCN_seed23/last_epoch.pt",
+      "size_bytes": 151799,
+      "sha256": "318fac40b10063bcd914338b28aa6506a4e124f56a80b0db71a6536ff1ff30db"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/TCN_seed23/prediksi.csv",
+      "size_bytes": 475029,
+      "sha256": "f23cad916b68ab858d4451751bac042ddbfc240d6e294ab2d1723d540eaad8b7"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/TCN_seed23/progress.json",
+      "size_bytes": 189,
+      "sha256": "40c735bdd7fd94fc973314b2b2f8e7c8a9145ab99a55b839e89181a49ceebb07"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/TCN_seed47/best.pt",
+      "size_bytes": 35047,
+      "sha256": "a8099ce9db21d9cea38ff8493fe796c2f015def90c0b29069460b6bccb097ffe"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/TCN_seed47/complete.json",
+      "size_bytes": 1023,
+      "sha256": "0924fa2bc2da8119bf1f41700bce82e9a0118e004f99094a3a3f4e9ea9316aee"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/TCN_seed47/history.json",
+      "size_bytes": 8134,
+      "sha256": "f69a218ca055f7e8aebf1325d9d5f08293767cc5312f1494a7ea644d9e181b39"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/TCN_seed47/last_epoch.pt",
+      "size_bytes": 151735,
+      "sha256": "303bc375df5fd69137d7e34aa55aaec7edd2ed8ad487d9aec4f2c565be23df69"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/TCN_seed47/prediksi.csv",
+      "size_bytes": 475606,
+      "sha256": "77b875b88df043e29a3cd0d85aa90ca73bb4ea6a33374d374502968ffee7d9a0"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/TCN_seed47/progress.json",
+      "size_bytes": 189,
+      "sha256": "b1b2bc3729f596e0ee35ef1b3580b76eedc68074d59bbed9627cdb1e6b61b395"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/timestamp_evaluation.csv",
+      "size_bytes": 252121,
+      "sha256": "101305a5aa75a7e57229453543128f128a34826268b7ad462024a53572273f70"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/timestamp_inner_train.csv",
+      "size_bytes": 138380,
+      "sha256": "975c38a98e2a8724f3a37a0b9434456e563e852d7fa859c066b7fd82a86640d2"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_01/timestamp_inner_validation.csv",
+      "size_bytes": 44679,
+      "sha256": "4f412da7eb02df3c92fb1cb68c0b3792f93cff61e0fa49d9d7dd21c73182eb94"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/gate_pra_fit.json",
+      "size_bytes": 625,
+      "sha256": "d78c7b672273f3b2a2375e2a1afebc19f62c3a12dce1a1b577ec46995e3924f4"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/GRU_seed11/best.pt",
+      "size_bytes": 24341,
+      "sha256": "6e7a9ea8b4d4bede0e0b30aa5e2e7569c6cd6494244524bfd96564d560a59a76"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/GRU_seed11/complete.json",
+      "size_bytes": 1025,
+      "sha256": "fb5b3480f7c0c8dbae6f039b8207abf670545d010c34133c6d6af90245d15737"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/GRU_seed11/history.json",
+      "size_bytes": 9098,
+      "sha256": "0f8ab004c7d131c8f79988b72403290adfe43ef20252fc6ecd5555b0b48e915b"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/GRU_seed11/last_epoch.pt",
+      "size_bytes": 105188,
+      "sha256": "7a96c9df0d92a588df94d09cecbd8d269ff9d532fdbc9f1607a0a0c3ecd7cf46"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/GRU_seed11/prediksi.csv",
+      "size_bytes": 489708,
+      "sha256": "21ab17d828e23befa302a6a9458aa0f234f2fac90bb986eb81ffe640c0598bb1"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/GRU_seed11/progress.json",
+      "size_bytes": 189,
+      "sha256": "d9b58087da0fbab7b7c59bd15caaea2e552c6be73431922318980747082b6ac8"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/GRU_seed23/best.pt",
+      "size_bytes": 24341,
+      "sha256": "46d159a432c19950874338b519f1f48771e597ea07b78e6027aa3507fdbd7dd0"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/GRU_seed23/complete.json",
+      "size_bytes": 1025,
+      "sha256": "38c28decae0a7127705f2b889e60a99ca39612860d77c1fc62c2425e4288a041"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/GRU_seed23/history.json",
+      "size_bytes": 8694,
+      "sha256": "14cfc3f89039d8f68472d1588a448f2625a0b2ae5227dca8ec4ba21ea83314e3"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/GRU_seed23/last_epoch.pt",
+      "size_bytes": 104996,
+      "sha256": "b8c7c341d99256342e0ca04589b08ac895ea08c7a7dd32284b01e9ce3b2059b3"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/GRU_seed23/prediksi.csv",
+      "size_bytes": 489619,
+      "sha256": "b0ce6fad9efbad3901e729ea0d4c3be87597abd6b610211d92b12e2fdba72b96"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/GRU_seed23/progress.json",
+      "size_bytes": 190,
+      "sha256": "dd2b2b62397c9a55b4fc165de19b4b02478ef9a802937849d21f8561bc54d50a"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/GRU_seed47/best.pt",
+      "size_bytes": 24341,
+      "sha256": "62e1cbe4d46d33bbf2682224bc638134584aa42ee4ae878cdfd78280b9712f2b"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/GRU_seed47/complete.json",
+      "size_bytes": 1024,
+      "sha256": "fc577e03d44025326036bb5d1a56f2f9113f379425e4798a5569954b3fe6a7f3"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/GRU_seed47/history.json",
+      "size_bytes": 5014,
+      "sha256": "994c7c9c1e00fa7ba093ac6138ed633c4a9d536232b58184fe02a38c4b1cedc7"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/GRU_seed47/last_epoch.pt",
+      "size_bytes": 103716,
+      "sha256": "94c90c3a909fc9bf3c5770d063a110ac75ef035f7dc0853dcecf629e3188c165"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/GRU_seed47/prediksi.csv",
+      "size_bytes": 490872,
+      "sha256": "71530f4c4b60bbe34f5a8640626ddecdbb4a816412e4f617eba326c20bbbf9ff"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/GRU_seed47/progress.json",
+      "size_bytes": 190,
+      "sha256": "cbd4c043f6fd2223a02a59ef3d4d5f509484e286419155ac4bf3284eadc6dc80"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/TCN_seed11/best.pt",
+      "size_bytes": 35047,
+      "sha256": "49b27c939ea70bd16a30eee129cf3f03ac70b1bbcd6b74c84ff39531f5d093c4"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/TCN_seed11/complete.json",
+      "size_bytes": 1023,
+      "sha256": "4d8931e3129dc6ea38fab199ec8c0b5d783b08b18f74e811b184c7c5612b8eff"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/TCN_seed11/history.json",
+      "size_bytes": 4998,
+      "sha256": "a22b13c0bbdc93399665a06c99f4b6addd65318f8e560b3e220b77b3ed6c014f"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/TCN_seed11/last_epoch.pt",
+      "size_bytes": 150647,
+      "sha256": "8086ecf8518fab6789988df1c4467777714980736d59d68b5ddd698e25a9871b"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/TCN_seed11/prediksi.csv",
+      "size_bytes": 489441,
+      "sha256": "fb08a93e650e983cb2afa868fc1a6020a2324bcbc86264faef988f75e3b17700"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/TCN_seed11/progress.json",
+      "size_bytes": 190,
+      "sha256": "1d14f3b848abf8c957e37f44ce83f5464caa1303d576968631d3dd8235f907d0"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/TCN_seed23/best.pt",
+      "size_bytes": 35047,
+      "sha256": "49294fbcd8966d11915a8b7ed4b332ee2fcc0de1e90b5568eb06d4a1b77f5625"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/TCN_seed23/complete.json",
+      "size_bytes": 1024,
+      "sha256": "f9a9aeb15c2c16e19a84c7961b7633c17924842243eeb7d44c6b5bc3a102e4af"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/TCN_seed23/history.json",
+      "size_bytes": 4814,
+      "sha256": "c58509221bdfc354bd4aca338ac1dcb7d4a18ed63eba35929be4cb85b4bfd744"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/TCN_seed23/last_epoch.pt",
+      "size_bytes": 150583,
+      "sha256": "93b3a9388a92afb9f6160043942f85d24db28ffa35d4c0f06ff4dc3a387b79a5"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/TCN_seed23/prediksi.csv",
+      "size_bytes": 490275,
+      "sha256": "fff013c74952fb9b98dabcb43e762f86aeb92bf90b17a73cace9b314f855f691"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/TCN_seed23/progress.json",
+      "size_bytes": 190,
+      "sha256": "40fdaba9cfe3f6ab5fdd9023eadd28c3c24a5c39470615c2555e6abc7a1a6818"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/TCN_seed47/best.pt",
+      "size_bytes": 35047,
+      "sha256": "35376437294b6681d15fa4e020704bfd5dd8fbe4d67397711f32860c063e49c1"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/TCN_seed47/complete.json",
+      "size_bytes": 1021,
+      "sha256": "569faad8c3e40e87312531bf8ba7b9cb6d1ff0abbf1be3c3f43e15b4b8271854"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/TCN_seed47/history.json",
+      "size_bytes": 4239,
+      "sha256": "02457f9977b04d3c35c27209e80fa8e1221754d537fdb784b7a78cc6c388282a"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/TCN_seed47/last_epoch.pt",
+      "size_bytes": 150327,
+      "sha256": "85fd9a87c45f95df6918566e9b3b5557c93da128d96644b68946f493bbaa97a6"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/TCN_seed47/prediksi.csv",
+      "size_bytes": 491748,
+      "sha256": "8364728453e25a53c7af7683f382c284ba3189a227b599f894822dd4f540f937"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/TCN_seed47/progress.json",
+      "size_bytes": 188,
+      "sha256": "e0aa75100df77ad8409e602309dd3861019aaf9f633aa968fdfb35056a50dab4"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/timestamp_evaluation.csv",
+      "size_bytes": 258015,
+      "sha256": "347c9eca08093a9d229eabeec24c768cfa14a1e78fed7c1e6265d5dd4228393d"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/timestamp_inner_train.csv",
+      "size_bytes": 352560,
+      "sha256": "bf062faba9b148eb63596f5aafb35fcb4a0395688ff632158b1647a02d47dddd"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_02/timestamp_inner_validation.csv",
+      "size_bytes": 82566,
+      "sha256": "74a989c2b92838f8da80ac7541bbea9ad785aa7b33b644721dd88a5828ce2df3"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/gate_pra_fit.json",
+      "size_bytes": 626,
+      "sha256": "167405bb5742742f9e9de5a82589edddeb93e3ec6ab9e1e2979a5b1cebc03503"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/GRU_seed11/best.pt",
+      "size_bytes": 24341,
+      "sha256": "22a8612e9bba04c84505d2cb1aece38868339e7eb764f9ce346feba8c399611b"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/GRU_seed11/complete.json",
+      "size_bytes": 1026,
+      "sha256": "830dad407ff8fa7d424afb6f7b431d4eafca1bc2c96f2da7eb1b6c79d1010e98"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/GRU_seed11/history.json",
+      "size_bytes": 9740,
+      "sha256": "eaa1c5736a63091a12774b723565a4cfc23978421e5d22dc7c00599b9690fb95"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/GRU_seed11/last_epoch.pt",
+      "size_bytes": 105380,
+      "sha256": "642c6a6859b76e72e2fc718b556e619dc585c2e98be8875cc2d1f29a8919702a"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/GRU_seed11/prediksi.csv",
+      "size_bytes": 489966,
+      "sha256": "cd1e15ee246c7fe66dbf807ce8b90db4602b43945d776b29d8a5d8b70a4300b3"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/GRU_seed11/progress.json",
+      "size_bytes": 190,
+      "sha256": "028c5cd369e8248b039fe49e8827c2472a218ca5c85ae49a5cec3c4588439dc7"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/GRU_seed23/best.pt",
+      "size_bytes": 24341,
+      "sha256": "945d60aa0e34e6bf6af665dcfad7e57099279fd427a3420bc5be43de3ced571c"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/GRU_seed23/complete.json",
+      "size_bytes": 1027,
+      "sha256": "36cc76de8eb597cfcf870cccc1f0c83d34d88cfd8a804aeb1102e13dce36eb7a"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/GRU_seed23/history.json",
+      "size_bytes": 8558,
+      "sha256": "451d7314b98561bb5b9655b06e84208f89f195ca13db7c1570a761a22e6db72f"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/GRU_seed23/last_epoch.pt",
+      "size_bytes": 104932,
+      "sha256": "2922ce4f482d501b76fd33c83bb34f387dd034329d9157ac81f3d175ef4bf941"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/GRU_seed23/prediksi.csv",
+      "size_bytes": 489942,
+      "sha256": "855bb900a559b5bd19a5172d92a25b39d138bccd97a5b4739b66f4ba6dc4503a"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/GRU_seed23/progress.json",
+      "size_bytes": 190,
+      "sha256": "d46d9884a4ab33106c266fbf9947644a789b42f6f53830626b2d7e203edc0166"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/GRU_seed47/best.pt",
+      "size_bytes": 24341,
+      "sha256": "a53155aa5a6f95e7d329febf937eba8ad8b55a35be7d94b1800b1de910103a9c"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/GRU_seed47/complete.json",
+      "size_bytes": 1025,
+      "sha256": "a72c3852e59b55fc27e6d9c1ed5d231429508affd455efeeec12f28464093d69"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/GRU_seed47/history.json",
+      "size_bytes": 9740,
+      "sha256": "07b61c4bc28290570499d48a78a5896586e6e109875e7ef370ee68a4b22beec4"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/GRU_seed47/last_epoch.pt",
+      "size_bytes": 105380,
+      "sha256": "7329ffdea13d60a85e3a8c938854bf213bffca43ff36e880811edd3de749896d"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/GRU_seed47/prediksi.csv",
+      "size_bytes": 489970,
+      "sha256": "a14bab63f74a5d0b39723f100a5a843a18d6cbb33e86c97f999b19f3c53f6a39"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/GRU_seed47/progress.json",
+      "size_bytes": 189,
+      "sha256": "a6903b2fe5a01110ebbdbb32eafa8ec4826f8a6accd09625167794565472b856"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/TCN_seed11/best.pt",
+      "size_bytes": 35047,
+      "sha256": "84b7af9fd10bc22f2f1ef94645e9dff6f3715a0e71ada6c197357186d397aa55"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/TCN_seed11/complete.json",
+      "size_bytes": 1027,
+      "sha256": "76a079637079c4b8e566e940ed9123bae97d635a57a9cbc4c51a7251109f3eea"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/TCN_seed11/history.json",
+      "size_bytes": 9735,
+      "sha256": "5c7a8496900afd97f7f5419b768e373e999a44779c0fde4b5965a62a4d12517e"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/TCN_seed11/last_epoch.pt",
+      "size_bytes": 152311,
+      "sha256": "7f2bde7b5caf514c828d230376bface8ea1c320d1dabe37b86aa540a48830f1c"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/TCN_seed11/prediksi.csv",
+      "size_bytes": 489930,
+      "sha256": "1af1f0624646caa34201b4cf9c9c9165a8ba7a9197d25f147ee3268564574215"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/TCN_seed11/progress.json",
+      "size_bytes": 190,
+      "sha256": "e54894a64d41c29b61cbaa902e93f9ad4eac9539553a7e839067976c9d559c08"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/TCN_seed23/best.pt",
+      "size_bytes": 35047,
+      "sha256": "4ab9688ea009d14c8e55bde9ffc2f563a51a193d5a24b453bfb6807978c8668b"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/TCN_seed23/complete.json",
+      "size_bytes": 1024,
+      "sha256": "d5b4cfff9df02ca276bb435d2894bec83b46ba70c1547566bba08225b6543890"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/TCN_seed23/history.json",
+      "size_bytes": 9713,
+      "sha256": "f2a96eaefa6fcb15e63eab4ac236771c4d7a77a57924b6adefc58a0d6e14f8b7"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/TCN_seed23/last_epoch.pt",
+      "size_bytes": 152311,
+      "sha256": "01f52e47952a7f30cf52f80fa3f826f805c3e58f31e1d2e40b9bb209816bfe91"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/TCN_seed23/prediksi.csv",
+      "size_bytes": 489936,
+      "sha256": "29e08daf2f46ed48910bf51a22f09e3db1b21b8ba37bfbdf5da8fda8f673a52c"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/TCN_seed23/progress.json",
+      "size_bytes": 189,
+      "sha256": "f2b897720cacaf436f56c35a566d54eeab67b814851024e7b5fae174fce6c754"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/TCN_seed47/best.pt",
+      "size_bytes": 35047,
+      "sha256": "7b981973ab40632d93ad73af9a1fbcd6a2d1426ee9630c396b266a9eb5b0912c"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/TCN_seed47/complete.json",
+      "size_bytes": 1026,
+      "sha256": "ebd0c672703a658ea44cb1fce2ad97e2913237d6909cb98b118f2bfbb2664665"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/TCN_seed47/history.json",
+      "size_bytes": 9728,
+      "sha256": "64322eadff959bc57a10febca65c80c7f1488a1257112d0e38ad9c6e83859c18"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/TCN_seed47/last_epoch.pt",
+      "size_bytes": 152311,
+      "sha256": "b8dd05f152739abcea0d89310a1e4726d7fd129477e1729a7319c898d306ab25"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/TCN_seed47/prediksi.csv",
+      "size_bytes": 489958,
+      "sha256": "95f43280e89cd03480932c7e1621bf8999714d8e78a880482b9b27ed9fc57c3a"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/TCN_seed47/progress.json",
+      "size_bytes": 190,
+      "sha256": "a625c680b38ae92e66b64171ba278b08e8ab41f2c0ecb1ebaff129a80ccb180c"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/timestamp_evaluation.csv",
+      "size_bytes": 258006,
+      "sha256": "b246bdd4156c9d60a448e9a432442d0e788389bf7c8db938ec6b7b540131be51"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/timestamp_inner_train.csv",
+      "size_bytes": 570710,
+      "sha256": "6f907a9efebb121af6e7057076e85f52f95bf31a5c3a0c072aa2908c3324e273"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_03/timestamp_inner_validation.csv",
+      "size_bytes": 122377,
+      "sha256": "5882b682f99e0cb523749affb69e16dd04b1ecc4d302945bd1bf26f620af829e"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/gate_pra_fit.json",
+      "size_bytes": 626,
+      "sha256": "c7219bb4847d23a6ed3431c19411cbe6a8a82aeafa9d2709a8eb353c2c2378f4"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/GRU_seed11/best.pt",
+      "size_bytes": 24341,
+      "sha256": "659ecc3f2d8a1e0063e93ad3bb0b6fb4966b04f6dc965cb90de2c0a6cde4d2fe"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/GRU_seed11/complete.json",
+      "size_bytes": 1026,
+      "sha256": "7a4abe54faab35dc83855206e06cb21065816a1d7422029a88bcb2103a78cec7"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/GRU_seed11/history.json",
+      "size_bytes": 5842,
+      "sha256": "b4f201f6d14c8d165b4e5fd23b4f10e0be4a72699f51c84f740cc334d2b13095"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/GRU_seed11/last_epoch.pt",
+      "size_bytes": 103972,
+      "sha256": "62c8d678bd0de2c7d70f07c065aada13b323651df41c4d86591d436cc554842d"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/GRU_seed11/prediksi.csv",
+      "size_bytes": 489967,
+      "sha256": "71af2c6202e63d36755b0f8e8018dfea3b72754d3e80b9e4fc725399a2ee6b91"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/GRU_seed11/progress.json",
+      "size_bytes": 190,
+      "sha256": "205565f742d2721cfea0152d56320db4c7a8f7c5f93c5bb921ba501cbc69bcb7"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/GRU_seed23/best.pt",
+      "size_bytes": 24341,
+      "sha256": "2bd3da1fe57c25143f9673904a4dc0d6654e3a43d0f5fd3bdea424ab485cc61e"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/GRU_seed23/complete.json",
+      "size_bytes": 1026,
+      "sha256": "daa70bdc2e8414e810c79bc3dfdb4bf26a22d2f4170b5f6e70ca86b3929e4fb9"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/GRU_seed23/history.json",
+      "size_bytes": 5061,
+      "sha256": "f32355e4596dc1801339ebc839b0acdf6e3b7f455c5e1b9e5ad3ab0060203caf"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/GRU_seed23/last_epoch.pt",
+      "size_bytes": 103716,
+      "sha256": "5f4994f8f614f561f4cf98b81db4825c58e8987af8323fc1f95df6796e949c97"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/GRU_seed23/prediksi.csv",
+      "size_bytes": 489873,
+      "sha256": "51dbed1f6fe7123c2b5b908bd0ee0bb387a8bb4161371d56fe96b4f8456b1ed8"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/GRU_seed23/progress.json",
+      "size_bytes": 189,
+      "sha256": "307fb529b0441251517a00bbf9e32a1c8bf81f4e0868321fab8a6c6c5e463956"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/GRU_seed47/best.pt",
+      "size_bytes": 24341,
+      "sha256": "8101b2bd1694a6071b6c9917c9107cd32bd3f0c9a522467880e9f4bee4e8217e"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/GRU_seed47/complete.json",
+      "size_bytes": 1027,
+      "sha256": "4ce7c9a5785b39f249e426e8105e498b2a62cabdc91a9c9522782b9b4e19a9b4"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/GRU_seed47/history.json",
+      "size_bytes": 7995,
+      "sha256": "c2b74fbbf1886dd0b4ae3d9e6f7f4ec9582880586b2ab799fcfcc188ed60e478"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/GRU_seed47/last_epoch.pt",
+      "size_bytes": 104740,
+      "sha256": "f6aa665beae625c3ef6d539d03efa0935458159c2a1dc5ac0e9cc4bdf12bcc20"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/GRU_seed47/prediksi.csv",
+      "size_bytes": 489916,
+      "sha256": "9e8687e59f12fd4ae6c76a8f2e0e5e273bde2d2215251e026361763a46267037"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/GRU_seed47/progress.json",
+      "size_bytes": 190,
+      "sha256": "564a1727e06bcdbbe0cbe6459a3e4bed893cf1617e98fb640681a39cb4cf71b3"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/TCN_seed11/best.pt",
+      "size_bytes": 35047,
+      "sha256": "64e9b65d2c30579ce8a62869f04b4c2fc891fb99bfd4992c8bfd5d60b188a25d"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/TCN_seed11/complete.json",
+      "size_bytes": 1026,
+      "sha256": "1e20b35c0c31e56df06e96198ec95715e8f7e2707ef96c5b4a50693e05955747"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/TCN_seed11/history.json",
+      "size_bytes": 5646,
+      "sha256": "ae79e5084788108a7c5b9698f578dff0947b2be9320064221053fe73ed729d25"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/TCN_seed11/last_epoch.pt",
+      "size_bytes": 150839,
+      "sha256": "0c9159a1c7c7867461a0978386f13cefbb6185cc946b26d33b4f6998417d7ac4"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/TCN_seed11/prediksi.csv",
+      "size_bytes": 489917,
+      "sha256": "f2875568a31fd2c7281b419945f29a32101ca9e4bcfb533742949e0a4647323d"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/TCN_seed11/progress.json",
+      "size_bytes": 189,
+      "sha256": "190bf5319a9d18f9dfe22d13f6dd2ede4b80067a95282e7f157590c021456145"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/TCN_seed23/best.pt",
+      "size_bytes": 35047,
+      "sha256": "d15b1eef12e458fa41f38876d93cc99d6e057063a8a3bb88fee4158ad1b0693d"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/TCN_seed23/complete.json",
+      "size_bytes": 1027,
+      "sha256": "af327bce1d360cacdb551acca9d5ce19004e8a1f3dafaf0a7b5962a4f666cff9"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/TCN_seed23/history.json",
+      "size_bytes": 7603,
+      "sha256": "c13dfa0769c806c0a1e74a7192c3953e9f9e8b6c5d25a4b2c7087c76a368a523"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/TCN_seed23/last_epoch.pt",
+      "size_bytes": 151543,
+      "sha256": "307513cd0b87535bd5c907d5b62d551faefede0d6e9d529507308124d5860560"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/TCN_seed23/prediksi.csv",
+      "size_bytes": 489989,
+      "sha256": "c016966f6193476cae1fad61c999ab880a2fe3ba51e654c67915811cf52dbdf9"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/TCN_seed23/progress.json",
+      "size_bytes": 190,
+      "sha256": "6cf553a1e852ffbc1d8f813e4aa4a651d998acf07c866ac16fd8bab74175babb"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/TCN_seed47/best.pt",
+      "size_bytes": 35047,
+      "sha256": "121c20c3da93f3a35c1370a22ef88f241f678c19b0635fc7de6e51ba2de59efb"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/TCN_seed47/complete.json",
+      "size_bytes": 1025,
+      "sha256": "ef0a0a5221cf9cf9330c82580b3dd9f0fc11bfb84a6ac6bed3a99f6e3edef6e9"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/TCN_seed47/history.json",
+      "size_bytes": 9745,
+      "sha256": "2e947f7ae52e1a8b270e8070f986e0f5b7f9a4d6295c11c9d1bc69745f99041e"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/TCN_seed47/last_epoch.pt",
+      "size_bytes": 152311,
+      "sha256": "fc2337529907a4ab3805c827303dac9c9be67f8b78bdaf2844425c7d80e8fd91"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/TCN_seed47/prediksi.csv",
+      "size_bytes": 489923,
+      "sha256": "f731c219ea70ed34b556440bbdce4aae7ed0c1d1d003914346c00fb7f670a110"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/TCN_seed47/progress.json",
+      "size_bytes": 189,
+      "sha256": "98301c2dd9292635a4aaad8b4f2b6065d655bca94fffc8eb31a08669abd9d80b"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/timestamp_evaluation.csv",
+      "size_bytes": 258012,
+      "sha256": "7bd34d8670f452198a0505c2135c896e8c657a7727d921b6d208dc8421c0f421"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/timestamp_inner_train.csv",
+      "size_bytes": 790056,
+      "sha256": "91d24bbb62a37aac4dd8936ba6aecfc3d8e9c6a5cc2447137d337ae873c4f244"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/Fold_04/timestamp_inner_validation.csv",
+      "size_bytes": 160983,
+      "sha256": "9be6a00bcde91aedf4bfcbd3fd2d2aeaa4f6890999fe14695bf0e75a0aa63412"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/gate_semua_sebelum_fit.json",
+      "size_bytes": 3242,
+      "sha256": "d731aa2e3d74f037d664f517960482887d15d06084e1a6899b45d268adfba56f"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/hasil_perbandingan_algoritma.xlsx",
+      "size_bytes": 3100408,
+      "sha256": "d4d32ec95b815b0df32f5b2856aab32cd3a174ea4425aee69a42be47c6bffc15"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/hasil_perbandingan_algoritma.xlsx.inspect.ndjson",
+      "size_bytes": 106928985,
+      "sha256": "e3ed0bac2579359297fd6c13cdbdff3f869c1d385655ed2c4de4485833083e43"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/independent_checks.json",
+      "size_bytes": 5400,
+      "sha256": "7016e85d20cd42fe9a90b6d36725e23d06e8aa67994075d627435c04e18b55f1"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/partial_checkpoint_checks.json",
+      "size_bytes": 4201,
+      "sha256": "50c5873d8fc62eee6d58f5054f702d5a852bd04a3298b624355205695a79eabe"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/prediksi_oof_seluruh_seed.csv",
+      "size_bytes": 8105925,
+      "sha256": "a3aff00d796ee15e1cc5ec0e5aed18f315f6e64a895e946dcbc72dba3a712e6b"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/prediksi_wide_seluruh_seed.csv",
+      "size_bytes": 4754519,
+      "sha256": "789ac8721b798755b9581067c308cdb77aa4f6bf3a459b9a23f39f9859821bf0"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/ringkasan_perbandingan_algoritma.md",
+      "size_bytes": 28660,
+      "sha256": "3e5d7a4423f792a1fd97d45c55447f1773f3b4724bcc6e62808e750a02e26529"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/tabel_hasil.json",
+      "size_bytes": 14265076,
+      "sha256": "5724f818efbfea5236d0d84f5f45881fdfbcf06efdce9d7fefa8f7b63756d0a0"
+    },
+    {
+      "path": "outputs/perbandingan_algoritma_tahap11/timestamp_semua_bagian.csv",
+      "size_bytes": 4578301,
+      "sha256": "c5f603ce636e39c90f1cca012df76937a0e2be50aee9a2a3df31916303792b1b"
+    },
+    {
+      "path": "outputs/STATUS_PROYEK.md",
+      "size_bytes": 7336,
+      "sha256": "fb2c64fa7002801b411ffb170dd662ef61fae024f0c7890a46036babb4332e6b"
+    },
+    {
+      "path": "scripts/algorithms_stage11.py",
+      "size_bytes": 18677,
+      "sha256": "168ebfaef16723fe76702bb8ca27afa66283e448fe8aaba3533e22396c5b3a97"
+    },
+    {
+      "path": "scripts/build_stage11_notebook.py",
+      "size_bytes": 5275,
+      "sha256": "412b6e64747b46bd63d15e926cbd76ec577662372579fd38732b44bc38580f98"
+    },
+    {
+      "path": "scripts/report_algorithms_stage11.py",
+      "size_bytes": 17726,
+      "sha256": "d1528c40ec494930697617de300d42855c99fa2d4daba8f1f9eae9b5e830aafb"
+    },
+    {
+      "path": "scripts/summarize_algorithms_stage11.py",
+      "size_bytes": 16716,
+      "sha256": "18f26f95cbdab2649b723520e30240bfabfe085ab932b4f5aed8d3970d71d09a"
+    },
+    {
+      "path": "scripts/verify_algorithms_stage11.py",
+      "size_bytes": 8930,
+      "sha256": "592b25b205025007d6d9074109f3f6f6c2d917178caafc482f44f6b6f62156e4"
+    },
+    {
+      "path": "scripts/verify_stage11_delivery.py",
+      "size_bytes": 4563,
+      "sha256": "f4f5620f3702929c29cad9648a783ad5b76c931e44939c88b7489392938c706f"
+    }
+  ]
+}

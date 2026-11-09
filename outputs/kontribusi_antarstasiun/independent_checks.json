@@ -1,0 +1,11 @@
+{
+  "model_equations_verified_without_refit": 16,
+  "maximum_ridge_normal_equation_residual": 5.0762718473151835e-09,
+  "original_targets_verified": 19797,
+  "old_hashes_identical": 1189,
+  "source_and_features_development_only": true,
+  "donor_delays_and_ages_verified": true,
+  "causal_prefix_medians_verified": true,
+  "all_fold_monthly_pooled_metrics_verified": true,
+  "tables_sha256": "55be840a4c9e69cf6d542fd201baedbcadda266ebd4658487577f55422d521d4"
+}
